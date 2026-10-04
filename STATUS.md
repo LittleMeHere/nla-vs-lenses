@@ -4,14 +4,14 @@
 
 **What we test:** the NLA and the oracle lens are Qwen3.6-27B itself with a LoRA, trained to describe an injected activation. When one of them names a hidden reasoning step, did it read the step from the activation, or re-solve the question from the prompt it decodes? J-Lens is a fixed linear map and cannot re-solve.
 
-Updated 2026-10-03. Everything here is exploratory: one model, 50–100 items per experiment, dev items only.
+Updated 2026-10-03; every number below was recomputed from the raw files on 2026-10-04. Everything here is exploratory: one model, 50–100 items per experiment, dev items only.
 
 ## Current conclusion
 
 Whether the prose readers re-solve depends on the task.
 
-- **multihop (one-line trivia):** they name the hidden step about twice as often as J-Lens at L42, but they also name it at L28 where J-Lens finds it in 1/50, and about two-thirds of their mentions survive deleting the step's directions from the activation. Mostly re-solving.
-- **chain (arithmetic), at L56 where the number is computed:** the oracle lens names the number in 36/60 (chance 12), in 31 of those without restating the starting number. Reading. The NLA is near chance.
+- **multihop (one-line trivia):** they name the hidden step about twice as often as J-Lens at L42, but they also name it at L28, where J-Lens shows it in 1/50, and about two-thirds of their mentions survive deleting the step's directions from the activation. Mostly re-solving.
+- **chain (arithmetic), at L56 where J-Lens shows the number:** the oracle lens names the number in 36/60 (chance 12), in 31 of those without restating the starting number. Reading. The NLA is near chance.
 - **brew (10-rule colour table), at ":" L42:** both readers rarely state the hidden colour in its role (2–5 of 50), and those mentions go to about zero when its directions are deleted. No sign of re-solving.
 - **NLA text:** about 60% of its concepts on multihop are prompt wording or format; 66/98 readouts contain at least one claim the prompt rules out. On no task does the NLA find a hidden step the oracle lens misses.
 
@@ -50,7 +50,7 @@ Counts are items whose readout names the hidden step.
 | 4 | Delete the step's neighbourhood (cos > 0.8, ~31 directions). Control = same number of random directions | 50 multihop | 42 | 15 → 0 | 33 → 20 | 34 → 23 | [abl3](runs/abl3/) |
 | 5 | Swap: delete own step, add another item's step | 50 multihop | 42 | planted 14 | own 20, planted 7 | own 20, planted 6 | [abl3](runs/abl3/) |
 | 6 | chain at the readers' training layer | 60 chain | 42 | 6 (chance 4) | 27 (chance 21) | 9 (chance 12) | [chain60](runs/chain60/) |
-| 7 | chain where the number is computed | 60 chain | 56 | 25 (chance 7) | 36 (chance 12) | 13 (chance 9) | [chain60_L56](runs/chain60_L56/) |
+| 7 | chain at L56, where J-Lens shows the number | 60 chain | 56 | 25 (chance 7) | 36 (chance 12) | 13 (chance 9) | [chain60_L56](runs/chain60_L56/) |
 | 8 | brew, z in its correct role (Claude / Gemini judge) | 50 brew | 42 | 0 in top-10 | 2 / 5 | 5 / 3 | [brew50](runs/brew50/) |
 | 9 | brew, z in any role: random control → z deleted (Gemini judge) | 50 brew | 42 | — | 7 → 0 | 12 → 2 | [brew50_abl](runs/brew50_abl/) |
 
