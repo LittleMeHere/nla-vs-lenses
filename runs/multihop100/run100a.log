@@ -1,0 +1,1109 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 443.95it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:08<2:00:48,  8.53s/it]Loading weights:   1%|          | 9/851 [00:09<10:44,  1.31it/s]  Loading weights:   1%|▏         | 12/851 [00:09<07:29,  1.87it/s]Loading weights:   2%|▏         | 14/851 [00:10<06:47,  2.06it/s]Loading weights:   2%|▏         | 15/851 [00:10<06:29,  2.15it/s]Loading weights:   3%|▎         | 23/851 [00:11<03:11,  4.33it/s]Loading weights:   3%|▎         | 26/851 [00:11<02:44,  5.03it/s]Loading weights:   3%|▎         | 27/851 [00:11<03:04,  4.47it/s]Loading weights:   3%|▎         | 28/851 [00:12<03:07,  4.40it/s]Loading weights:   3%|▎         | 29/851 [00:12<03:08,  4.37it/s]Loading weights:   4%|▍         | 37/851 [00:12<01:39,  8.19it/s]Loading weights:   5%|▍         | 40/851 [00:13<01:26,  9.40it/s]Loading weights:   5%|▍         | 42/851 [00:13<02:10,  6.19it/s]Loading weights:   5%|▌         | 43/851 [00:14<02:36,  5.16it/s]Loading weights:   5%|▌         | 46/851 [00:14<02:32,  5.27it/s]Loading weights:   6%|▌         | 47/851 [00:15<04:10,  3.21it/s]Loading weights:   6%|▌         | 52/851 [00:16<02:24,  5.54it/s]Loading weights:   6%|▋         | 54/851 [00:16<02:27,  5.40it/s]Loading weights:   7%|▋         | 60/851 [00:16<01:22,  9.62it/s]Loading weights:   7%|▋         | 63/851 [00:17<01:29,  8.83it/s]Loading weights:   8%|▊         | 65/851 [00:17<02:06,  6.19it/s]Loading weights:   8%|▊         | 67/851 [00:18<02:12,  5.94it/s]Loading weights:   8%|▊         | 69/851 [00:18<02:23,  5.44it/s]Loading weights:   9%|▉         | 76/851 [00:19<01:29,  8.67it/s]Loading weights:   9%|▉         | 78/851 [00:19<01:26,  8.92it/s]Loading weights:   9%|▉         | 80/851 [00:19<02:02,  6.30it/s]Loading weights:  10%|▉         | 81/851 [00:20<02:47,  4.60it/s]Loading weights:  10%|▉         | 82/851 [00:21<03:25,  3.74it/s]Loading weights:  10%|█         | 88/851 [00:21<02:27,  5.19it/s]Loading weights:  11%|█         | 93/851 [00:22<01:36,  7.84it/s]Loading weights:  11%|█         | 95/851 [00:23<02:50,  4.44it/s]Loading weights:  11%|█▏        | 96/851 [00:23<03:25,  3.67it/s]Loading weights:  12%|█▏        | 99/851 [00:24<03:25,  3.65it/s]Loading weights:  12%|█▏        | 100/851 [00:26<05:24,  2.31it/s]Loading weights:  12%|█▏        | 104/851 [00:26<03:11,  3.90it/s]Loading weights:  12%|█▏        | 106/851 [00:26<02:47,  4.45it/s]Loading weights:  13%|█▎        | 108/851 [00:27<02:59,  4.14it/s]Loading weights:  14%|█▎        | 115/851 [00:27<01:38,  7.50it/s]Loading weights:  14%|█▎        | 117/851 [00:27<01:33,  7.84it/s]Loading weights:  14%|█▍        | 119/851 [00:28<02:17,  5.32it/s]Loading weights:  14%|█▍        | 120/851 [00:28<02:36,  4.66it/s]Loading weights:  14%|█▍        | 121/851 [00:29<03:10,  3.83it/s]Loading weights:  15%|█▌        | 129/851 [00:29<01:34,  7.66it/s]Loading weights:  15%|█▌        | 130/851 [00:30<01:40,  7.17it/s]Loading weights:  16%|█▌        | 132/851 [00:30<01:26,  8.33it/s]Loading weights:  16%|█▌        | 134/851 [00:32<03:53,  3.07it/s]Loading weights:  16%|█▋        | 140/851 [00:32<02:32,  4.67it/s]Loading weights:  17%|█▋        | 144/851 [00:33<01:54,  6.16it/s]Loading weights:  17%|█▋        | 146/851 [00:33<01:49,  6.43it/s]Loading weights:  17%|█▋        | 148/851 [00:34<02:49,  4.15it/s]Loading weights:  18%|█▊        | 149/851 [00:34<02:56,  3.97it/s]Loading weights:  18%|█▊        | 152/851 [00:35<02:35,  4.49it/s]Loading weights:  18%|█▊        | 153/851 [00:36<03:37,  3.21it/s]Loading weights:  18%|█▊        | 157/851 [00:36<02:08,  5.41it/s]Loading weights:  19%|█▊        | 159/851 [00:36<02:01,  5.68it/s]Loading weights:  19%|█▉        | 161/851 [00:36<01:53,  6.06it/s]Loading weights:  20%|█▉        | 168/851 [00:37<01:11,  9.50it/s]Loading weights:  20%|█▉        | 170/851 [00:37<01:09,  9.79it/s]Loading weights:  20%|██        | 172/851 [00:37<01:37,  6.93it/s]Loading weights:  20%|██        | 173/851 [00:38<01:49,  6.19it/s]Loading weights:  20%|██        | 174/851 [00:38<02:09,  5.24it/s]Loading weights:  21%|██▏       | 182/851 [00:38<01:02, 10.67it/s]Loading weights:  22%|██▏       | 184/851 [00:39<01:02, 10.76it/s]Loading weights:  22%|██▏       | 186/851 [00:39<01:24,  7.84it/s]Loading weights:  22%|██▏       | 187/851 [00:39<01:44,  6.36it/s]Loading weights:  22%|██▏       | 188/851 [00:40<02:00,  5.49it/s]Loading weights:  23%|██▎       | 196/851 [00:40<01:10,  9.25it/s]Loading weights:  23%|██▎       | 198/851 [00:40<01:08,  9.49it/s]Loading weights:  24%|██▎       | 200/851 [00:41<01:30,  7.22it/s]Loading weights:  24%|██▎       | 201/851 [00:41<01:47,  6.06it/s]Loading weights:  24%|██▎       | 202/851 [00:42<02:27,  4.39it/s]Loading weights:  24%|██▍       | 205/851 [00:42<02:10,  4.94it/s]Loading weights:  24%|██▍       | 206/851 [00:43<02:32,  4.24it/s]Loading weights:  24%|██▍       | 207/851 [00:43<02:48,  3.82it/s]Loading weights:  25%|██▍       | 211/851 [00:44<01:53,  5.66it/s]Loading weights:  25%|██▌       | 213/851 [00:44<01:42,  6.25it/s]Loading weights:  26%|██▌       | 220/851 [00:44<01:10,  8.91it/s]Loading weights:  26%|██▋       | 224/851 [00:44<00:55, 11.37it/s]Loading weights:  27%|██▋       | 226/851 [00:45<01:27,  7.10it/s]Loading weights:  27%|██▋       | 228/851 [00:46<01:35,  6.51it/s]Loading weights:  27%|██▋       | 232/851 [00:46<01:12,  8.56it/s]Loading weights:  28%|██▊       | 236/851 [00:46<00:57, 10.61it/s]Loading weights:  28%|██▊       | 238/851 [00:46<00:54, 11.20it/s]Loading weights:  28%|██▊       | 240/851 [00:48<02:17,  4.45it/s]Loading weights:  29%|██▉       | 249/851 [00:48<01:07,  8.87it/s]Loading weights:  29%|██▉       | 251/851 [00:48<01:03,  9.49it/s]Loading weights:  30%|██▉       | 253/851 [00:49<01:24,  7.04it/s]Loading weights:  30%|██▉       | 255/851 [00:49<01:56,  5.11it/s]Loading weights:  30%|███       | 258/851 [00:50<01:49,  5.40it/s]Loading weights:  30%|███       | 259/851 [00:50<01:59,  4.94it/s]Loading weights:  31%|███       | 260/851 [00:51<02:10,  4.52it/s]Loading weights:  31%|███       | 263/851 [00:51<01:28,  6.68it/s]Loading weights:  31%|███       | 265/851 [00:51<01:46,  5.48it/s]Loading weights:  32%|███▏      | 274/851 [00:52<00:54, 10.51it/s]Loading weights:  32%|███▏      | 276/851 [00:52<00:52, 10.91it/s]Loading weights:  33%|███▎      | 278/851 [00:52<01:17,  7.39it/s]Loading weights:  33%|███▎      | 280/851 [00:53<01:51,  5.12it/s]Loading weights:  33%|███▎      | 285/851 [00:54<01:24,  6.67it/s]Loading weights:  34%|███▍      | 289/851 [00:54<01:03,  8.84it/s]Loading weights:  34%|███▍      | 291/851 [00:54<00:57,  9.71it/s]Loading weights:  34%|███▍      | 293/851 [00:55<01:46,  5.23it/s]Loading weights:  35%|███▍      | 295/851 [00:55<01:44,  5.30it/s]Loading weights:  35%|███▌      | 301/851 [00:56<01:09,  7.89it/s]Loading weights:  36%|███▌      | 303/851 [00:56<01:12,  7.54it/s]Loading weights:  36%|███▌      | 305/851 [00:56<01:03,  8.56it/s]Loading weights:  36%|███▌      | 307/851 [00:57<01:33,  5.81it/s]Loading weights:  36%|███▌      | 308/851 [00:57<01:45,  5.14it/s]Loading weights:  37%|███▋      | 311/851 [00:58<01:39,  5.40it/s]Loading weights:  37%|███▋      | 312/851 [00:58<01:53,  4.77it/s]Loading weights:  37%|███▋      | 313/851 [00:59<02:13,  4.04it/s]Loading weights:  37%|███▋      | 317/851 [00:59<01:18,  6.81it/s]Loading weights:  37%|███▋      | 319/851 [00:59<01:20,  6.59it/s]Loading weights:  38%|███▊      | 327/851 [00:59<00:45, 11.59it/s]Loading weights:  39%|███▉      | 330/851 [01:00<00:44, 11.82it/s]Loading weights:  39%|███▉      | 332/851 [01:00<01:17,  6.72it/s]Loading weights:  39%|███▉      | 333/851 [01:01<01:28,  5.87it/s]Loading weights:  40%|████      | 341/851 [01:01<00:49, 10.33it/s]Loading weights:  40%|████      | 343/851 [01:01<00:45, 11.17it/s]Loading weights:  41%|████      | 345/851 [01:02<01:04,  7.84it/s]Loading weights:  41%|████      | 347/851 [01:02<01:23,  6.02it/s]Loading weights:  41%|████▏     | 353/851 [01:03<00:51,  9.67it/s]Loading weights:  42%|████▏     | 355/851 [01:03<00:47, 10.50it/s]Loading weights:  42%|████▏     | 358/851 [01:03<00:38, 12.71it/s]Loading weights:  42%|████▏     | 360/851 [01:04<01:04,  7.57it/s]Loading weights:  43%|████▎     | 362/851 [01:04<01:09,  7.04it/s]Loading weights:  43%|████▎     | 364/851 [01:04<01:17,  6.26it/s]Loading weights:  43%|████▎     | 365/851 [01:05<02:15,  3.59it/s]Loading weights:  43%|████▎     | 370/851 [01:05<01:12,  6.64it/s]Loading weights:  44%|████▎     | 372/851 [01:06<01:14,  6.44it/s]Loading weights:  45%|████▍     | 380/851 [01:06<00:41, 11.30it/s]Loading weights:  45%|████▍     | 382/851 [01:06<00:39, 12.01it/s]Loading weights:  45%|████▌     | 384/851 [01:07<00:57,  8.16it/s]Loading weights:  45%|████▌     | 386/851 [01:07<01:13,  6.30it/s]Loading weights:  46%|████▌     | 393/851 [01:08<00:49,  9.21it/s]Loading weights:  46%|████▋     | 395/851 [01:08<00:44, 10.15it/s]Loading weights:  47%|████▋     | 397/851 [01:08<00:40, 11.19it/s]Loading weights:  47%|████▋     | 399/851 [01:09<01:15,  6.01it/s]Loading weights:  47%|████▋     | 401/851 [01:09<01:20,  5.59it/s]Loading weights:  48%|████▊     | 408/851 [01:10<00:49,  8.91it/s]Loading weights:  48%|████▊     | 410/851 [01:10<00:50,  8.75it/s]Loading weights:  48%|████▊     | 412/851 [01:10<01:02,  7.01it/s]Loading weights:  49%|████▊     | 413/851 [01:11<01:19,  5.53it/s]Loading weights:  49%|████▊     | 414/851 [01:11<01:35,  4.57it/s]Loading weights:  49%|████▉     | 417/851 [01:12<01:19,  5.47it/s]Loading weights:  49%|████▉     | 418/851 [01:12<01:25,  5.05it/s]Loading weights:  49%|████▉     | 419/851 [01:12<01:30,  4.75it/s]Loading weights:  50%|████▉     | 422/851 [01:12<00:57,  7.41it/s]Loading weights:  50%|████▉     | 424/851 [01:13<01:07,  6.35it/s]Loading weights:  51%|█████     | 432/851 [01:13<00:43,  9.59it/s]Loading weights:  51%|█████     | 434/851 [01:14<00:44,  9.45it/s]Loading weights:  51%|█████     | 436/851 [01:14<00:40, 10.25it/s]Loading weights:  51%|█████▏    | 438/851 [01:15<01:35,  4.32it/s]Loading weights:  52%|█████▏    | 439/851 [01:16<01:53,  3.63it/s]Loading weights:  52%|█████▏    | 446/851 [01:16<01:02,  6.46it/s]Loading weights:  53%|█████▎    | 448/851 [01:16<01:01,  6.55it/s]Loading weights:  53%|█████▎    | 450/851 [01:16<00:52,  7.64it/s]Loading weights:  53%|█████▎    | 452/851 [01:18<01:33,  4.29it/s]Loading weights:  53%|█████▎    | 453/851 [01:18<01:53,  3.51it/s]Loading weights:  54%|█████▍    | 461/851 [01:19<00:53,  7.24it/s]Loading weights:  54%|█████▍    | 463/851 [01:19<00:50,  7.70it/s]Loading weights:  55%|█████▍    | 465/851 [01:20<01:15,  5.15it/s]Loading weights:  55%|█████▍    | 466/851 [01:21<02:11,  2.94it/s]Loading weights:  55%|█████▌    | 470/851 [01:22<01:45,  3.62it/s]Loading weights:  55%|█████▌    | 471/851 [01:22<02:05,  3.03it/s]Loading weights:  55%|█████▌    | 472/851 [01:23<02:19,  2.72it/s]Loading weights:  56%|█████▌    | 476/851 [01:23<01:31,  4.12it/s]Loading weights:  56%|█████▌    | 478/851 [01:24<01:27,  4.27it/s]Loading weights:  57%|█████▋    | 486/851 [01:24<00:49,  7.30it/s]Loading weights:  57%|█████▋    | 487/851 [01:25<00:51,  7.08it/s]Loading weights:  57%|█████▋    | 489/851 [01:25<00:49,  7.25it/s]Loading weights:  58%|█████▊    | 490/851 [01:26<01:24,  4.25it/s]Loading weights:  58%|█████▊    | 491/851 [01:27<02:41,  2.23it/s]Loading weights:  59%|█████▉    | 500/851 [01:28<01:04,  5.48it/s]Loading weights:  59%|█████▉    | 501/851 [01:28<01:04,  5.44it/s]Loading weights:  59%|█████▉    | 503/851 [01:28<00:56,  6.21it/s]Loading weights:  59%|█████▉    | 504/851 [01:29<01:17,  4.49it/s]Loading weights:  59%|█████▉    | 505/851 [01:30<02:30,  2.30it/s]Loading weights:  60%|██████    | 514/851 [01:31<01:04,  5.22it/s]Loading weights:  61%|██████    | 517/851 [01:32<01:13,  4.55it/s]Loading weights:  61%|██████    | 519/851 [01:32<01:16,  4.36it/s]Loading weights:  61%|██████    | 520/851 [01:33<01:33,  3.52it/s]Loading weights:  61%|██████▏   | 523/851 [01:34<01:23,  3.92it/s]Loading weights:  62%|██████▏   | 524/851 [01:34<01:35,  3.43it/s]Loading weights:  62%|██████▏   | 525/851 [01:35<01:49,  2.97it/s]Loading weights:  62%|██████▏   | 529/851 [01:35<01:07,  4.76it/s]Loading weights:  62%|██████▏   | 531/851 [01:35<01:05,  4.91it/s]Loading weights:  63%|██████▎   | 536/851 [01:36<00:36,  8.60it/s]Loading weights:  63%|██████▎   | 538/851 [01:36<00:41,  7.46it/s]Loading weights:  63%|██████▎   | 540/851 [01:36<00:37,  8.27it/s]Loading weights:  64%|██████▎   | 542/851 [01:36<00:42,  7.32it/s]Loading weights:  64%|██████▍   | 544/851 [01:38<01:20,  3.83it/s]Loading weights:  64%|██████▍   | 545/851 [01:38<01:37,  3.13it/s]Loading weights:  65%|██████▍   | 553/851 [01:39<00:44,  6.63it/s]Loading weights:  65%|██████▌   | 554/851 [01:39<00:46,  6.37it/s]Loading weights:  65%|██████▌   | 556/851 [01:39<00:42,  6.87it/s]Loading weights:  65%|██████▌   | 557/851 [01:40<01:06,  4.40it/s]Loading weights:  66%|██████▌   | 558/851 [01:41<01:24,  3.49it/s]Loading weights:  66%|██████▌   | 559/851 [01:41<01:40,  2.91it/s]Loading weights:  67%|██████▋   | 567/851 [01:42<00:42,  6.62it/s]Loading weights:  67%|██████▋   | 568/851 [01:42<00:43,  6.48it/s]Loading weights:  67%|██████▋   | 570/851 [01:42<00:40,  7.00it/s]Loading weights:  67%|██████▋   | 571/851 [01:43<01:05,  4.30it/s]Loading weights:  67%|██████▋   | 572/851 [01:43<01:27,  3.18it/s]Loading weights:  67%|██████▋   | 573/851 [01:44<01:46,  2.60it/s]Loading weights:  68%|██████▊   | 576/851 [01:45<01:26,  3.18it/s]Loading weights:  68%|██████▊   | 577/851 [01:45<01:40,  2.73it/s]Loading weights:  68%|██████▊   | 578/851 [01:46<01:50,  2.47it/s]Loading weights:  68%|██████▊   | 581/851 [01:46<01:10,  3.82it/s]Loading weights:  69%|██████▊   | 584/851 [01:47<00:57,  4.67it/s]Loading weights:  70%|██████▉   | 592/851 [01:47<00:30,  8.60it/s]Loading weights:  70%|██████▉   | 593/851 [01:47<00:31,  8.19it/s]Loading weights:  70%|██████▉   | 595/851 [01:47<00:29,  8.61it/s]Loading weights:  70%|███████   | 596/851 [01:48<00:46,  5.46it/s]Loading weights:  70%|███████   | 597/851 [01:49<01:03,  4.03it/s]Loading weights:  70%|███████   | 598/851 [01:49<01:20,  3.14it/s]Loading weights:  71%|███████   | 606/851 [01:50<00:35,  6.87it/s]Loading weights:  71%|███████▏  | 607/851 [01:50<00:37,  6.53it/s]Loading weights:  72%|███████▏  | 609/851 [01:50<00:33,  7.21it/s]Loading weights:  72%|███████▏  | 610/851 [01:51<00:50,  4.75it/s]Loading weights:  72%|███████▏  | 611/851 [01:52<01:48,  2.22it/s]Loading weights:  73%|███████▎  | 617/851 [01:53<00:54,  4.26it/s]Loading weights:  73%|███████▎  | 621/851 [01:53<00:42,  5.40it/s]Loading weights:  73%|███████▎  | 623/851 [01:54<00:53,  4.24it/s]Loading weights:  73%|███████▎  | 625/851 [01:55<00:56,  4.03it/s]Loading weights:  74%|███████▎  | 626/851 [01:56<01:11,  3.16it/s]Loading weights:  74%|███████▍  | 629/851 [01:56<01:06,  3.36it/s]Loading weights:  74%|███████▍  | 630/851 [01:57<01:13,  3.02it/s]Loading weights:  74%|███████▍  | 631/851 [01:57<01:22,  2.67it/s]Loading weights:  75%|███████▍  | 635/851 [01:58<00:46,  4.63it/s]Loading weights:  75%|███████▍  | 637/851 [01:58<00:45,  4.65it/s]Loading weights:  76%|███████▌  | 645/851 [01:59<00:24,  8.49it/s]Loading weights:  76%|███████▌  | 647/851 [01:59<00:30,  6.79it/s]Loading weights:  76%|███████▋  | 649/851 [02:00<00:35,  5.67it/s]Loading weights:  76%|███████▋  | 650/851 [02:00<00:46,  4.30it/s]Loading weights:  76%|███████▋  | 651/851 [02:01<00:57,  3.46it/s]Loading weights:  77%|███████▋  | 656/851 [02:01<00:35,  5.52it/s]Loading weights:  78%|███████▊  | 660/851 [02:02<00:27,  7.02it/s]Loading weights:  78%|███████▊  | 662/851 [02:02<00:24,  7.76it/s]Loading weights:  78%|███████▊  | 663/851 [02:03<00:38,  4.90it/s]Loading weights:  78%|███████▊  | 664/851 [02:04<01:12,  2.57it/s]Loading weights:  79%|███████▉  | 673/851 [02:05<00:32,  5.48it/s]Loading weights:  79%|███████▉  | 676/851 [02:05<00:27,  6.39it/s]Loading weights:  80%|███████▉  | 677/851 [02:06<00:37,  4.59it/s]Loading weights:  80%|███████▉  | 678/851 [02:06<00:45,  3.82it/s]Loading weights:  80%|███████▉  | 679/851 [02:07<00:54,  3.17it/s]Loading weights:  80%|████████  | 682/851 [02:07<00:47,  3.54it/s]Loading weights:  80%|████████  | 683/851 [02:09<01:16,  2.20it/s]Loading weights:  81%|████████  | 688/851 [02:09<00:38,  4.18it/s]Loading weights:  81%|████████  | 690/851 [02:10<00:39,  4.12it/s]Loading weights:  82%|████████▏ | 697/851 [02:10<00:22,  6.96it/s]Loading weights:  82%|████████▏ | 699/851 [02:10<00:22,  6.73it/s]Loading weights:  82%|████████▏ | 701/851 [02:11<00:30,  4.92it/s]Loading weights:  83%|████████▎ | 703/851 [02:12<00:32,  4.57it/s]Loading weights:  83%|████████▎ | 704/851 [02:12<00:41,  3.57it/s]Loading weights:  84%|████████▎ | 712/851 [02:13<00:21,  6.45it/s]Loading weights:  84%|████████▍ | 713/851 [02:13<00:22,  6.16it/s]Loading weights:  84%|████████▍ | 715/851 [02:13<00:19,  7.08it/s]Loading weights:  84%|████████▍ | 716/851 [02:15<00:39,  3.45it/s]Loading weights:  84%|████████▍ | 718/851 [02:15<00:41,  3.22it/s]Loading weights:  85%|████████▌ | 726/851 [02:16<00:18,  6.78it/s]Loading weights:  86%|████████▌ | 728/851 [02:16<00:22,  5.56it/s]Loading weights:  86%|████████▌ | 730/851 [02:17<00:26,  4.62it/s]Loading weights:  86%|████████▌ | 731/851 [02:18<00:31,  3.85it/s]Loading weights:  86%|████████▌ | 732/851 [02:18<00:38,  3.12it/s]Loading weights:  86%|████████▋ | 735/851 [02:19<00:30,  3.75it/s]Loading weights:  86%|████████▋ | 736/851 [02:20<00:48,  2.36it/s]Loading weights:  87%|████████▋ | 740/851 [02:20<00:26,  4.26it/s]Loading weights:  87%|████████▋ | 742/851 [02:20<00:22,  4.87it/s]Loading weights:  87%|████████▋ | 744/851 [02:21<00:24,  4.39it/s]Loading weights:  88%|████████▊ | 751/851 [02:21<00:13,  7.65it/s]Loading weights:  88%|████████▊ | 753/851 [02:22<00:15,  6.13it/s]Loading weights:  89%|████████▊ | 755/851 [02:23<00:18,  5.09it/s]Loading weights:  89%|████████▉ | 756/851 [02:24<00:31,  3.03it/s]Loading weights:  90%|████████▉ | 764/851 [02:24<00:14,  5.90it/s]Loading weights:  90%|█████████ | 766/851 [02:25<00:13,  6.25it/s]Loading weights:  90%|█████████ | 768/851 [02:25<00:12,  6.78it/s]Loading weights:  90%|█████████ | 769/851 [02:25<00:15,  5.14it/s]Loading weights:  90%|█████████ | 770/851 [02:26<00:20,  3.92it/s]Loading weights:  91%|█████████ | 771/851 [02:26<00:25,  3.18it/s]Loading weights:  91%|█████████▏| 777/851 [02:27<00:11,  6.24it/s]Loading weights:  92%|█████████▏| 780/851 [02:27<00:10,  7.04it/s]Loading weights:  92%|█████████▏| 782/851 [02:28<00:13,  5.20it/s]Loading weights:  92%|█████████▏| 784/851 [02:28<00:14,  4.63it/s]Loading weights:  92%|█████████▏| 785/851 [02:29<00:18,  3.57it/s]Loading weights:  93%|█████████▎| 788/851 [02:30<00:15,  3.94it/s]Loading weights:  93%|█████████▎| 789/851 [02:31<00:25,  2.42it/s]Loading weights:  93%|█████████▎| 794/851 [02:31<00:13,  4.37it/s]Loading weights:  94%|█████████▎| 796/851 [02:32<00:12,  4.51it/s]Loading weights:  94%|█████████▍| 802/851 [02:32<00:07,  6.64it/s]Loading weights:  95%|█████████▍| 805/851 [02:32<00:05,  7.79it/s]Loading weights:  95%|█████████▍| 807/851 [02:33<00:05,  8.25it/s]Loading weights:  95%|█████████▌| 809/851 [02:34<00:08,  4.71it/s]Loading weights:  95%|█████████▌| 810/851 [02:34<00:10,  3.92it/s]Loading weights:  96%|█████████▌| 818/851 [02:35<00:04,  8.00it/s]Loading weights:  96%|█████████▋| 820/851 [02:35<00:04,  6.57it/s]Loading weights:  97%|█████████▋| 822/851 [02:36<00:05,  5.61it/s]Loading weights:  97%|█████████▋| 823/851 [02:36<00:06,  4.47it/s]Loading weights:  97%|█████████▋| 824/851 [02:37<00:07,  3.71it/s]Loading weights:  97%|█████████▋| 829/851 [02:37<00:03,  6.43it/s]Loading weights:  98%|█████████▊| 832/851 [02:37<00:02,  6.70it/s]Loading weights:  98%|█████████▊| 835/851 [02:38<00:02,  7.44it/s]Loading weights:  98%|█████████▊| 836/851 [02:38<00:02,  5.09it/s]Loading weights:  98%|█████████▊| 837/851 [02:39<00:03,  3.88it/s]Loading weights:  98%|█████████▊| 838/851 [02:39<00:04,  3.15it/s]Loading weights:  99%|█████████▉| 841/851 [02:40<00:02,  3.88it/s]Loading weights:  99%|█████████▉| 842/851 [02:41<00:02,  3.28it/s]Loading weights:  99%|█████████▉| 843/851 [02:41<00:02,  2.67it/s]Loading weights: 100%|█████████▉| 847/851 [02:42<00:00,  4.53it/s]Loading weights: 100%|█████████▉| 848/851 [02:42<00:00,  3.83it/s]Loading weights: 100%|██████████| 851/851 [02:42<00:00,  5.24it/s]
+base loaded 346s mem 58.9GB
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+logit_lens done 58s maxmem 64.0GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+[jlens] layer 20 allocated 53.9GB
+[jlens] layer 24 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 32 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 40 allocated 53.9GB
+[jlens] layer 44 allocated 53.9GB
+[jlens] layer 48 allocated 53.9GB
+[jlens] layer 52 allocated 53.9GB
+[jlens] layer 56 allocated 53.9GB
+[jlens] layer 60 allocated 53.9GB
+jlens done 78s maxmem 64.0GB
+rlens done 39s maxmem 64.0GB
+saved 100 L42 cells; PASS_A_DONE

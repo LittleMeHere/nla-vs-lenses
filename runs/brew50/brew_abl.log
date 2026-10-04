@@ -1,0 +1,512 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 1680.32it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<03:05,  4.58it/s]Loading weights:   0%|          | 2/851 [00:00<04:28,  3.17it/s]Loading weights:   2%|▏         | 14/851 [00:00<00:30, 27.65it/s]Loading weights:   3%|▎         | 27/851 [00:00<00:18, 45.72it/s]Loading weights:   5%|▌         | 43/851 [00:00<00:11, 70.36it/s]Loading weights:   6%|▋         | 54/851 [00:01<00:10, 76.42it/s]Loading weights:   8%|▊         | 69/851 [00:01<00:08, 92.66it/s]Loading weights:  11%|█         | 94/851 [00:01<00:05, 128.14it/s]Loading weights:  13%|█▎        | 109/851 [00:01<00:06, 121.08it/s]Loading weights:  15%|█▌        | 130/851 [00:01<00:05, 142.91it/s]Loading weights:  17%|█▋        | 146/851 [00:01<00:04, 145.70it/s]Loading weights:  19%|█▉        | 162/851 [00:01<00:05, 118.33it/s]Loading weights:  21%|██        | 176/851 [00:01<00:05, 120.12it/s]Loading weights:  22%|██▏       | 190/851 [00:02<00:05, 120.58it/s]Loading weights:  24%|██▍       | 203/851 [00:02<00:05, 110.03it/s]Loading weights:  26%|██▋       | 224/851 [00:02<00:04, 131.91it/s]Loading weights:  28%|██▊       | 238/851 [00:02<00:04, 128.03it/s]Loading weights:  30%|██▉       | 252/851 [00:02<00:04, 130.30it/s]Loading weights:  31%|███▏      | 266/851 [00:02<00:05, 106.73it/s]Loading weights:  33%|███▎      | 280/851 [00:02<00:05, 111.91it/s]Loading weights:  35%|███▌      | 302/851 [00:02<00:04, 134.67it/s]Loading weights:  37%|███▋      | 317/851 [00:03<00:04, 123.49it/s]Loading weights:  39%|███▉      | 332/851 [00:03<00:04, 127.66it/s]Loading weights:  41%|████      | 346/851 [00:03<00:04, 125.08it/s]Loading weights:  42%|████▏     | 360/851 [00:03<00:03, 122.94it/s]Loading weights:  44%|████▍     | 373/851 [00:03<00:04, 112.33it/s]Loading weights:  46%|████▋     | 394/851 [00:03<00:03, 134.37it/s]Loading weights:  48%|████▊     | 408/851 [00:03<00:03, 133.31it/s]Loading weights:  50%|████▉     | 422/851 [00:03<00:03, 116.54it/s]Loading weights:  51%|█████▏    | 438/851 [00:04<00:03, 124.32it/s]Loading weights:  53%|█████▎    | 453/851 [00:04<00:03, 125.38it/s]Loading weights:  55%|█████▍    | 467/851 [00:04<00:03, 123.88it/s]Loading weights:  56%|█████▋    | 480/851 [00:04<00:03, 122.83it/s]Loading weights:  58%|█████▊    | 493/851 [00:04<00:03, 118.93it/s]Loading weights:  59%|█████▉    | 506/851 [00:04<00:02, 117.76it/s]Loading weights:  61%|██████▏   | 523/851 [00:04<00:02, 109.94it/s]Loading weights:  64%|██████▍   | 545/851 [00:04<00:02, 128.50it/s]Loading weights:  66%|██████▌   | 559/851 [00:05<00:02, 130.67it/s]Loading weights:  68%|██████▊   | 576/851 [00:05<00:02, 135.51it/s]Loading weights:  70%|███████   | 596/851 [00:05<00:01, 142.79it/s]Loading weights:  72%|███████▏  | 611/851 [00:05<00:01, 139.11it/s]Loading weights:  73%|███████▎  | 625/851 [00:05<00:01, 135.75it/s]Loading weights:  76%|███████▌  | 646/851 [00:05<00:01, 153.50it/s]Loading weights:  78%|███████▊  | 662/851 [00:05<00:01, 150.83it/s]Loading weights:  80%|███████▉  | 678/851 [00:05<00:01, 138.52it/s]Loading weights:  81%|████████▏ | 693/851 [00:06<00:01, 134.66it/s]Loading weights:  84%|████████▎ | 712/851 [00:06<00:00, 142.62it/s]Loading weights:  85%|████████▌ | 727/851 [00:06<00:00, 139.06it/s]Loading weights:  87%|████████▋ | 741/851 [00:06<00:00, 117.04it/s]Loading weights:  89%|████████▉ | 757/851 [00:06<00:00, 124.88it/s]Loading weights:  91%|█████████ | 771/851 [00:06<00:00, 127.74it/s]Loading weights:  92%|█████████▏| 785/851 [00:06<00:00, 130.95it/s]Loading weights:  94%|█████████▍| 804/851 [00:06<00:00, 144.33it/s]Loading weights:  96%|█████████▌| 819/851 [00:06<00:00, 145.65it/s]Loading weights:  98%|█████████▊| 836/851 [00:07<00:00, 144.13it/s]Loading weights: 100%|██████████| 851/851 [00:07<00:00, 129.87it/s]Loading weights: 100%|██████████| 851/851 [00:07<00:00, 118.37it/s]
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+strong sets: mean 4.5 tokens
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+JLENS_DONE
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1225.15it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+olens brew-s2-r10d2-0000 strong 13.8s
+olens brew-s2-r10d2-0000 swap 12.8s
+olens brew-s2-r10d2-0000 rand 13.8s
+olens brew-s2-r10d2-0001 strong 14.3s
+olens brew-s2-r10d2-0001 swap 12.9s
+olens brew-s2-r10d2-0001 rand 12.1s
+olens brew-s2-r10d2-0002 strong 14.1s
+olens brew-s2-r10d2-0002 swap 12.1s
+olens brew-s2-r10d2-0002 rand 12.1s
+olens brew-s2-r10d2-0003 strong 14.0s
+olens brew-s2-r10d2-0003 swap 12.6s
+olens brew-s2-r10d2-0003 rand 16.8s
+olens brew-s2-r10d2-0009 strong 13.3s
+olens brew-s2-r10d2-0009 swap 13.6s
+olens brew-s2-r10d2-0009 rand 14.9s
+olens brew-s2-r10d2-0010 strong 17.5s
+olens brew-s2-r10d2-0010 swap 12.0s
+olens brew-s2-r10d2-0010 rand 12.9s
+olens brew-s2-r10d2-0011 strong 12.8s
+olens brew-s2-r10d2-0011 swap 12.2s
+olens brew-s2-r10d2-0011 rand 14.0s
+olens brew-s2-r10d2-0012 strong 12.2s
+olens brew-s2-r10d2-0012 swap 15.1s
+olens brew-s2-r10d2-0012 rand 13.2s
+olens brew-s2-r10d2-0015 strong 13.2s
+olens brew-s2-r10d2-0015 swap 13.8s
+olens brew-s2-r10d2-0015 rand 13.0s
+olens brew-s2-r10d2-0023 strong 12.2s
+olens brew-s2-r10d2-0023 swap 12.7s
+olens brew-s2-r10d2-0023 rand 12.5s
+olens brew-s2-r10d2-0027 strong 15.0s
+olens brew-s2-r10d2-0027 swap 14.6s
+olens brew-s2-r10d2-0027 rand 15.4s
+olens brew-s2-r10d2-0032 strong 13.8s
+olens brew-s2-r10d2-0032 swap 16.0s
+olens brew-s2-r10d2-0032 rand 13.6s
+olens brew-s2-r10d2-0041 strong 15.1s
+olens brew-s2-r10d2-0041 swap 14.2s
+olens brew-s2-r10d2-0041 rand 15.0s
+olens brew-s2-r10d2-0042 strong 12.1s
+olens brew-s2-r10d2-0042 swap 17.0s
+olens brew-s2-r10d2-0042 rand 12.8s
+olens brew-s2-r10d2-0056 strong 12.9s
+olens brew-s2-r10d2-0056 swap 13.3s
+olens brew-s2-r10d2-0056 rand 13.6s
+olens brew-s2-r10d2-0057 strong 13.1s
+olens brew-s2-r10d2-0057 swap 14.9s
+olens brew-s2-r10d2-0057 rand 12.6s
+olens brew-s2-r10d2-0060 strong 12.5s
+olens brew-s2-r10d2-0060 swap 13.6s
+olens brew-s2-r10d2-0060 rand 13.2s
+olens brew-s2-r10d2-0061 strong 12.3s
+olens brew-s2-r10d2-0061 swap 15.0s
+olens brew-s2-r10d2-0061 rand 11.8s
+olens brew-s2-r10d2-0065 strong 14.8s
+olens brew-s2-r10d2-0065 swap 14.5s
+olens brew-s2-r10d2-0065 rand 14.2s
+olens brew-s2-r10d2-0066 strong 14.9s
+olens brew-s2-r10d2-0066 swap 17.9s
+olens brew-s2-r10d2-0066 rand 13.1s
+olens brew-s2-r10d2-0069 strong 11.6s
+olens brew-s2-r10d2-0069 swap 17.3s
+olens brew-s2-r10d2-0069 rand 13.1s
+olens brew-s2-r10d2-0071 strong 12.9s
+olens brew-s2-r10d2-0071 swap 12.6s
+olens brew-s2-r10d2-0071 rand 12.6s
+olens brew-s2-r10d2-0073 strong 13.2s
+olens brew-s2-r10d2-0073 swap 13.9s
+olens brew-s2-r10d2-0073 rand 11.9s
+olens brew-s2-r10d2-0074 strong 14.2s
+olens brew-s2-r10d2-0074 swap 13.8s
+olens brew-s2-r10d2-0074 rand 12.5s
+olens brew-s2-r10d2-0075 strong 14.7s
+olens brew-s2-r10d2-0075 swap 13.9s
+olens brew-s2-r10d2-0075 rand 14.7s
+olens brew-s2-r10d2-0077 strong 14.1s
+olens brew-s2-r10d2-0077 swap 12.6s
+olens brew-s2-r10d2-0077 rand 14.2s
+olens brew-s2-r10d2-0078 strong 13.6s
+olens brew-s2-r10d2-0078 swap 13.0s
+olens brew-s2-r10d2-0078 rand 14.2s
+olens brew-s2-r10d2-0086 strong 11.8s
+olens brew-s2-r10d2-0086 swap 14.2s
+olens brew-s2-r10d2-0086 rand 14.7s
+olens brew-s2-r10d2-0088 strong 13.9s
+olens brew-s2-r10d2-0088 swap 12.8s
+olens brew-s2-r10d2-0088 rand 12.8s
+olens brew-s2-r10d2-0092 strong 11.3s
+olens brew-s2-r10d2-0092 swap 10.7s
+olens brew-s2-r10d2-0092 rand 13.5s
+olens brew-s2-r10d2-0093 strong 15.5s
+olens brew-s2-r10d2-0093 swap 13.9s
+olens brew-s2-r10d2-0093 rand 13.3s
+olens brew-s2-r10d2-0101 strong 14.8s
+olens brew-s2-r10d2-0101 swap 13.7s
+olens brew-s2-r10d2-0101 rand 12.6s
+olens brew-s2-r10d2-0104 strong 15.0s
+olens brew-s2-r10d2-0104 swap 10.6s
+olens brew-s2-r10d2-0104 rand 12.7s
+olens brew-s2-r10d2-0107 strong 13.0s
+olens brew-s2-r10d2-0107 swap 14.9s
+olens brew-s2-r10d2-0107 rand 13.2s
+olens brew-s2-r10d2-0110 strong 14.3s
+olens brew-s2-r10d2-0110 swap 13.0s
+olens brew-s2-r10d2-0110 rand 15.7s
+olens brew-s2-r10d2-0111 strong 12.8s
+olens brew-s2-r10d2-0111 swap 12.8s
+olens brew-s2-r10d2-0111 rand 14.8s
+olens brew-s2-r10d2-0121 strong 13.8s
+olens brew-s2-r10d2-0121 swap 13.7s
+olens brew-s2-r10d2-0121 rand 13.9s
+olens brew-s2-r10d2-0124 strong 14.5s
+olens brew-s2-r10d2-0124 swap 15.6s
+olens brew-s2-r10d2-0124 rand 12.6s
+olens brew-s2-r10d2-0125 strong 12.9s
+olens brew-s2-r10d2-0125 swap 14.6s
+olens brew-s2-r10d2-0125 rand 15.2s
+olens brew-s2-r10d2-0126 strong 15.8s
+olens brew-s2-r10d2-0126 swap 15.0s
+olens brew-s2-r10d2-0126 rand 14.0s
+olens brew-s2-r10d2-0128 strong 10.6s
+olens brew-s2-r10d2-0128 swap 14.8s
+olens brew-s2-r10d2-0128 rand 15.6s
+olens brew-s2-r10d2-0131 strong 14.0s
+olens brew-s2-r10d2-0131 swap 13.6s
+olens brew-s2-r10d2-0131 rand 13.9s
+olens brew-s2-r10d2-0132 strong 10.9s
+olens brew-s2-r10d2-0132 swap 13.8s
+olens brew-s2-r10d2-0132 rand 13.8s
+olens brew-s2-r10d2-0138 strong 13.0s
+olens brew-s2-r10d2-0138 swap 12.4s
+olens brew-s2-r10d2-0138 rand 14.0s
+olens brew-s2-r10d2-0140 strong 13.8s
+olens brew-s2-r10d2-0140 swap 11.3s
+olens brew-s2-r10d2-0140 rand 11.7s
+olens brew-s2-r10d2-0142 strong 12.1s
+olens brew-s2-r10d2-0142 swap 13.5s
+olens brew-s2-r10d2-0142 rand 10.1s
+olens brew-s2-r10d2-0147 strong 12.6s
+olens brew-s2-r10d2-0147 swap 13.0s
+olens brew-s2-r10d2-0147 rand 12.3s
+olens brew-s2-r10d2-0153 strong 11.3s
+olens brew-s2-r10d2-0153 swap 11.2s
+olens brew-s2-r10d2-0153 rand 12.0s
+olens brew-s2-r10d2-0166 strong 13.7s
+olens brew-s2-r10d2-0166 swap 12.6s
+olens brew-s2-r10d2-0166 rand 14.2s
+olens brew-s2-r10d2-0168 strong 12.3s
+olens brew-s2-r10d2-0168 swap 13.6s
+olens brew-s2-r10d2-0168 rand 15.3s
+ABLATE2_PASS_DONE

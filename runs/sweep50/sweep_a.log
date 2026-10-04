@@ -1,0 +1,159 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 575.44it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:01<14:42,  1.04s/it]Loading weights:   0%|          | 2/851 [00:05<44:19,  3.13s/it]Loading weights:   1%|          | 8/851 [00:06<08:06,  1.73it/s]Loading weights:   1%|▏         | 12/851 [00:06<04:47,  2.92it/s]Loading weights:   2%|▏         | 15/851 [00:06<03:23,  4.10it/s]Loading weights:   3%|▎         | 23/851 [00:06<01:54,  7.26it/s]Loading weights:   3%|▎         | 25/851 [00:06<01:46,  7.76it/s]Loading weights:   3%|▎         | 29/851 [00:07<01:19, 10.33it/s]Loading weights:   5%|▍         | 41/851 [00:07<00:49, 16.40it/s]Loading weights:   5%|▌         | 44/851 [00:08<01:07, 12.01it/s]Loading weights:   6%|▌         | 48/851 [00:08<00:55, 14.44it/s]Loading weights:   6%|▌         | 52/851 [00:08<00:50, 15.87it/s]Loading weights:   7%|▋         | 61/851 [00:08<00:38, 20.47it/s]Loading weights:   8%|▊         | 64/851 [00:08<00:38, 20.33it/s]Loading weights:   8%|▊         | 67/851 [00:09<01:22,  9.56it/s]Loading weights:   8%|▊         | 69/851 [00:10<01:32,  8.42it/s]Loading weights:   9%|▉         | 76/851 [00:10<01:03, 12.28it/s]Loading weights:   9%|▉         | 78/851 [00:10<01:12, 10.63it/s]Loading weights:   9%|▉         | 80/851 [00:11<01:28,  8.76it/s]Loading weights:  10%|▉         | 82/851 [00:11<02:17,  5.59it/s]Loading weights:  11%|█         | 90/851 [00:12<01:14, 10.23it/s]Loading weights:  11%|█         | 92/851 [00:12<01:09, 10.91it/s]Loading weights:  11%|█         | 94/851 [00:12<01:37,  7.79it/s]Loading weights:  11%|█▏        | 96/851 [00:13<02:04,  6.06it/s]Loading weights:  12%|█▏        | 100/851 [00:13<01:24,  8.88it/s]Loading weights:  12%|█▏        | 105/851 [00:13<00:59, 12.57it/s]Loading weights:  14%|█▎        | 116/851 [00:13<00:29, 24.58it/s]Loading weights:  14%|█▍        | 121/851 [00:13<00:25, 28.24it/s]Loading weights:  16%|█▌        | 134/851 [00:14<00:15, 45.89it/s]Loading weights:  17%|█▋        | 142/851 [00:14<00:22, 31.26it/s]Loading weights:  17%|█▋        | 148/851 [00:14<00:31, 22.53it/s]Loading weights:  18%|█▊        | 153/851 [00:15<00:48, 14.41it/s]Loading weights:  18%|█▊        | 157/851 [00:16<00:58, 11.90it/s]Loading weights:  19%|█▉        | 160/851 [00:16<01:03, 10.89it/s]Loading weights:  19%|█▉        | 165/851 [00:17<01:00, 11.40it/s]Loading weights:  20%|██        | 171/851 [00:17<00:44, 15.37it/s]Loading weights:  20%|██        | 174/851 [00:18<01:34,  7.13it/s]Loading weights:  21%|██▏       | 182/851 [00:18<01:02, 10.62it/s]Loading weights:  22%|██▏       | 185/851 [00:19<01:15,  8.77it/s]Loading weights:  22%|██▏       | 187/851 [00:19<01:21,  8.17it/s]Loading weights:  22%|██▏       | 189/851 [00:20<01:26,  7.64it/s]Loading weights:  23%|██▎       | 194/851 [00:20<01:06,  9.82it/s]Loading weights:  23%|██▎       | 197/851 [00:20<00:56, 11.64it/s]Loading weights:  23%|██▎       | 199/851 [00:20<00:51, 12.54it/s]Loading weights:  24%|██▎       | 201/851 [00:21<01:29,  7.26it/s]Loading weights:  24%|██▍       | 203/851 [00:21<01:37,  6.63it/s]Loading weights:  24%|██▍       | 205/851 [00:22<01:46,  6.04it/s]Loading weights:  24%|██▍       | 206/851 [00:22<02:03,  5.21it/s]Loading weights:  24%|██▍       | 207/851 [00:22<02:22,  4.53it/s]Loading weights:  25%|██▍       | 210/851 [00:23<01:37,  6.57it/s]Loading weights:  25%|██▌       | 213/851 [00:23<01:22,  7.71it/s]Loading weights:  26%|██▌       | 221/851 [00:23<00:43, 14.46it/s]Loading weights:  26%|██▌       | 223/851 [00:23<00:42, 14.91it/s]Loading weights:  26%|██▋       | 225/851 [00:24<01:10,  8.91it/s]Loading weights:  27%|██▋       | 227/851 [00:24<01:19,  7.84it/s]Loading weights:  28%|██▊       | 235/851 [00:24<00:44, 13.96it/s]Loading weights:  28%|██▊       | 237/851 [00:25<00:53, 11.51it/s]Loading weights:  28%|██▊       | 241/851 [00:25<00:41, 14.80it/s]Loading weights:  29%|██▉       | 247/851 [00:25<00:37, 15.97it/s]Loading weights:  30%|██▉       | 252/851 [00:25<00:29, 20.31it/s]Loading weights:  30%|██▉       | 255/851 [00:26<01:10,  8.42it/s]Loading weights:  30%|███       | 258/851 [00:27<01:10,  8.42it/s]Loading weights:  31%|███       | 260/851 [00:27<01:33,  6.33it/s]Loading weights:  31%|███       | 264/851 [00:27<01:10,  8.29it/s]Loading weights:  31%|███▏      | 266/851 [00:28<01:11,  8.16it/s]Loading weights:  32%|███▏      | 274/851 [00:28<00:43, 13.12it/s]Loading weights:  32%|███▏      | 276/851 [00:28<00:45, 12.72it/s]Loading weights:  33%|███▎      | 278/851 [00:29<01:05,  8.79it/s]Loading weights:  33%|███▎      | 280/851 [00:29<01:28,  6.49it/s]Loading weights:  34%|███▍      | 288/851 [00:30<00:49, 11.47it/s]Loading weights:  34%|███▍      | 290/851 [00:30<00:46, 12.06it/s]Loading weights:  34%|███▍      | 292/851 [00:30<01:02,  8.88it/s]Loading weights:  35%|███▍      | 294/851 [00:31<01:26,  6.44it/s]Loading weights:  35%|███▌      | 299/851 [00:31<00:57,  9.52it/s]Loading weights:  36%|███▌      | 303/851 [00:31<00:45, 11.95it/s]Loading weights:  36%|███▌      | 306/851 [00:32<00:54, 10.08it/s]Loading weights:  36%|███▌      | 308/851 [00:32<01:16,  7.05it/s]Loading weights:  37%|███▋      | 311/851 [00:33<01:13,  7.32it/s]Loading weights:  37%|███▋      | 313/851 [00:33<01:33,  5.77it/s]Loading weights:  37%|███▋      | 317/851 [00:33<01:05,  8.13it/s]Loading weights:  37%|███▋      | 319/851 [00:34<01:05,  8.15it/s]Loading weights:  38%|███▊      | 325/851 [00:34<00:47, 11.04it/s]Loading weights:  39%|███▉      | 330/851 [00:34<00:34, 15.15it/s]Loading weights:  39%|███▉      | 333/851 [00:35<01:14,  6.92it/s]Loading weights:  40%|███▉      | 339/851 [00:36<00:58,  8.68it/s]Loading weights:  40%|████      | 344/851 [00:36<00:43, 11.79it/s]Loading weights:  41%|████      | 347/851 [00:37<01:12,  6.96it/s]Loading weights:  42%|████▏     | 355/851 [00:37<00:45, 10.78it/s]Loading weights:  42%|████▏     | 358/851 [00:37<00:45, 10.93it/s]Loading weights:  42%|████▏     | 360/851 [00:38<01:05,  7.46it/s]Loading weights:  43%|████▎     | 362/851 [00:39<01:10,  6.90it/s]Loading weights:  43%|████▎     | 364/851 [00:39<01:14,  6.53it/s]Loading weights:  43%|████▎     | 365/851 [00:40<01:56,  4.18it/s]Loading weights:  43%|████▎     | 370/851 [00:40<01:05,  7.34it/s]Loading weights:  44%|████▎     | 372/851 [00:40<01:06,  7.25it/s]Loading weights:  44%|████▍     | 378/851 [00:40<00:41, 11.32it/s]Loading weights:  45%|████▍     | 380/851 [00:41<00:45, 10.41it/s]Loading weights:  45%|████▌     | 383/851 [00:41<00:38, 12.15it/s]Loading weights:  45%|████▌     | 385/851 [00:41<01:04,  7.23it/s]Loading weights:  45%|████▌     | 387/851 [00:42<01:04,  7.19it/s]Loading weights:  46%|████▌     | 393/851 [00:42<00:39, 11.49it/s]Loading weights:  46%|████▋     | 395/851 [00:42<00:38, 11.82it/s]Loading weights:  47%|████▋     | 397/851 [00:42<00:36, 12.47it/s]Loading weights:  47%|████▋     | 399/851 [00:43<01:11,  6.30it/s]Loading weights:  47%|████▋     | 401/851 [00:43<01:11,  6.31it/s]Loading weights:  48%|████▊     | 408/851 [00:44<00:39, 11.31it/s]Loading weights:  48%|████▊     | 410/851 [00:44<00:44, 10.00it/s]Loading weights:  48%|████▊     | 412/851 [00:44<00:56,  7.83it/s]Loading weights:  49%|████▊     | 414/851 [00:45<01:19,  5.52it/s]Loading weights:  49%|████▉     | 417/851 [00:45<01:11,  6.03it/s]Loading weights:  49%|████▉     | 418/851 [00:46<01:48,  3.99it/s]Loading weights:  50%|████▉     | 423/851 [00:47<01:14,  5.71it/s]Loading weights:  51%|█████     | 433/851 [00:47<00:38, 10.94it/s]Loading weights:  51%|█████▏    | 437/851 [00:48<00:43,  9.59it/s]Loading weights:  52%|█████▏    | 439/851 [00:48<01:02,  6.63it/s]Loading weights:  53%|█████▎    | 451/851 [00:49<00:36, 11.11it/s]Loading weights:  53%|█████▎    | 453/851 [00:50<00:52,  7.63it/s]Loading weights:  55%|█████▍    | 465/851 [00:50<00:32, 11.86it/s]Loading weights:  55%|█████▍    | 467/851 [00:51<00:46,  8.26it/s]Loading weights:  55%|█████▌    | 470/851 [00:52<01:01,  6.21it/s]Loading weights:  55%|█████▌    | 472/851 [00:53<01:05,  5.77it/s]Loading weights:  58%|█████▊    | 490/851 [00:53<00:28, 12.64it/s]Loading weights:  58%|█████▊    | 492/851 [00:54<00:42,  8.44it/s]Loading weights:  59%|█████▉    | 502/851 [00:55<00:31, 10.91it/s]Loading weights:  59%|█████▉    | 505/851 [00:55<00:35,  9.76it/s]Loading weights:  60%|█████▉    | 507/851 [00:56<00:39,  8.66it/s]Loading weights:  60%|██████    | 514/851 [00:56<00:32, 10.37it/s]Loading weights:  61%|██████    | 517/851 [00:56<00:29, 11.20it/s]Loading weights:  61%|██████    | 519/851 [00:57<00:40,  8.25it/s]Loading weights:  62%|██████▏   | 528/851 [00:57<00:22, 14.63it/s]Loading weights:  62%|██████▏   | 531/851 [00:57<00:27, 11.63it/s]Loading weights:  63%|██████▎   | 538/851 [00:58<00:21, 14.40it/s]Loading weights:  64%|██████▎   | 541/851 [00:58<00:20, 14.97it/s]Loading weights:  64%|██████▍   | 544/851 [00:58<00:21, 14.22it/s]Loading weights:  65%|██████▍   | 552/851 [00:58<00:16, 18.09it/s]Loading weights:  65%|██████▌   | 555/851 [00:59<00:17, 17.41it/s]Loading weights:  65%|██████▌   | 557/851 [00:59<00:29,  9.94it/s]Loading weights:  66%|██████▌   | 559/851 [01:00<00:34,  8.47it/s]Loading weights:  67%|██████▋   | 566/851 [01:00<00:23, 12.15it/s]Loading weights:  67%|██████▋   | 568/851 [01:00<00:23, 11.87it/s]Loading weights:  67%|██████▋   | 570/851 [01:00<00:22, 12.28it/s]Loading weights:  67%|██████▋   | 572/851 [01:02<00:59,  4.70it/s]Loading weights:  68%|██████▊   | 576/851 [01:02<00:47,  5.77it/s]Loading weights:  68%|██████▊   | 577/851 [01:03<01:15,  3.65it/s]Loading weights:  68%|██████▊   | 582/851 [01:03<00:44,  6.06it/s]Loading weights:  69%|██████▊   | 584/851 [01:04<00:44,  5.98it/s]Loading weights:  69%|██████▉   | 589/851 [01:04<00:33,  7.81it/s]Loading weights:  70%|██████▉   | 593/851 [01:04<00:26,  9.79it/s]Loading weights:  70%|██████▉   | 595/851 [01:05<00:36,  7.11it/s]Loading weights:  70%|███████   | 597/851 [01:06<00:54,  4.64it/s]Loading weights:  71%|███████   | 606/851 [01:06<00:26,  9.19it/s]Loading weights:  71%|███████▏  | 608/851 [01:06<00:27,  8.92it/s]Loading weights:  72%|███████▏  | 610/851 [01:07<00:30,  7.86it/s]Loading weights:  72%|███████▏  | 612/851 [01:08<00:45,  5.20it/s]Loading weights:  73%|███████▎  | 620/851 [01:08<00:25,  9.14it/s]Loading weights:  73%|███████▎  | 622/851 [01:08<00:23,  9.74it/s]Loading weights:  73%|███████▎  | 624/851 [01:09<00:31,  7.21it/s]Loading weights:  74%|███████▎  | 626/851 [01:10<00:44,  5.10it/s]Loading weights:  74%|███████▍  | 629/851 [01:10<00:38,  5.70it/s]Loading weights:  74%|███████▍  | 630/851 [01:10<00:44,  4.95it/s]Loading weights:  74%|███████▍  | 631/851 [01:11<00:50,  4.33it/s]Loading weights:  75%|███████▍  | 635/851 [01:11<00:31,  6.93it/s]Loading weights:  75%|███████▍  | 637/851 [01:11<00:33,  6.40it/s]Loading weights:  75%|███████▌  | 642/851 [01:12<00:24,  8.50it/s]Loading weights:  76%|███████▌  | 644/851 [01:12<00:23,  8.88it/s]Loading weights:  76%|███████▌  | 648/851 [01:12<00:17, 11.61it/s]Loading weights:  76%|███████▋  | 650/851 [01:13<00:29,  6.74it/s]Loading weights:  77%|███████▋  | 659/851 [01:13<00:14, 12.80it/s]Loading weights:  78%|███████▊  | 661/851 [01:13<00:14, 12.69it/s]Loading weights:  78%|███████▊  | 663/851 [01:14<00:22,  8.30it/s]Loading weights:  78%|███████▊  | 665/851 [01:15<00:34,  5.40it/s]Loading weights:  79%|███████▉  | 673/851 [01:15<00:18,  9.63it/s]Loading weights:  79%|███████▉  | 675/851 [01:15<00:18,  9.62it/s]Loading weights:  80%|███████▉  | 677/851 [01:16<00:24,  6.97it/s]Loading weights:  80%|███████▉  | 679/851 [01:17<00:37,  4.54it/s]Loading weights:  80%|████████  | 682/851 [01:17<00:32,  5.27it/s]Loading weights:  80%|████████  | 683/851 [01:18<00:48,  3.48it/s]Loading weights:  81%|████████  | 688/851 [01:18<00:27,  6.03it/s]Loading weights:  81%|████████  | 690/851 [01:19<00:26,  6.16it/s]Loading weights:  82%|████████▏ | 696/851 [01:19<00:19,  8.14it/s]Loading weights:  82%|████████▏ | 701/851 [01:19<00:13, 11.33it/s]Loading weights:  83%|████████▎ | 703/851 [01:21<00:28,  5.17it/s]Loading weights:  83%|████████▎ | 710/851 [01:21<00:17,  8.19it/s]Loading weights:  84%|████████▍ | 713/851 [01:21<00:15,  9.14it/s]Loading weights:  84%|████████▍ | 715/851 [01:22<00:19,  6.89it/s]Loading weights:  84%|████████▍ | 717/851 [01:23<00:28,  4.70it/s]Loading weights:  85%|████████▌ | 726/851 [01:23<00:14,  8.82it/s]Loading weights:  86%|████████▌ | 728/851 [01:23<00:14,  8.27it/s]Loading weights:  86%|████████▌ | 730/851 [01:24<00:16,  7.25it/s]Loading weights:  86%|████████▌ | 732/851 [01:25<00:23,  5.09it/s]Loading weights:  86%|████████▋ | 735/851 [01:25<00:20,  5.61it/s]Loading weights:  86%|████████▋ | 736/851 [01:25<00:24,  4.74it/s]Loading weights:  87%|████████▋ | 737/851 [01:26<00:27,  4.12it/s]Loading weights:  87%|████████▋ | 741/851 [01:26<00:16,  6.72it/s]Loading weights:  87%|████████▋ | 743/851 [01:26<00:16,  6.47it/s]Loading weights:  88%|████████▊ | 750/851 [01:27<00:10,  9.60it/s]Loading weights:  89%|████████▊ | 754/851 [01:27<00:08, 12.06it/s]Loading weights:  89%|████████▉ | 756/851 [01:28<00:14,  6.64it/s]Loading weights:  89%|████████▉ | 758/851 [01:29<00:17,  5.23it/s]Loading weights:  90%|████████▉ | 765/851 [01:29<00:09,  8.71it/s]Loading weights:  90%|█████████ | 767/851 [01:29<00:09,  9.30it/s]Loading weights:  90%|█████████ | 769/851 [01:30<00:11,  6.84it/s]Loading weights:  91%|█████████ | 771/851 [01:30<00:16,  4.87it/s]Loading weights:  92%|█████████▏| 779/851 [01:31<00:07,  9.00it/s]Loading weights:  92%|█████████▏| 781/851 [01:31<00:08,  8.24it/s]Loading weights:  92%|█████████▏| 783/851 [01:32<00:09,  6.87it/s]Loading weights:  92%|█████████▏| 784/851 [01:32<00:11,  5.64it/s]Loading weights:  92%|█████████▏| 785/851 [01:32<00:14,  4.66it/s]Loading weights:  93%|█████████▎| 788/851 [01:33<00:12,  5.22it/s]Loading weights:  93%|█████████▎| 789/851 [01:33<00:13,  4.45it/s]Loading weights:  93%|█████████▎| 790/851 [01:34<00:16,  3.74it/s]Loading weights:  93%|█████████▎| 794/851 [01:34<00:11,  5.14it/s]Loading weights:  94%|█████████▍| 804/851 [01:35<00:04, 10.97it/s]Loading weights:  95%|█████████▍| 806/851 [01:35<00:04,  9.78it/s]Loading weights:  95%|█████████▍| 808/851 [01:36<00:06,  6.24it/s]Loading weights:  95%|█████████▌| 810/851 [01:36<00:07,  5.69it/s]Loading weights:  96%|█████████▌| 818/851 [01:37<00:03, 10.03it/s]Loading weights:  96%|█████████▋| 820/851 [01:37<00:03,  8.72it/s]Loading weights:  97%|█████████▋| 822/851 [01:37<00:03,  7.39it/s]Loading weights:  97%|█████████▋| 823/851 [01:38<00:04,  5.75it/s]Loading weights:  97%|█████████▋| 824/851 [01:38<00:05,  4.81it/s]Loading weights:  98%|█████████▊| 832/851 [01:39<00:02,  8.52it/s]Loading weights:  98%|█████████▊| 835/851 [01:39<00:01,  9.55it/s]Loading weights:  98%|█████████▊| 837/851 [01:40<00:02,  5.93it/s]Loading weights:  98%|█████████▊| 838/851 [01:40<00:02,  5.08it/s]Loading weights:  99%|█████████▉| 841/851 [01:41<00:01,  5.45it/s]Loading weights:  99%|█████████▉| 842/851 [01:42<00:02,  3.57it/s]Loading weights: 100%|█████████▉| 847/851 [01:42<00:00,  6.16it/s]Loading weights: 100%|█████████▉| 849/851 [01:42<00:00,  6.13it/s]Loading weights: 100%|██████████| 851/851 [01:42<00:00,  8.29it/s]
+base loaded 171s mem 58.9GB
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+[jlens] layer 16 allocated 53.9GB
+[jlens] layer 28 allocated 53.9GB
+[jlens] layer 36 allocated 53.9GB
+jlens done 103s maxmem 58.9GB
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 350.82it/s]
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+olens done 3059s maxmem 58.9GB
+saved 150 L42 cells; PASS_A_DONE
