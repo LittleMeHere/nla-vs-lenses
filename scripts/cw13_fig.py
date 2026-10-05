@@ -70,6 +70,6 @@ for si, (key, lab, _) in enumerate(SER):
     fig.patches.append(matplotlib.patches.Rectangle((0.09 + 0.225 * si, 0.795), 0.012, 0.02, transform=fig.transFigure, color=C[key]))
     fig.text(0.106 + 0.225 * si, 0.805, lab, fontsize=9.8, color=INK, va="center")
 fig.text(0.02, 0.955, "The bridge is still in the rest of the activation. The two writers barely read it there.", fontsize=16, color=INK, fontweight="bold", va="top")
-fig.text(0.02, 0.895, "The template lens, a plain word-direction lens, finds the bridge in the rest almost as often as in the J part. J-Lens cannot, by construction.", fontsize=11, color=MUTED, va="top")
+fig.text(0.02, 0.895, "The template lens, a plain word-direction lens, finds the bridge in the rest as often as in the J part. J-Lens cannot, by construction.", fontsize=11, color=MUTED, va="top")
 fig.text(0.02, 0.025, "Qwen3.6-27B, layer 42, 30 two-step questions (template lens: the 25 whose bridge is in its vocabulary). Writers: 2 samples, word match. Lines: 95% bootstrap over items.", fontsize=8.6, color=MUTED)
 fig.subplots_adjust(left=0.07, right=0.985, top=0.75, bottom=0.15); fig.savefig(ROOT / "figs/cw13_where_is_the_bridge.png", facecolor=BG); print("wrote cw13_where_is_the_bridge.png")

@@ -6,17 +6,22 @@
 
 Updated 2026-10-04 (after CW-11); the pilot numbers were recomputed from the raw files on 2026-10-04. Everything here is exploratory: one model, 50–100 items per experiment, dev items only.
 
-## Plain summary
+## Plain summary (joint; see Collaboration and resources)
 
 Example used throughout: the prompt "The chemical symbol for the element with atomic number 26 is". To answer "Fe" the model has to get to "iron". "Iron" is the hidden step. J-Lens shows ten words for an activation; the oracle lens and the NLA (the "writers") each write a few sentences about it.
 
-| # | What was done | What came out | What it means | How firm |
-|---|---|---|---|---|
-| 1 | Asked all three for the hidden step on 100 prompts, layer 42 | Oracle lens 80, NLA 75, J-Lens 39 | The writers mention the hidden step far more often than J-Lens's ten words do | Firm as a count of mentions (word match, checked by hand on 30) |
-| 2 | Looked at J-Lens on other layers for the 36 it missed | It shows the step at another layer in 22, only after layer 42 in 14 of those | Some of the gap is which layer J-Lens is read at; it could also be the writers picking the step up before J-Lens's top ten does | Count firm, reading open |
-| 3 | Sorted what the NLA wrote on 100 prompts | About 60% prompt wording or format; 66 of 98 write-ups include something the prompt rules out | The NLA pads a lot; "false" was judged by a model and not checked by hand | Padding firm, "false" unvalidated |
-| 4 | Deleted the hidden step's J-Lens directions; separately deleted the prompt words' directions (CW-11) | Naming falls (oracle 65% → 37%, NLA 65% → 53%); prompt words are still reported (54% → 45%, 58% → 53%) | The writers read those directions in part. Deleting a few directions removes under 1% of the activation, so what survives cannot show the step was worked out from the prompt | Firm |
-| 5 | Split each natural activation into J-Lens's top 1,024 directions (the J part, 16% of the activation) and the rest (84%), and gave each part to a reader alone (CW-12, 30 prompts) | Names the bridge: whole 45% (oracle) / 43% (NLA); J part 48% / 42%; the rest 20% / 12%. Removing a random part of the same size instead leaves 45% / 38%. PCA's top 1,024 directions (91% of the activation) give 58% / 45%. A linear probe decodes simple prompt facts from either part equally well | Both readers get the bridge from the part J-Lens reads. The rest still holds information, but the readers use it little. No sign the NLA reads the bridge from outside the J part | Fair: 30 prompts, 2 samples, word match |
+| # | What was done | What came out | What it means | Who | How firm |
+|---|---|---|---|---|---|
+| 1 | Asked all three for the hidden step on 100 prompts, layer 42 | Oracle lens 80, NLA 75, J-Lens 39 | The writers mention the hidden step far more often than J-Lens's ten words do | this repo | Firm as a count of mentions (word match, checked by hand on 30) |
+| 2 | Looked at J-Lens on other layers for the 36 it missed | It shows the step at another layer in 22, only after layer 42 in 14 of those | Some of the gap is which layer J-Lens is read at; it could also be the writers picking the step up before J-Lens's top ten does | this repo | Count firm, reading open |
+| 3 | Colour task: two positions where the hidden colour can be read; patching one changes the answer, the other does not | The tools report the colour about equally at both | A tool saying something does not show the model is using it | Vishesh | Firm, one task |
+| 4 | Planted a known concept, split into its J part and the rest (his split: 16 directions per concept) | Both writers name "the rest" only at full strength; the oracle lens more than the NLA | No sign that either writer sees content outside J-space | Vishesh | Fair; absence of evidence |
+| 5 | Sorted what the NLA wrote on 100 prompts | About 60% prompt wording or format; 66 of 98 write-ups include something the prompt rules out | The NLA pads a lot; "false" was judged by a model and not checked by hand | this repo | Padding firm, "false" unvalidated |
+| 6 | Deleted the hidden step's J-Lens directions; separately deleted the prompt words' directions (CW-11) | Naming falls (oracle 65% → 37%, NLA 65% → 53%); prompt words are still reported (54% → 45%, 58% → 53%) | The writers read those directions in part. Deleting a few directions removes under 1% of the activation, so what survives cannot show the step was worked out from the prompt | this repo; both found the flaw | Firm |
+| 7 | Split each natural activation into J-Lens's top 1,024 directions (the J part, 16% of the activation) and the rest (84%), and gave each part to a reader alone (CW-12, 30 prompts) | Names the bridge: whole 45% (oracle) / 43% (NLA); J part 48% / 42%; the rest 20% / 12%. Removing a random part of the same size instead leaves 45% / 38%. PCA's top 1,024 directions (91% of the activation) give 58% / 45%. A linear probe decodes simple prompt facts from either part equally well | Both readers get the bridge from the part J-Lens reads. The rest still holds information, but the readers use it little. No sign the NLA reads the bridge from outside the J part | this repo | Fair: 30 prompts, 2 samples, word match |
+| – | Reader-free label for "the model uses this content here" | Reliable for whole positions; not for specific content (two fits disagree) | The yardstick the project wanted does not exist yet | Vishesh | Firm as a negative |
+
+His "rest" (row 4) and ours (row 7) are different splits: his is everything outside 16 directions per concept, about 95% of the concept; ours is everything outside J-Lens's top 1,024 directions. Much of his "rest" may lie inside our J part. Not checked.
 
 ## Current conclusion
 
@@ -25,7 +30,7 @@ Whether the prose readers re-solve depends on the task.
 - **multihop (one-line trivia):** they name the hidden step about twice as often as J-Lens at L42, and they also name it at L28, where J-Lens shows it in 1/50. Deleting the step's J-Lens directions lowers naming (oracle lens 65% → 37% of samples, NLA 65% → 53%), so both read those directions in part, the oracle lens more. What survives deletion is **not** good evidence of re-solving: CW-11 shows that deleting the J-Lens directions of the prompt's own words barely stops the readers reporting those words (CW-11 below). "Mostly re-solving" is withdrawn; how much is re-solved is open.
 - **chain (arithmetic), at L56 where J-Lens shows the number:** the oracle lens names the number in 36/60 (chance 12), in 31 of those without restating the starting number. Reading. The NLA is near chance.
 - **brew (10-rule colour table), at ":" L42:** both readers rarely state the hidden colour in its role (2–5 of 50), and those mentions go to about zero when its directions are deleted. No sign of re-solving.
-- **NLA text:** about 60% of its concepts on multihop are prompt wording or format; 66/98 readouts contain at least one claim the prompt rules out. On no task does the NLA find a hidden step the oracle lens misses.
+- **NLA text:** about 60% of its concepts on multihop are prompt wording or format; 66/98 readouts contain at least one claim the prompt rules out. The NLA rarely names a hidden step the oracle lens misses: 3 of 100 multihop prompts at L42 against 8 the other way (one readout each), 3 of 50 against 6 with 4 samples, 0 of 30 against 1 with 2 samples. On every task its total is at or below the oracle lens's.
 
 The explanation "a reader re-solves when it can rebuild the prompt" has one weak support (CW-10: NLA readouts that recover more of the prompt name the step more often) and no causal test: CW-11's cue removal did not hide the prompt, so it could not test it.
 
@@ -58,6 +63,8 @@ Counts are items whose readout names the hidden step.
 | 1 | Main comparison | 100 multihop | 42 | 39 | 80 | 75 | [multihop100](runs/multihop100/) |
 |   | chance | | | 0.7 | 1.7 | 1.2 | |
 | 2 | Earlier layers | 50 multihop | 16 / 28 / 36 | 0 / 1 / 9 | 9 / 26 / 33 | 11 / 27 / 28 | [sweep50](runs/sweep50/) |
+| 3 | Delete the step's J-Lens directions (2–6 per item); random-direction control unchanged | 50 multihop | 42 | 15 → 0 | 30 → 17 | 36 → 25 | [abl50](runs/abl50/) |
+| 4 | Delete the step's neighbourhood (cos > 0.8, ~31 directions). Control = same number of random directions | 50 multihop | 42 | 15 → 0 | 33 → 20 | 34 → 23 | [abl3](runs/abl3/) |
 | 5 | Swap: delete own step, add another item's step | 50 multihop | 42 | planted 14 | own 20, planted 7 | own 20, planted 6 | [abl3](runs/abl3/) |
 | 6 | chain at the readers' training layer | 60 chain | 42 | 6 (chance 4) | 27 (chance 21) | 9 (chance 12) | [chain60](runs/chain60/) |
 | 7 | chain at L56, where J-Lens shows the number | 60 chain | 56 | 25 (chance 7) | 36 (chance 12) | 13 (chance 9) | [chain60_L56](runs/chain60_L56/) |
@@ -124,7 +131,7 @@ Design, written and committed before the run: `designs/CW-11_cue_removal.md` (th
 **Measured** (share of the 200 samples that name the bridge; prompt recovery = share of the prompt's content words in the readout):
 
 | condition | oracle: names bridge | oracle: recovery | NLA: names bridge | NLA: recovery | cue words in J-Lens top-50 |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | intact | 0.67 | 0.58 | 0.64 | 0.59 | 6.7 |
 | rand | 0.65 | 0.54 | 0.65 | 0.58 | 7.0 |
 | cue | 0.64 | 0.45 | 0.60 | 0.53 | 0.02 |
@@ -158,7 +165,7 @@ Design, committed before the run: `designs/CW-12_j_split.md`. Code: `jobs/cw12_a
 **Measured** (share of the 60 samples per cell that name the bridge, 95% bootstrap over items; prompt recovery as CW-10):
 
 | part given to the reader | share of squared norm | oracle: bridge | NLA: bridge | oracle: recovery | NLA: recovery |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | whole | 1.00 | 0.45 [0.30, 0.60] | 0.43 [0.28, 0.58] | 0.57 | 0.57 |
 | J part | 0.16 | 0.48 [0.32, 0.65] | 0.42 [0.27, 0.58] | 0.49 | 0.50 |
 | the rest | 0.84 | 0.20 [0.10, 0.32] | 0.12 [0.03, 0.23] | 0.12 | 0.25 |
@@ -182,7 +189,7 @@ Paired differences in naming the bridge, over the 30 items:
 - Removing the J part costs both readers about 25 points more than removing a random part of the same size. This is the evidence that J-Lens's directions matter to them specifically.
 - Sufficiency is not specific to J-Lens. The high-variance PCA part is sufficient too (it is 91% of the activation), and for the NLA a random fifth is nearly sufficient (0.35 against 0.42). The oracle lens needs the J part intact; the NLA copes with a thinned copy.
 - The rest is not empty: simple prompt facts are linearly decodable from it. The readers get little from it.
-- On natural prompts there is no sign that the NLA reads the bridge from outside the part J-Lens reads.
+- On natural prompts there is no sign that the NLA reads the bridge from outside the part J-Lens reads. This agrees with the collaborator's planted-concept result (summary row 4).
 - **Most likely objection:** a part of an activation is off-distribution for a reader trained on whole activations, so "the reader gets little from the rest" may be a failure to parse it and not absence of use. The random control argues against this (its complement, also a part, reads fine), but the rest has a different statistical character from a random complement. Not further addressed.
 - n: 30 items, 2 samples per cell, one prompt family, one layer, one definition of the J part, word match (hand-checked on other readouts). The probe labels are coarse; no probe for the bridge itself (one item per bridge).
 
@@ -190,33 +197,43 @@ Paired differences in naming the bridge, over the 30 items:
 
 Code: `scripts/cw13_jrank.py`, `scripts/cw13_template.py`, `scripts/cw13_fig.py`. Output: `runs/jrank/`. Figures: `figs/cw13_bridge_rank.png`, `figs/cw13_where_is_the_bridge.png`. Not pre-registered; both analyses were chosen after CW-12's results were known.
 
-**Setup.** The 50 multihop items with saved L42 activations (CW-4), and the 30 split into parts in CW-12. J-Lens scores for all 248,320 tokens, computed on CPU from the neuronpedia map and the model's output-word matrix (same cosine readout as the benchmark). The bridge's rank is the best rank among tokens whose text equals a bank intermediate (letters and digits, case-insensitive); 46 of 50 items have such a token. Template lens: `camilablank/workspace-lenses` @ d740106d, 13,174 words, layer 42, plain projection of the activation (minus a mean over 16,000 benchmark-prompt positions for whole activations; raw for parts). The file does not include the lens's own decode rule, so this projection is an assumption. The bridge is in its vocabulary for 41 of 50 items (25 of the 30).
+**Setup.** The 50 multihop items with saved L42 activations (CW-4), and the 30 split into parts in CW-12. J-Lens scores for all 248,320 tokens, computed on CPU from the neuronpedia map and the model's output-word matrix (same cosine readout as the benchmark). The bridge's rank is the best rank among tokens whose text equals a bank intermediate (letters and digits, case-insensitive); 46 of 50 items have such a token. Template lens: `camilablank/workspace-lenses` @ d740106d, 13,174 words, layer 42, scored as its README states, by cosine of the activation against each word's template direction. The bridge is in its vocabulary for 41 of 50 items (25 of the 30).
 
 **Measured.**
 - J-Lens, 50 items: bridge within the top 10 in 15 (30%), top 50 in 24 (48%), top 200 in 35 (70%), top 1,000 in 38. Median rank 47.
-- Template lens, 50 items: top 10 in 12, top 50 in 25, top 200 in 31. Median rank 34.
+- Template lens, 50 items: top 10 in 14, top 50 in 31, top 200 in 35. Median rank 20.
 - For comparison, on the same 50 items the oracle lens names the bridge in 66% of single readouts and the NLA in 64% (CW-11, intact, 4 samples).
-- By part (30 items), bridge within the top 50: J-Lens 10 whole, 10 J part, 0 the rest (median rank in the rest 77,789). Template lens (25 items) 14 whole, 12 J part, 11 the rest (median ranks 37, 61, 93); random 1,024 directions 5, all but those 10; PCA top 1,024 14, all but those 4.
+- By part (30 items), bridge within the top 50: J-Lens 10 whole, 10 J part, 0 the rest (median rank in the rest 77,789). Template lens (25 items) 18 whole, 15 J part, 16 the rest (median ranks 28, 26, 37); random 1,024 directions 8, all but those 16; PCA top 1,024 18, all but those 5.
 
 **Taken to mean.**
 - "The prose readers name the bridge about twice as often as J-Lens" (results 1 and CW-1) is largely the top-10 cutoff. Looking 200 words down J-Lens's list gives the bridge as often as one prose readout does.
-- The bridge is still present in the rest of the activation: the template lens finds it there nearly as well as in the J part. J-Lens finding nothing in the rest is by construction. So in CW-12 the prose readers get little of the bridge from the rest although it is there to be read.
+- The bridge is still present in the rest of the activation: the template lens finds it there as often as in the J part. J-Lens finding nothing in the rest is by construction. So in CW-12 the prose readers get little of the bridge from the rest although it is there to be read.
 - For Neel's question: there is bridge content outside the J part, and the NLA does not pick it up better than the oracle lens (12% against 20%).
-- **Most likely objection:** the template lens was applied with an assumed decode rule, and to parts without a matched mean. Not addressed; ask the lens's author. Also 25 to 30 items.
+- **Most likely objection:** 25 to 30 items, and one lens. A first pass used an unnormalised projection in place of the lens's stated cosine rule; the numbers here are from the stated rule (the earlier ones were 14, 12 and 11 of 25, the same pattern).
 
 ## Limits
 
 - One model. One sample per NLA cell. Dev items only; nothing held out.
 - multihop scoring is word match. Judges are unvalidated.
-- No reader-free label for whether the model uses the hidden step.
+- No reader-free label for whether the model uses the hidden step (the collaborator's half addresses this).
 - No SAE: no labelled SAE exists for Qwen3.6-27B (Gemma 3 has Gemma Scope 2).
 
 ## Next
 
 1. Done as CW-10, CW-11 and CW-12. Still open: a removal that does not depend on J-Lens (reader-free erasure of the bridge, fitted on other items), with a probe to confirm nothing is left, then the same readers at 4 samples. That is what can separate read from re-solved on multihop.
-2. Planted concepts split into J-space and non-J parts (as Viswanath did on Llama-3.3-70B), read by all three readers. This tests "outside the workspace" directly.
+2. Planted concepts split into J-space and non-J parts (as Viswanath did on Llama-3.3-70B), read by all three readers. This tests "outside the workspace" directly. Run on the collaborator's side.
 3. Role-aware scoring of the multihop readouts with a validated role judge.
 4. A probe-based presence measure for the bridge per layer.
+
+## Collaboration and resources
+
+This pilot is one half of a joint MATS 12 mini project with Vishesh Gupta (GitHub `senku14x`, a collaborator on this repo). His half builds reader-free causal references (which positions and contents the answer depends on) and ran the planted-concept experiments. Rows marked "Vishesh" in the plain summary are his results, stated in words only; the numbers and methods are in his materials.
+
+- His raw outputs (public): Hugging Face dataset [`senku21x/causal-concordance-outputs`](https://huggingface.co/datasets/senku21x/causal-concordance-outputs).
+- His code and design specs: `github.com/senku14x/Causal-Concordance` (private; ask him for access).
+- Model: `Qwen/Qwen3.6-27B`. Benchmark: [`camilablank/workspace-bench`](https://github.com/camilablank/workspace-bench).
+- Readers: J-Lens `neuronpedia/jacobian-lens` (Salesforce-wikitext, n1000); R-lens and the template lens `camilablank/workspace-lenses` @ d740106d; oracle lens `agu18dec/local-workspace` (`ckpts/ao/rl/s3d.ddp600.s0/iter_000600`); NLA `ceselder/qwen3.6-27b-nla-rl` (`av_base` + `av_rl_adapters/iter_000400`).
+- The J basis used in CW-12 and how it is built: `jbasis/` in this repo.
 
 ## Prior work
 
