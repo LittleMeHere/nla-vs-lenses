@@ -1,0 +1,7 @@
+items 50; share of squared norm: whole 1.00, J part (top 1024) 0.16, rest 0.84, random 1024 0.21, all but random 0.79
+label (positives of 50) | whole | J part (top 1024) | rest | random 1024 | all but random | shuffled labels, whole (mean of 5)
+answer is a number (17) | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.51
+prompt has "number" (18) | 1.00 | 0.99 | 1.00 | 0.99 | 0.99 | 0.50
+prompt has "country" (13) | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.48
+prompt has "month" (10) | 0.96 | 0.97 | 0.93 | 0.96 | 0.95 | 0.37
+mean over labels | 0.99 | 0.99 | 0.98 | 0.99 | 0.99

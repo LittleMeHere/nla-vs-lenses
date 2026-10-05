@@ -1,0 +1,52 @@
+items 50; bridge dirs mean 31.2; cue dirs mean 106.4
+
+CHECKS ON THE REMOVALS (J-Lens): cond | bridge in top-10 | bridge J score | cue words in top-50 | norm ratio
+  intact: 14/50 | 1.95 | 6.74 | 1.000
+  rand: 13/50 | 1.13 | 6.96 | 0.989
+  cue: 10/50 | 0.32 | 0.02 | 0.981
+  cue_orth: 33/50 | 1.95 | 0.28 | 0.984
+  bridge: 0/50 | -0.00 | 6.26 | 0.993
+  both: 0/50 | -0.00 | 0.02 | 0.977
+  cue_orth vs intact bridge score: max abs diff 0.0000
+
+ORACLE (50 items x 4 samples): cond | share of samples naming the bridge | items with any sample naming | prompt recovery
+  intact: 0.665 | 40 | 0.576
+  rand: 0.650 | 41 | 0.542
+  cue: 0.635 | 38 | 0.453
+  cue_orth: 0.710 | 40 | 0.514
+  bridge: 0.365 | 30 | 0.507
+  both: 0.395 | 30 | 0.450
+  paired differences over items, mean [95% bootstrap]:
+    MAIN naming: cue_orth - rand = +0.060 [+0.000, +0.120]
+    naming: cue - rand = -0.015 [-0.085, +0.050]
+    naming: bridge - rand = -0.285 [-0.395, -0.175]
+    naming: both - bridge = +0.030 [-0.040, +0.100]
+    naming: both - rand = -0.255 [-0.370, -0.140]
+    recovery: cue_orth - rand = -0.028 [-0.064, +0.006]
+    recovery: cue - rand = -0.090 [-0.121, -0.060]
+    recovery: bridge - rand = -0.035 [-0.070, -0.001]
+    third of items with the largest recovery drop under cue_orth (n 17, mean drop 0.17): naming cue_orth - rand = +0.074 [-0.029, +0.221]
+    corr over items (recovery change, naming change), cue_orth vs rand: -0.03
+    intact: corr over items (mean recovery, naming rate) +0.16; after bridge removal +0.28
+    intact: items where the 4 samples all agree 36/50
+
+NLA (50 items x 4 samples): cond | share of samples naming the bridge | items with any sample naming | prompt recovery
+  intact: 0.635 | 37 | 0.594
+  rand: 0.645 | 38 | 0.580
+  cue: 0.595 | 34 | 0.529
+  cue_orth: 0.720 | 40 | 0.546
+  bridge: 0.525 | 32 | 0.559
+  both: 0.535 | 34 | 0.497
+  paired differences over items, mean [95% bootstrap]:
+    MAIN naming: cue_orth - rand = +0.075 [+0.005, +0.150]
+    naming: cue - rand = -0.050 [-0.135, +0.035]
+    naming: bridge - rand = -0.120 [-0.195, -0.055]
+    naming: both - bridge = +0.010 [-0.060, +0.080]
+    naming: both - rand = -0.110 [-0.200, -0.020]
+    recovery: cue_orth - rand = -0.034 [-0.060, -0.010]
+    recovery: cue - rand = -0.051 [-0.089, -0.017]
+    recovery: bridge - rand = -0.021 [-0.048, +0.005]
+    third of items with the largest recovery drop under cue_orth (n 17, mean drop 0.13): naming cue_orth - rand = +0.132 [-0.029, +0.309]
+    corr over items (recovery change, naming change), cue_orth vs rand: -0.01
+    intact: corr over items (mean recovery, naming rate) +0.31; after bridge removal +0.35
+    intact: items where the 4 samples all agree 39/50

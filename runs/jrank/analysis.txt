@@ -1,0 +1,12 @@
+vocabulary 248320; items 50; bridge = any token whose text equals a bank intermediate (letters and digits only, case-insensitive)
+bridge has a matching token in 46/50 items; median rank 47
+bridge within J-Lens's top k (of all 50 items): k=1: 3, k=10: 15, k=50: 24, k=200: 35, k=1000: 38, k=10000: 44
+
+parts (30 items): part | median rank | within top 10 / 50 / 200 / 1000
+  full: 116 | 4 / 10 / 19 / 21 (of 30)
+  J1024: 103 | 5 / 10 / 20 / 21 (of 30)
+  N1024: 77789 | 0 / 0 / 0 / 0 (of 30)
+  R1024: 328 | 5 / 9 / 14 / 18 (of 30)
+  RN1024: 175 | 3 / 9 / 16 / 21 (of 30)
+  P1024: 107 | 5 / 9 / 19 / 22 (of 30)
+  PN1024: 55550 | 2 / 3 / 3 / 3 (of 30)

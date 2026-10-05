@@ -1,0 +1,215 @@
+{
+ "note": "30 random NLA L42 readouts (seed 0), read by Claude on 2026-10-04 for whether the readout mentions the bridge; not coded by the user; 'user' = labels by the user (Cathryn), 2026-10-04, read blind to the other two columns",
+ "rows": [
+  {
+   "k": 0,
+   "id": "nhop-spider-element",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 1,
+   "id": "etym-caesar-monthnum",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 2,
+   "id": "func-pumps-chambers",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 3,
+   "id": "double-dice-faces",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 4,
+   "id": "b3-mh-colosseum-capital",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 5,
+   "id": "holiday-christmas-monthnum",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 6,
+   "id": "atomic-79-symbol",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 7,
+   "id": "firstletter-populous-country",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 8,
+   "id": "bf-greatwall-language",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 9,
+   "id": "b3-mh-gravity-fruit",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 10,
+   "id": "holiday-valentines-monthnum",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 11,
+   "id": "b3-mh-lisbon-language",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 12,
+   "id": "b3-mh-fuji-currency",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 13,
+   "id": "bf-stopsign-sides",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 14,
+   "id": "bf-mapleleaf-capital",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 15,
+   "id": "birthstone-emerald-month",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 16,
+   "id": "b3-mh-buenosaires-language",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 17,
+   "id": "b3-mh-tallest-continent",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 18,
+   "id": "bf-eiffel-continent",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 19,
+   "id": "b3-mh-samba-river",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 20,
+   "id": "inv-sunrise-opposite",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 21,
+   "id": "dbl-altitude-antonym",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 22,
+   "id": "pred-valentines-prevmonth",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 23,
+   "id": "func-filters-count",
+   "word_match": false,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 24,
+   "id": "b3-mh-kilts-capital",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 25,
+   "id": "bf-bordeaux-fruit",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 26,
+   "id": "nhop-rainbow-element",
+   "word_match": false,
+   "read": false,
+   "user": false
+  },
+  {
+   "k": 27,
+   "id": "bf-boot-capital",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 28,
+   "id": "b3-mh-lego-capital",
+   "word_match": true,
+   "read": true,
+   "user": true
+  },
+  {
+   "k": 29,
+   "id": "bf-moonwalk-firstname",
+   "word_match": true,
+   "read": true,
+   "user": true
+  }
+ ]
+}

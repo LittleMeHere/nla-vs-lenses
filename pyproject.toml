@@ -2,7 +2,14 @@
 name = "nla-vs-lenses"
 version = "0.0.0"
 requires-python = ">=3.12,<3.13"
-dependencies = []
+dependencies = [
+    "huggingface-hub>=2.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "safetensors>=0.8.0",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+]
 
 [tool.uv]
 package = false

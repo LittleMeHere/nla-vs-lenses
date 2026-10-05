@@ -1,0 +1,69 @@
+multihop prompts 100 vectors so far 1428
+association prompts 100 vectors so far 3746
+basic_readout prompts 100 vectors so far 5090
+multilingual prompts 100 vectors so far 5759
+chain_intermediates prompts 60 vectors so far 9892
+brew_intermediates prompts 40 vectors so far 16452
+PCA fit on 16000 vectors; variance in top 1024 PCs 0.947; share of centred variance inside the J part 0.303; overlap J vs PCA subspace 0.311 (unrelated subspaces: 0.200)
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 629.67it/s]
+atomic-26-symbol P1024 share 0.92 21.1s
+atomic-26-symbol PN1024 share 0.08 18.9s
+atomic-79-symbol P1024 share 0.92 19.4s
+atomic-79-symbol PN1024 share 0.08 21.3s
+birthstone-emerald-month P1024 share 0.94 19.5s
+birthstone-emerald-month PN1024 share 0.07 23.0s
+chem-bones-Z P1024 share 0.91 21.5s
+chem-bones-Z PN1024 share 0.10 20.7s
+chem-organic-Z P1024 share 0.90 20.6s
+chem-organic-Z PN1024 share 0.10 20.6s
+chem-photosynthesis-Z P1024 share 0.90 22.0s
+chem-photosynthesis-Z PN1024 share 0.10 21.9s
+dbl-altitude-antonym P1024 share 0.90 22.4s
+dbl-altitude-antonym PN1024 share 0.11 22.5s
+double-dice-faces P1024 share 0.90 22.6s
+double-dice-faces PN1024 share 0.10 20.6s
+etym-caesar-monthnum P1024 share 0.93 19.6s
+etym-caesar-monthnum PN1024 share 0.07 19.9s
+firstletter-valentines-month P1024 share 0.92 20.9s
+firstletter-valentines-month PN1024 share 0.08 19.0s
+func-filters-count P1024 share 0.88 19.7s
+func-filters-count PN1024 share 0.12 18.8s
+func-pumps-chambers P1024 share 0.88 20.2s
+func-pumps-chambers PN1024 share 0.13 23.1s
+half-clock-hours P1024 share 0.91 21.5s
+half-clock-hours PN1024 share 0.10 18.7s
+holiday-christmas-monthnum P1024 share 0.96 17.9s
+holiday-christmas-monthnum PN1024 share 0.04 23.2s
+holiday-halloween-monthnum P1024 share 0.96 18.9s
+holiday-halloween-monthnum PN1024 share 0.05 23.2s
+holiday-independence-monthnum P1024 share 0.96 19.5s
+holiday-independence-monthnum PN1024 share 0.05 23.6s
+holiday-valentines-monthnum P1024 share 0.96 18.6s
+holiday-valentines-monthnum PN1024 share 0.05 20.8s
+inv-antarctica-opposite P1024 share 0.89 19.1s
+inv-antarctica-opposite PN1024 share 0.12 19.4s
+inv-roots-opposite P1024 share 0.91 20.7s
+inv-roots-opposite PN1024 share 0.09 18.7s
+inv-sunrise-opposite P1024 share 0.90 21.0s
+inv-sunrise-opposite PN1024 share 0.11 21.9s
+month-7-namedafter P1024 share 0.92 15.7s
+month-7-namedafter PN1024 share 0.08 18.3s
+nhop-cube-element P1024 share 0.89 21.6s
+nhop-cube-element PN1024 share 0.11 21.3s
+nhop-rainbow-element P1024 share 0.90 21.5s
+nhop-rainbow-element PN1024 share 0.10 22.5s
+nhop-spider-element P1024 share 0.89 20.0s
+nhop-spider-element PN1024 share 0.11 22.0s
+pred-valentines-prevmonth P1024 share 0.93 20.2s
+pred-valentines-prevmonth PN1024 share 0.07 20.1s
+rhyme-tree-squared P1024 share 0.79 19.7s
+rhyme-tree-squared PN1024 share 0.21 20.9s
+spaceneedle-border P1024 share 0.84 20.0s
+spaceneedle-border PN1024 share 0.16 22.4s
+spider-legs P1024 share 0.88 19.3s
+spider-legs PN1024 share 0.12 18.6s
+violin-strings P1024 share 0.90 20.6s
+violin-strings PN1024 share 0.11 19.0s
+bf-boot-capital P1024 share 0.91 20.9s
+bf-boot-capital PN1024 share 0.09 19.3s
+PCA_OLENS_DONE

@@ -1,0 +1,980 @@
+{
+ "whole50": {
+  "atomic-26-symbol": {
+   "rank": 1845,
+   "top10": [
+    " abbreviation",
+    "\u00e7\u00ac\u00a6\u00e5\u0131\u00b7",
+    "\u00e7\u00ae\u0122\u00e7\u00a7\u00b0",
+    " Symbol",
+    "\u00e7\u00bc\u00a9\u00e5\u0128\u013b",
+    " abbrev",
+    "symbol",
+    "abbrev",
+    " symbol",
+    "abbreviation"
+   ]
+  },
+  "atomic-79-symbol": {
+   "rank": 81,
+   "top10": [
+    " abbreviation",
+    "\u00e7\u00ac\u00a6\u00e5\u0131\u00b7",
+    " Symbol",
+    "\u00e7\u00ae\u0122\u00e7\u00a7\u00b0",
+    "\u00e7\u00bc\u00a9\u00e5\u0128\u013b",
+    "symbol",
+    " abbrev",
+    " symbol",
+    "Symbol",
+    "abbrev"
+   ]
+  },
+  "birthstone-emerald-month": {
+   "rank": 2875,
+   "top10": [
+    "-number",
+    " number",
+    " NUMBER",
+    " Number",
+    "number",
+    "_number",
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    "(number",
+    " ordinal",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7"
+   ]
+  },
+  "chem-bones-Z": {
+   "rank": 5,
+   "top10": [
+    " atomic",
+    " potassium",
+    "atomic",
+    " atoms",
+    " calcium",
+    "(m",
+    "\u00e5\u0130\u0141\u00e5\u0143\u0132",
+    " ______",
+    "\u00e5\u012e\u0138\u00e5\u0143\u00a6",
+    " magnesium"
+   ]
+  },
+  "chem-organic-Z": {
+   "rank": 48,
+   "top10": [
+    " NUMBER",
+    " atomic",
+    " atoms",
+    "(n",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    " number",
+    "(int",
+    "number",
+    "(number",
+    " Number"
+   ]
+  },
+  "chem-photosynthesis-Z": {
+   "rank": 12,
+   "top10": [
+    " atomic",
+    " atoms",
+    "atomic",
+    " atom",
+    " hydrogen",
+    "\u00e5\u0130\u0141\u00e5\u0143\u0132",
+    " potassium",
+    " helium",
+    " chemical",
+    " Atomic"
+   ]
+  },
+  "dbl-altitude-antonym": {
+   "rank": 146,
+   "top10": [
+    " LOW",
+    " downward",
+    " BOTTOM",
+    " altitude",
+    " earthly",
+    " skys",
+    "low",
+    " low",
+    "ground",
+    "-bottom"
+   ]
+  },
+  "double-dice-faces": {
+   "rank": 636,
+   "top10": [
+    " equals",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    "\u00e7\u00bf\u00bb\u00e5\u0122\u012f",
+    " number",
+    "\u00e7\u0143\u012b\u00e4\u00ba\u0130",
+    " NUMBER",
+    " doubles",
+    "\u00e7\u013c\u0126\u00e4\u00b8\u0122\u00e5\u012f\u012c",
+    "\u00e4\u00b8\u00a4\u00e5\u0122\u012f",
+    " doubled"
+   ]
+  },
+  "etym-caesar-monthnum": {
+   "rank": 98,
+   "top10": [
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    " number",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7",
+    " NUMBER",
+    "-number",
+    " Number",
+    "number",
+    " ordinal",
+    "_number",
+    "(number"
+   ]
+  },
+  "firstletter-valentines-month": {
+   "rank": 7533,
+   "top10": [
+    "\u00e5\u0143\u0139\u00e6\u00af\u012f",
+    "-letter",
+    "letter",
+    " letra",
+    "\u00e5\u00bc\u0122\u00e5\u00a4\u00b4\u00e7\u013c\u0126",
+    "letters",
+    " \u00d0\u00b1\u00d1\u0125\u00d0\u00ba\u00d0\u00b2\u00d1\u012d",
+    " letter",
+    " alphabet",
+    "\u00e5\u00bc\u0122\u00e5\u00a4\u00b4"
+   ]
+  },
+  "func-filters-count": {
+   "rank": 5,
+   "top10": [
+    " kidneys",
+    "\u00e7\u013c\u0126\u00e6\u0137\u00b0\u00e9\u0129\u0131",
+    "\u00e6\u013e\u012b\u00e4\u00b8\u00a4\u00e4\u00b8\u00aa",
+    "\u00e4\u00b8\u00aa\u00e6\u0137\u00b0",
+    " kidney",
+    "\u00e6\u0137\u00b0\u00e9\u0129\u0131",
+    " organs",
+    "\u00e6\u013e\u012b\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    "\u00e5\u0131\u00aa\u00e6\u013e\u012b\u00e4\u00b8\u0122\u00e4\u00b8\u00aa",
+    "\u00e5\u013b\u00a8\u00e5\u00ae\u013a"
+   ]
+  },
+  "func-pumps-chambers": {
+   "rank": 7192,
+   "top10": [
+    " ONE",
+    "(n",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    " NUMBER",
+    " answer",
+    " Answer",
+    " ____",
+    " ______",
+    "number",
+    " number"
+   ]
+  },
+  "half-clock-hours": {
+   "rank": null,
+   "top10": [
+    "\u00e7\u013c\u0126\u00e4\u00b8\u0122\u00e5\u012f\u012c",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    " equals",
+    " half",
+    " halves",
+    " number",
+    "\u00e4\u00b8\u0122\u00e5\u012f\u012c",
+    "\u00e5\u0129\u0131\u00e5\u012f\u012c",
+    " HALF",
+    " Half"
+   ]
+  },
+  "holiday-christmas-monthnum": {
+   "rank": 127,
+   "top10": [
+    " number",
+    "-number",
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    " NUMBER",
+    "number",
+    " Number",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7",
+    "_number",
+    "(number",
+    " ordinal"
+   ]
+  },
+  "holiday-halloween-monthnum": {
+   "rank": 163,
+   "top10": [
+    " number",
+    "-number",
+    " NUMBER",
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    "number",
+    " Number",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7",
+    "_number",
+    " ordinal",
+    "(number"
+   ]
+  },
+  "holiday-independence-monthnum": {
+   "rank": 188,
+   "top10": [
+    "-number",
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    " NUMBER",
+    " number",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7",
+    " Number",
+    "number",
+    " ordinal",
+    "_number",
+    " numeric"
+   ]
+  },
+  "holiday-valentines-monthnum": {
+   "rank": 116,
+   "top10": [
+    "-number",
+    " number",
+    " NUMBER",
+    " Number",
+    "number",
+    "\u00e7\u00bc\u0138\u00e5\u0131\u00b7",
+    "_number",
+    "\u00e5\u00ba\u0131\u00e5\u0131\u00b7",
+    "(number",
+    " ordinal"
+   ]
+  },
+  "inv-antarctica-opposite": {
+   "rank": 46,
+   "top10": [
+    " direction",
+    "\u00e7\u013c\u0126\u00e6\u0138\u00b9\u00e5\u0132\u0133",
+    "north",
+    "direction",
+    " north",
+    "\u00e6\u0138\u00b9\u00e5\u0132\u0133\u00e7\u013c\u0126",
+    "-direction",
+    "\u00e6\u0138\u00b9\u00e4\u00bd\u012f",
+    "Direction",
+    "\u00e6\u0138\u00b9\u00e5\u0132\u0133"
+   ]
+  },
+  "inv-roots-opposite": {
+   "rank": 90,
+   "top10": [
+    "\u00e9\u013b\u0128\u00e5\u013e\u00b0",
+    "\u00e7\u00ab\u0138\u00e7\u013d\u00b4",
+    "vertical",
+    " sky",
+    "Earth",
+    "\u00e7\u013c\u0126\u00e6\u0138\u00b9\u00e5\u0132\u0133",
+    "-direction",
+    " vertical",
+    "direction",
+    "\u00e9\u00ab\u013a\u00e7\u00a9\u00ba"
+   ]
+  },
+  "inv-sunrise-opposite": {
+   "rank": 19,
+   "top10": [
+    "\u00e7\u013c\u0126\u00e6\u0138\u00b9\u00e5\u0132\u0133",
+    " direction",
+    "\u00e6\u0138\u00b9\u00e4\u00bd\u012f",
+    "\u00e7\u013d\u00b8\u00e5\u0131\u012f",
+    " opposite",
+    "direction",
+    "\u00e6\u0138\u00b9\u00e5\u0132\u0133",
+    "\u00e6\u0138\u00b9\u00e5\u0132\u0133\u00e7\u013c\u0126",
+    "Direction",
+    "-direction"
+   ]
+  },
+  "month-7-namedafter": {
+   "rank": 6972,
+   "top10": [
+    " Caesar",
+    " Julius",
+    " Hitler",
+    "\u00e7\u00a7\u00a6\u00e5\u00a7\u012d\u00e7\u013c\u0129",
+    " dictator",
+    "\u00e5\u012a\u013a\u00e9\u0124\u00a6",
+    " C\u00c3\u00a9sar",
+    "\u00e6\u013d\u00b9\u00e6\u0135\u012f",
+    " Adolf",
+    " Romans"
+   ]
+  },
+  "nhop-cube-element": {
+   "rank": 1621,
+   "top10": [
+    " potassium",
+    " uranium",
+    "\u00e7\u013c\u0126\u00e5\u012e\u0138\u00e5\u0143\u00a6",
+    " titanium",
+    " Chemical",
+    " chemical",
+    " atomic",
+    " magnesium",
+    " Chem",
+    "chemical"
+   ]
+  },
+  "nhop-rainbow-element": {
+   "rank": 83582,
+   "top10": [
+    " potassium",
+    "\u00e7\u013c\u0126\u00e5\u012e\u0138\u00e5\u0143\u00a6",
+    " chemical",
+    " Chemical",
+    " atomic",
+    " titanium",
+    " uranium",
+    " metals",
+    "chemical",
+    " magnesium"
+   ]
+  },
+  "nhop-spider-element": {
+   "rank": 77360,
+   "top10": [
+    " atomic",
+    " uranium",
+    " potassium",
+    " titanium",
+    "\u00e7\u013c\u0126\u00e5\u012e\u0138\u00e5\u0143\u00a6",
+    " Chemical",
+    " chemical",
+    " Titanium",
+    "atomic",
+    "chemical"
+   ]
+  },
+  "pred-valentines-prevmonth": {
+   "rank": 20,
+   "top10": [
+    "month",
+    "\u00e6\u013e\u012a\u00e4\u00bb\u00bd",
+    " Month",
+    "Month",
+    "-month",
+    " month",
+    "(month",
+    " MONTH",
+    "/month",
+    "calendar"
+   ]
+  },
+  "rhyme-tree-squared": {
+   "rank": 243,
+   "top10": [
+    " squared",
+    " math",
+    " square",
+    " numeric",
+    " number",
+    " numbers",
+    " NUMBER",
+    "\u00e5\u00b9\u00b3\u00e6\u0138\u00b9",
+    " mathematical",
+    " arithmetic"
+   ]
+  },
+  "spaceneedle-border": {
+   "rank": 56,
+   "top10": [
+    " Canada",
+    "Canada",
+    " Canadian",
+    " Saskatchewan",
+    " Manitoba",
+    "Canadian",
+    " Canadians",
+    " Vancouver",
+    " Oregon",
+    "\u00e6\u0130\u00a5\u00e5\u00a3\u00a4"
+   ]
+  },
+  "spider-legs": {
+   "rank": 3,
+   "top10": [
+    " insects",
+    " spiders",
+    " spider",
+    "\u00e6\u013a\u0128\u00e8\u013b\u00ab",
+    " insect",
+    " creatures",
+    " lizard",
+    " creature",
+    " animals",
+    "\u00e6\u013a\u00af\u00e4\u00b8\u0122\u00e5\u0131\u00aa"
+   ]
+  },
+  "violin-strings": {
+   "rank": 21,
+   "top10": [
+    "number",
+    " numberOf",
+    " number",
+    " fewer",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    " varies",
+    " differs",
+    " NUMBER",
+    "\u00e6\u013e\u012b\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    " Anzahl"
+   ]
+  },
+  "bf-boot-capital": {
+   "rank": 1,
+   "top10": [
+    " Italy",
+    "Italy",
+    " Italian",
+    " Italia",
+    "\u00e6\u0126\u0131\u00e5\u00a4\u00a7\u00e5\u012a\u00a9",
+    "Italian",
+    " ITAL",
+    " Italians",
+    "Italia",
+    " italiana"
+   ]
+  },
+  "bf-bordeaux-fruit": {
+   "rank": 47,
+   "top10": [
+    " berries",
+    " grapes",
+    "\u00e6\u0140\u013e\u00e5\u00ae\u0140",
+    " fruits",
+    " fruit",
+    " grape",
+    " berry",
+    " Fruit",
+    " oranges",
+    "\u00e6\u00b0\u00b4\u00e6\u0140\u013e"
+   ]
+  },
+  "bf-christmas-season": {
+   "rank": 91,
+   "top10": [
+    "\u00e5\u0128\u00ac\u00e5\u0143\u00a3",
+    "winter",
+    " winter",
+    "\u00e5\u0128\u00ac\u00e5\u00a4\u00a9",
+    " winters",
+    "\u00e5\u0143\u00a3\u00e8\u012c\u0124",
+    "\u00e5\u0128\u00ac",
+    "Winter",
+    " snowy",
+    " \u00d0\u00b7\u00d0\u00b8\u00d0\u00bc"
+   ]
+  },
+  "bf-eiffel-currency": {
+   "rank": 40,
+   "top10": [
+    "\u00e6\u00ac\u00a7\u00e5\u0127\u0125",
+    " euro",
+    " euros",
+    "\u00e8\u00b4\u00a7\u00e5\u00b8\u0123",
+    "currency",
+    " currency",
+    " Currency",
+    " Euro",
+    "Currency",
+    " currencies"
+   ]
+  },
+  "bf-fuji-ocean": {
+   "rank": 186,
+   "top10": [
+    " oceans",
+    " ocean",
+    " Ocean",
+    " Atlantic",
+    "Ocean",
+    "\u00e5\u00a4\u00aa\u00e5\u00b9\u00b3\u00e6\u00b4\u012d",
+    " oc\u00c3\u00a9",
+    " Pacific",
+    "\u00e6\u00b5\u00b7\u00e6\u00b4\u012d",
+    "Pacific"
+   ]
+  },
+  "bf-giza-continent": {
+   "rank": 3,
+   "top10": [
+    " Africa",
+    " continents",
+    " Egypt",
+    " continent",
+    "\u00e6\u00b4\u00b2",
+    "Africa",
+    "continent",
+    " Ethiopia",
+    " African",
+    " geography"
+   ]
+  },
+  "bf-kathmandu-mountain": {
+   "rank": 5,
+   "top10": [
+    " Himal",
+    " Everest",
+    "\u00e6\u00b5\u00b7\u00e6\u012d\u0136",
+    " mountain",
+    " Nepal",
+    " tallest",
+    "\u00e5\u00b1\u00b1\u00e5\u00b3\u00b0",
+    " mountains",
+    "\u00e7\u013b\u00bb\u00e5\u00b1\u00b1",
+    " Mountains"
+   ]
+  },
+  "bf-madrid-language": {
+   "rank": 8,
+   "top10": [
+    " Spanish",
+    "\u00e8\u00a5\u00bf\u00e7\u0131\u0143\u00e7\u012b\u013b\u00e8\u00af\u0143",
+    "Spanish",
+    "language",
+    " languages",
+    "\u00e8\u00a5\u00bf\u00e7\u0131\u0143\u00e7\u012b\u013b",
+    " espa\u00c3\u00b1ol",
+    " Spain",
+    "languages",
+    " Languages"
+   ]
+  },
+  "bf-moonwalk-firstname": {
+   "rank": 770,
+   "top10": [
+    " NAME",
+    "(name",
+    "_name",
+    "/name",
+    " surname",
+    "\u00e7\u013c\u0126\u00e5\u0132\u012f\u00e5\u0143\u0139",
+    " name",
+    "\u00e5\u00a7\u0135\u00e5\u0132\u012f",
+    "\u00e5\u0132\u012f\u00e5\u0143\u0139",
+    " nickname"
+   ]
+  },
+  "bf-rio2016-language": {
+   "rank": 3,
+   "top10": [
+    " Portuguese",
+    " Brazilian",
+    " Brazil",
+    "Brazil",
+    "\u00e5\u00b7\u00b4\u00e8\u00a5\u00bf",
+    " Bahasa",
+    " Brasil",
+    " languages",
+    "\u00e8\u00a5\u00bf\u00e7\u0131\u0143\u00e7\u012b\u013b\u00e8\u00af\u0143",
+    "\u00e8\u0133\u00a1\u00e8\u0132\u0126\u00e7\u012b\u013b"
+   ]
+  },
+  "bf-southpole-bird": {
+   "rank": 2,
+   "top10": [
+    " Antarctic",
+    " Antarctica",
+    "\u00e5\u012f\u0139\u00e6\u0140\u0123",
+    "\u00e4\u00bc\u0123\u00e9\u00b9\u0127",
+    " Greenland",
+    " Arctic",
+    " Penguins",
+    " Chile",
+    " austral",
+    " antar"
+   ]
+  },
+  "bf-sphinx-river": {
+   "rank": 4,
+   "top10": [
+    "\u00e6\u00b2\u00b3\u00e6\u00b5\u0123",
+    " Nile",
+    " rivers",
+    " Egypt",
+    " river",
+    "\u00e9\u00bb\u0126\u00e6\u00b2\u00b3",
+    " River",
+    "Egypt",
+    "river",
+    "River"
+   ]
+  },
+  "bf-stopsign-sides": {
+   "rank": null,
+   "top10": [
+    " count",
+    " NUMBER",
+    "\u00e4\u00b8\u00aa\u00e6\u0137\u00b0",
+    " numberOf",
+    " number",
+    "number",
+    "(number",
+    "\u00e7\u013c\u0126\u00e6\u0137\u00b0\u00e9\u0129\u0131",
+    "\u00e6\u013e\u012b\u00e5\u00a4\u013c\u00e5\u00b0\u0133",
+    "\u00e6\u013a\u00af\u00e5\u00a4\u013c\u00e5\u00b0\u0133"
+   ]
+  },
+  "bf-sushi-capital": {
+   "rank": 9,
+   "top10": [
+    " Tokyo",
+    "\u00e4\u00b8\u013e\u00e4\u00ba\u00ac",
+    " Kyoto",
+    "Tok",
+    "\u00e9\u00a6\u0138\u00e9\u0125\u00bd",
+    " Seoul",
+    " Bangkok",
+    " Osaka",
+    " Japan",
+    " Jakarta"
+   ]
+  },
+  "bf-whitebear-ocean": {
+   "rank": null,
+   "top10": [
+    " Arctic",
+    " Greenland",
+    "\u00e5\u012e\u0139\u00e6\u0140\u0123",
+    " Antarctica",
+    " Antarctic",
+    " oceans",
+    " Ocean",
+    " ocean",
+    " Alaska",
+    " glaciers"
+   ]
+  },
+  "b3-mh-acropolis-capital": {
+   "rank": 1,
+   "top10": [
+    " Greece",
+    " Greek",
+    " Greeks",
+    " Athens",
+    "\u00e5\u00b8\u012e\u00e8\u0127\u012c",
+    "Greek",
+    " Mediterranean",
+    "\u00e5\u0131\u00a4\u00e5\u00b8\u012e\u00e8\u0127\u012c",
+    " Athen",
+    "\u00e5\u013d\u00bd\u00e7\u013c\u0126"
+   ]
+  },
+  "b3-mh-bakerstreet-city": {
+   "rank": null,
+   "top10": [
+    " London",
+    " hometown",
+    "\u00e4\u00bc\u00a6\u00e6\u0137\u00a6",
+    "England",
+    "\u00e6\u0137\u0127\u00e4\u00b9\u00a1",
+    "\u00e8\u00b5\u00b7\u00e6\u00ba\u0132",
+    "London",
+    " originates",
+    " England",
+    " Edinburgh"
+   ]
+  },
+  "b3-mh-blindpoet-epic": {
+   "rank": 1,
+   "top10": [
+    " Homer",
+    " Shakespeare",
+    " Zeus",
+    " Aristotle",
+    " Achilles",
+    " Greeks",
+    " Greek",
+    " Epic",
+    "\u00e5\u0131\u00b2\u00e8\u00af\u0139",
+    " Odyssey"
+   ]
+  },
+  "b3-mh-buenosaires-language": {
+   "rank": 42,
+   "top10": [
+    " languages",
+    "language",
+    " Languages",
+    " LANGUAGE",
+    " language",
+    "\u00e8\u00a5\u00bf\u00e7\u0131\u0143\u00e7\u012b\u013b\u00e8\u00af\u0143",
+    "languages",
+    "Language",
+    " Language",
+    " Bahasa"
+   ]
+  },
+  "b3-mh-colosseum-capital": {
+   "rank": 4,
+   "top10": [
+    "\u00e9\u00a6\u0138\u00e9\u0125\u00bd",
+    " Rome",
+    "city",
+    " Italy",
+    " cities",
+    " Madrid",
+    "\u00e7\u013c\u0126\u00e5\u0141\u0130\u00e5\u00b8\u0124",
+    " city",
+    "(city",
+    " capitals"
+   ]
+  },
+  "b3-mh-cuckoo-mountains": {
+   "rank": 8,
+   "top10": [
+    " Alps",
+    " mountains",
+    "\u00e5\u00b1\u00b1\u00e8\u0126\u012b",
+    " Alpine",
+    " Mountains",
+    " mountain",
+    " Alpes",
+    " Switzerland",
+    " Mountain",
+    " Swiss"
+   ]
+  }
+ },
+ "parts30": {
+  "full": {
+   "atomic-26-symbol": 1845,
+   "atomic-79-symbol": 81,
+   "birthstone-emerald-month": 2875,
+   "chem-bones-Z": 5,
+   "chem-organic-Z": 48,
+   "chem-photosynthesis-Z": 12,
+   "dbl-altitude-antonym": 146,
+   "double-dice-faces": 636,
+   "etym-caesar-monthnum": 98,
+   "firstletter-valentines-month": 7533,
+   "func-filters-count": 5,
+   "func-pumps-chambers": 7192,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 127,
+   "holiday-halloween-monthnum": 163,
+   "holiday-independence-monthnum": 188,
+   "holiday-valentines-monthnum": 116,
+   "inv-antarctica-opposite": 46,
+   "inv-roots-opposite": 90,
+   "inv-sunrise-opposite": 19,
+   "month-7-namedafter": 6972,
+   "nhop-cube-element": 1621,
+   "nhop-rainbow-element": 83582,
+   "nhop-spider-element": 77360,
+   "pred-valentines-prevmonth": 20,
+   "rhyme-tree-squared": 243,
+   "spaceneedle-border": 56,
+   "spider-legs": 3,
+   "violin-strings": 21,
+   "bf-boot-capital": 1
+  },
+  "J1024": {
+   "atomic-26-symbol": 1825,
+   "atomic-79-symbol": 88,
+   "birthstone-emerald-month": 1825,
+   "chem-bones-Z": 5,
+   "chem-organic-Z": 50,
+   "chem-photosynthesis-Z": 8,
+   "dbl-altitude-antonym": 103,
+   "double-dice-faces": 580,
+   "etym-caesar-monthnum": 88,
+   "firstletter-valentines-month": 7939,
+   "func-filters-count": 2,
+   "func-pumps-chambers": 7028,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 134,
+   "holiday-halloween-monthnum": 158,
+   "holiday-independence-monthnum": 172,
+   "holiday-valentines-monthnum": 108,
+   "inv-antarctica-opposite": 39,
+   "inv-roots-opposite": 87,
+   "inv-sunrise-opposite": 18,
+   "month-7-namedafter": 5754,
+   "nhop-cube-element": 1053,
+   "nhop-rainbow-element": 86961,
+   "nhop-spider-element": 87560,
+   "pred-valentines-prevmonth": 24,
+   "rhyme-tree-squared": 193,
+   "spaceneedle-border": 59,
+   "spider-legs": 3,
+   "violin-strings": 16,
+   "bf-boot-capital": 1
+  },
+  "N1024": {
+   "atomic-26-symbol": 105672,
+   "atomic-79-symbol": 50132,
+   "birthstone-emerald-month": 93850,
+   "chem-bones-Z": 59938,
+   "chem-organic-Z": 36857,
+   "chem-photosynthesis-Z": 147638,
+   "dbl-altitude-antonym": 160188,
+   "double-dice-faces": 28227,
+   "etym-caesar-monthnum": 127579,
+   "firstletter-valentines-month": 89734,
+   "func-filters-count": 170038,
+   "func-pumps-chambers": 67869,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 37503,
+   "holiday-halloween-monthnum": 77789,
+   "holiday-independence-monthnum": 142658,
+   "holiday-valentines-monthnum": 107264,
+   "inv-antarctica-opposite": 36191,
+   "inv-roots-opposite": 10412,
+   "inv-sunrise-opposite": 22713,
+   "month-7-namedafter": 159276,
+   "nhop-cube-element": 142750,
+   "nhop-rainbow-element": 100759,
+   "nhop-spider-element": 69191,
+   "pred-valentines-prevmonth": 52709,
+   "rhyme-tree-squared": 110738,
+   "spaceneedle-border": 59983,
+   "spider-legs": 25178,
+   "violin-strings": 163596,
+   "bf-boot-capital": 51517
+  },
+  "R1024": {
+   "atomic-26-symbol": 52427,
+   "atomic-79-symbol": 1219,
+   "birthstone-emerald-month": 5842,
+   "chem-bones-Z": 594,
+   "chem-organic-Z": 130,
+   "chem-photosynthesis-Z": 3,
+   "dbl-altitude-antonym": 26,
+   "double-dice-faces": 1301,
+   "etym-caesar-monthnum": 7,
+   "firstletter-valentines-month": 3681,
+   "func-filters-count": 2,
+   "func-pumps-chambers": 5129,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 198,
+   "holiday-halloween-monthnum": 328,
+   "holiday-independence-monthnum": 25,
+   "holiday-valentines-monthnum": 110,
+   "inv-antarctica-opposite": 1226,
+   "inv-roots-opposite": 2117,
+   "inv-sunrise-opposite": 4105,
+   "month-7-namedafter": 79,
+   "nhop-cube-element": 619,
+   "nhop-rainbow-element": 6132,
+   "nhop-spider-element": 9801,
+   "pred-valentines-prevmonth": 396,
+   "rhyme-tree-squared": 31,
+   "spaceneedle-border": 67,
+   "spider-legs": 32,
+   "violin-strings": 8,
+   "bf-boot-capital": 1
+  },
+  "RN1024": {
+   "atomic-26-symbol": 736,
+   "atomic-79-symbol": 42,
+   "birthstone-emerald-month": 4854,
+   "chem-bones-Z": 5,
+   "chem-organic-Z": 175,
+   "chem-photosynthesis-Z": 33,
+   "dbl-altitude-antonym": 518,
+   "double-dice-faces": 1900,
+   "etym-caesar-monthnum": 259,
+   "firstletter-valentines-month": 15664,
+   "func-filters-count": 23,
+   "func-pumps-chambers": 13193,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 170,
+   "holiday-halloween-monthnum": 197,
+   "holiday-independence-monthnum": 430,
+   "holiday-valentines-monthnum": 166,
+   "inv-antarctica-opposite": 50,
+   "inv-roots-opposite": 98,
+   "inv-sunrise-opposite": 20,
+   "month-7-namedafter": 34897,
+   "nhop-cube-element": 4153,
+   "nhop-rainbow-element": 175994,
+   "nhop-spider-element": 156640,
+   "pred-valentines-prevmonth": 22,
+   "rhyme-tree-squared": 755,
+   "spaceneedle-border": 77,
+   "spider-legs": 2,
+   "violin-strings": 107,
+   "bf-boot-capital": 1
+  },
+  "P1024": {
+   "atomic-26-symbol": 930,
+   "atomic-79-symbol": 126,
+   "birthstone-emerald-month": 1629,
+   "chem-bones-Z": 36,
+   "chem-organic-Z": 66,
+   "chem-photosynthesis-Z": 6,
+   "dbl-altitude-antonym": 160,
+   "double-dice-faces": 302,
+   "etym-caesar-monthnum": 76,
+   "firstletter-valentines-month": 1843,
+   "func-filters-count": 3,
+   "func-pumps-chambers": 3482,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 76,
+   "holiday-halloween-monthnum": 110,
+   "holiday-independence-monthnum": 142,
+   "holiday-valentines-monthnum": 69,
+   "inv-antarctica-opposite": 22,
+   "inv-roots-opposite": 93,
+   "inv-sunrise-opposite": 16,
+   "month-7-namedafter": 2769,
+   "nhop-cube-element": 1407,
+   "nhop-rainbow-element": 45581,
+   "nhop-spider-element": 41998,
+   "pred-valentines-prevmonth": 13,
+   "rhyme-tree-squared": 207,
+   "spaceneedle-border": 107,
+   "spider-legs": 5,
+   "violin-strings": 9,
+   "bf-boot-capital": 1
+  },
+  "PN1024": {
+   "atomic-26-symbol": 31472,
+   "atomic-79-symbol": 23157,
+   "birthstone-emerald-month": 20908,
+   "chem-bones-Z": 7770,
+   "chem-organic-Z": 27487,
+   "chem-photosynthesis-Z": 194063,
+   "dbl-altitude-antonym": 6778,
+   "double-dice-faces": 62941,
+   "etym-caesar-monthnum": 172127,
+   "firstletter-valentines-month": 189390,
+   "func-filters-count": 201289,
+   "func-pumps-chambers": 55550,
+   "half-clock-hours": null,
+   "holiday-christmas-monthnum": 181535,
+   "holiday-halloween-monthnum": 203354,
+   "holiday-independence-monthnum": 144185,
+   "holiday-valentines-monthnum": 200994,
+   "inv-antarctica-opposite": 89406,
+   "inv-roots-opposite": 52469,
+   "inv-sunrise-opposite": 35510,
+   "month-7-namedafter": 23582,
+   "nhop-cube-element": 43493,
+   "nhop-rainbow-element": 227283,
+   "nhop-spider-element": 223507,
+   "pred-valentines-prevmonth": 138064,
+   "rhyme-tree-squared": 1933,
+   "spaceneedle-border": 42,
+   "spider-legs": 4,
+   "violin-strings": 243243,
+   "bf-boot-capital": 8
+  }
+ }
+}

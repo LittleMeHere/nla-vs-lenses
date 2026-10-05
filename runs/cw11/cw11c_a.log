@@ -1,0 +1,208 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 338.71it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:04<57:01,  4.03s/it]Loading weights:   0%|          | 2/851 [00:08<1:04:18,  4.54s/it]Loading weights:   1%|          | 9/851 [00:09<09:42,  1.45it/s]  Loading weights:   1%|▏         | 11/851 [00:09<07:44,  1.81it/s]Loading weights:   2%|▏         | 13/851 [00:09<06:19,  2.21it/s]Loading weights:   2%|▏         | 14/851 [00:10<06:00,  2.32it/s]Loading weights:   2%|▏         | 15/851 [00:10<05:40,  2.46it/s]Loading weights:   3%|▎         | 22/851 [00:10<02:15,  6.13it/s]Loading weights:   3%|▎         | 24/851 [00:10<02:03,  6.68it/s]Loading weights:   3%|▎         | 26/851 [00:11<01:47,  7.68it/s]Loading weights:   3%|▎         | 28/851 [00:11<02:28,  5.53it/s]Loading weights:   4%|▎         | 30/851 [00:12<02:31,  5.41it/s]Loading weights:   4%|▍         | 36/851 [00:12<01:31,  8.93it/s]Loading weights:   4%|▍         | 38/851 [00:12<01:21,  9.98it/s]Loading weights:   5%|▍         | 41/851 [00:12<01:34,  8.59it/s]Loading weights:   5%|▌         | 43/851 [00:13<02:19,  5.79it/s]Loading weights:   5%|▌         | 46/851 [00:14<02:17,  5.87it/s]Loading weights:   6%|▌         | 47/851 [00:15<03:38,  3.68it/s]Loading weights:   6%|▌         | 51/851 [00:15<02:23,  5.58it/s]Loading weights:   6%|▋         | 54/851 [00:15<02:07,  6.27it/s]Loading weights:   7%|▋         | 61/851 [00:16<01:26,  9.10it/s]Loading weights:   8%|▊         | 65/851 [00:16<01:08, 11.55it/s]Loading weights:   8%|▊         | 67/851 [00:16<01:40,  7.84it/s]Loading weights:   8%|▊         | 69/851 [00:17<01:42,  7.65it/s]Loading weights:   9%|▉         | 76/851 [00:17<01:03, 12.22it/s]Loading weights:   9%|▉         | 79/851 [00:17<00:58, 13.19it/s]Loading weights:  10%|▉         | 81/851 [00:18<02:16,  5.66it/s]Loading weights:  11%|█         | 90/851 [00:19<01:16, 10.01it/s]Loading weights:  11%|█         | 93/851 [00:19<01:07, 11.22it/s]Loading weights:  11%|█         | 95/851 [00:20<02:07,  5.91it/s]Loading weights:  12%|█▏        | 99/851 [00:20<01:51,  6.72it/s]Loading weights:  12%|█▏        | 101/851 [00:21<02:16,  5.49it/s]Loading weights:  12%|█▏        | 105/851 [00:21<01:35,  7.79it/s]Loading weights:  13%|█▎        | 107/851 [00:21<01:38,  7.54it/s]Loading weights:  14%|█▎        | 115/851 [00:22<01:00, 12.11it/s]Loading weights:  14%|█▎        | 117/851 [00:22<01:00, 12.11it/s]Loading weights:  14%|█▍        | 119/851 [00:22<01:15,  9.64it/s]Loading weights:  14%|█▍        | 121/851 [00:23<01:51,  6.55it/s]Loading weights:  15%|█▌        | 129/851 [00:24<01:16,  9.40it/s]Loading weights:  16%|█▌        | 132/851 [00:24<01:04, 11.11it/s]Loading weights:  16%|█▌        | 134/851 [00:24<01:32,  7.76it/s]Loading weights:  16%|█▌        | 136/851 [00:24<01:31,  7.85it/s]Loading weights:  17%|█▋        | 142/851 [00:25<01:10, 10.02it/s]Loading weights:  17%|█▋        | 146/851 [00:25<00:55, 12.67it/s]Loading weights:  17%|█▋        | 148/851 [00:26<01:31,  7.68it/s]Loading weights:  18%|█▊        | 150/851 [00:26<01:31,  7.68it/s]Loading weights:  18%|█▊        | 152/851 [00:26<01:35,  7.34it/s]Loading weights:  18%|█▊        | 154/851 [00:27<02:15,  5.14it/s]Loading weights:  19%|█▊        | 158/851 [00:27<01:31,  7.54it/s]Loading weights:  19%|█▉        | 160/851 [00:27<01:27,  7.91it/s]Loading weights:  20%|█▉        | 167/851 [00:28<00:56, 12.06it/s]Loading weights:  20%|█▉        | 169/851 [00:28<00:56, 12.16it/s]Loading weights:  20%|██        | 172/851 [00:28<01:06, 10.17it/s]Loading weights:  20%|██        | 174/851 [00:29<01:32,  7.36it/s]Loading weights:  21%|██▏       | 182/851 [00:29<00:51, 12.89it/s]Loading weights:  22%|██▏       | 184/851 [00:29<01:00, 10.97it/s]Loading weights:  22%|██▏       | 186/851 [00:30<01:36,  6.90it/s]Loading weights:  22%|██▏       | 188/851 [00:31<01:40,  6.60it/s]Loading weights:  23%|██▎       | 196/851 [00:31<00:58, 11.21it/s]Loading weights:  23%|██▎       | 198/851 [00:31<00:55, 11.81it/s]Loading weights:  24%|██▎       | 200/851 [00:31<01:13,  8.90it/s]Loading weights:  24%|██▎       | 202/851 [00:32<01:44,  6.19it/s]Loading weights:  24%|██▍       | 205/851 [00:32<01:33,  6.88it/s]Loading weights:  24%|██▍       | 206/851 [00:33<02:18,  4.67it/s]Loading weights:  25%|██▍       | 211/851 [00:33<01:20,  7.98it/s]Loading weights:  25%|██▌       | 213/851 [00:33<01:16,  8.38it/s]Loading weights:  26%|██▌       | 220/851 [00:34<00:45, 13.73it/s]Loading weights:  26%|██▌       | 222/851 [00:34<00:43, 14.39it/s]Loading weights:  26%|██▋       | 224/851 [00:34<00:42, 14.77it/s]Loading weights:  27%|██▋       | 226/851 [00:35<01:17,  8.06it/s]Loading weights:  27%|██▋       | 228/851 [00:35<01:21,  7.68it/s]Loading weights:  28%|██▊       | 235/851 [00:35<00:47, 12.94it/s]Loading weights:  28%|██▊       | 237/851 [00:35<00:45, 13.64it/s]Loading weights:  28%|██▊       | 239/851 [00:36<01:04,  9.43it/s]Loading weights:  28%|██▊       | 241/851 [00:36<01:43,  5.87it/s]Loading weights:  29%|██▉       | 247/851 [00:37<00:58, 10.32it/s]Loading weights:  29%|██▉       | 250/851 [00:37<00:56, 10.60it/s]Loading weights:  30%|██▉       | 252/851 [00:37<00:56, 10.69it/s]Loading weights:  30%|██▉       | 254/851 [00:38<02:00,  4.96it/s]Loading weights:  30%|███       | 258/851 [00:39<01:35,  6.24it/s]Loading weights:  31%|███       | 260/851 [00:39<02:04,  4.76it/s]Loading weights:  31%|███       | 264/851 [00:40<01:26,  6.79it/s]Loading weights:  31%|███▏      | 266/851 [00:40<01:22,  7.11it/s]Loading weights:  32%|███▏      | 274/851 [00:40<00:48, 11.81it/s]Loading weights:  32%|███▏      | 276/851 [00:40<00:47, 12.16it/s]Loading weights:  33%|███▎      | 278/851 [00:41<01:05,  8.72it/s]Loading weights:  33%|███▎      | 280/851 [00:41<01:34,  6.07it/s]Loading weights:  34%|███▍      | 288/851 [00:42<00:52, 10.78it/s]Loading weights:  34%|███▍      | 290/851 [00:42<00:55, 10.06it/s]Loading weights:  34%|███▍      | 292/851 [00:42<01:05,  8.50it/s]Loading weights:  35%|███▍      | 294/851 [00:43<01:23,  6.69it/s]Loading weights:  35%|███▌      | 302/851 [00:43<00:46, 11.93it/s]Loading weights:  36%|███▌      | 304/851 [00:43<00:51, 10.53it/s]Loading weights:  36%|███▌      | 306/851 [00:44<01:00,  8.97it/s]Loading weights:  36%|███▌      | 308/851 [00:45<01:34,  5.75it/s]Loading weights:  37%|███▋      | 311/851 [00:45<01:25,  6.35it/s]Loading weights:  37%|███▋      | 312/851 [00:45<01:37,  5.54it/s]Loading weights:  37%|███▋      | 313/851 [00:46<01:47,  5.01it/s]Loading weights:  37%|███▋      | 317/851 [00:46<01:07,  7.94it/s]Loading weights:  37%|███▋      | 319/851 [00:46<01:13,  7.23it/s]Loading weights:  38%|███▊      | 327/851 [00:46<00:39, 13.43it/s]Loading weights:  39%|███▊      | 329/851 [00:46<00:37, 14.01it/s]Loading weights:  39%|███▉      | 331/851 [00:47<01:03,  8.17it/s]Loading weights:  39%|███▉      | 333/851 [00:47<01:05,  7.86it/s]Loading weights:  40%|████      | 341/851 [00:48<00:38, 13.24it/s]Loading weights:  40%|████      | 343/851 [00:48<00:36, 13.86it/s]Loading weights:  41%|████      | 345/851 [00:48<00:51,  9.74it/s]Loading weights:  41%|████      | 347/851 [00:49<01:10,  7.12it/s]Loading weights:  42%|████▏     | 354/851 [00:49<00:44, 11.16it/s]Loading weights:  42%|████▏     | 358/851 [00:50<00:46, 10.50it/s]Loading weights:  42%|████▏     | 360/851 [00:50<00:51,  9.60it/s]Loading weights:  43%|████▎     | 362/851 [00:50<00:53,  9.10it/s]Loading weights:  43%|████▎     | 364/851 [00:50<00:59,  8.12it/s]Loading weights:  43%|████▎     | 365/851 [00:51<01:10,  6.86it/s]Loading weights:  43%|████▎     | 366/851 [00:51<01:22,  5.88it/s]Loading weights:  43%|████▎     | 370/851 [00:51<00:53,  9.04it/s]Loading weights:  44%|████▎     | 372/851 [00:52<01:00,  7.90it/s]Loading weights:  45%|████▍     | 380/851 [00:52<00:30, 15.43it/s]Loading weights:  45%|████▌     | 383/851 [00:52<00:30, 15.41it/s]Loading weights:  45%|████▌     | 385/851 [00:53<00:56,  8.18it/s]Loading weights:  45%|████▌     | 387/851 [00:53<01:07,  6.90it/s]Loading weights:  46%|████▌     | 391/851 [00:53<00:50,  9.18it/s]Loading weights:  46%|████▋     | 395/851 [00:53<00:37, 12.02it/s]Loading weights:  47%|████▋     | 398/851 [00:54<00:45, 10.07it/s]Loading weights:  47%|████▋     | 400/851 [00:55<01:06,  6.80it/s]Loading weights:  48%|████▊     | 408/851 [00:55<00:43, 10.09it/s]Loading weights:  48%|████▊     | 412/851 [00:55<00:41, 10.53it/s]Loading weights:  49%|████▊     | 414/851 [00:56<01:01,  7.13it/s]Loading weights:  49%|████▉     | 417/851 [00:56<00:55,  7.89it/s]Loading weights:  49%|████▉     | 419/851 [00:57<01:11,  6.07it/s]Loading weights:  50%|████▉     | 423/851 [00:57<00:52,  8.09it/s]Loading weights:  50%|████▉     | 425/851 [00:58<00:54,  7.82it/s]Loading weights:  51%|█████     | 433/851 [00:58<00:33, 12.40it/s]Loading weights:  51%|█████     | 435/851 [00:58<00:33, 12.39it/s]Loading weights:  51%|█████▏    | 437/851 [00:59<00:50,  8.17it/s]Loading weights:  52%|█████▏    | 439/851 [00:59<01:18,  5.28it/s]Loading weights:  53%|█████▎    | 447/851 [01:00<00:52,  7.63it/s]Loading weights:  53%|█████▎    | 451/851 [01:01<00:49,  8.06it/s]Loading weights:  53%|█████▎    | 452/851 [01:01<00:59,  6.72it/s]Loading weights:  53%|█████▎    | 453/851 [01:01<01:11,  5.59it/s]Loading weights:  54%|█████▍    | 460/851 [01:02<00:42,  9.28it/s]Loading weights:  54%|█████▍    | 462/851 [01:02<00:40,  9.53it/s]Loading weights:  55%|█████▍    | 464/851 [01:02<00:38,  9.95it/s]Loading weights:  55%|█████▍    | 466/851 [01:03<01:12,  5.31it/s]Loading weights:  55%|█████▍    | 467/851 [01:03<01:26,  4.43it/s]Loading weights:  55%|█████▌    | 470/851 [01:04<01:17,  4.90it/s]Loading weights:  55%|█████▌    | 471/851 [01:05<02:01,  3.13it/s]Loading weights:  56%|█████▌    | 476/851 [01:05<01:06,  5.61it/s]Loading weights:  56%|█████▌    | 478/851 [01:06<01:05,  5.68it/s]Loading weights:  57%|█████▋    | 486/851 [01:06<00:37,  9.85it/s]Loading weights:  57%|█████▋    | 488/851 [01:06<00:35, 10.09it/s]Loading weights:  58%|█████▊    | 490/851 [01:07<00:52,  6.87it/s]Loading weights:  58%|█████▊    | 491/851 [01:08<01:30,  3.99it/s]Loading weights:  59%|█████▉    | 500/851 [01:08<00:41,  8.54it/s]Loading weights:  59%|█████▉    | 502/851 [01:09<00:48,  7.24it/s]Loading weights:  59%|█████▉    | 504/851 [01:09<00:55,  6.30it/s]Loading weights:  59%|█████▉    | 505/851 [01:09<01:05,  5.31it/s]Loading weights:  59%|█████▉    | 506/851 [01:10<01:18,  4.40it/s]Loading weights:  60%|██████    | 514/851 [01:10<00:36,  9.30it/s]Loading weights:  61%|██████    | 516/851 [01:10<00:36,  9.26it/s]Loading weights:  61%|██████    | 518/851 [01:11<00:51,  6.41it/s]Loading weights:  61%|██████    | 519/851 [01:12<01:05,  5.03it/s]Loading weights:  61%|██████    | 520/851 [01:12<01:22,  3.99it/s]Loading weights:  61%|██████▏   | 523/851 [01:13<01:10,  4.68it/s]Loading weights:  62%|██████▏   | 524/851 [01:13<01:22,  3.94it/s]Loading weights:  62%|██████▏   | 525/851 [01:13<01:34,  3.43it/s]Loading weights:  62%|██████▏   | 528/851 [01:14<01:04,  5.02it/s]Loading weights:  62%|██████▏   | 531/851 [01:14<00:53,  6.01it/s]Loading weights:  63%|██████▎   | 537/851 [01:14<00:33,  9.29it/s]Loading weights:  63%|██████▎   | 540/851 [01:15<00:29, 10.65it/s]Loading weights:  64%|██████▎   | 542/851 [01:15<00:28, 11.00it/s]Loading weights:  64%|██████▍   | 544/851 [01:16<01:11,  4.32it/s]Loading weights:  64%|██████▍   | 545/851 [01:17<01:21,  3.77it/s]Loading weights:  65%|██████▍   | 553/851 [01:17<00:37,  7.88it/s]Loading weights:  65%|██████▌   | 555/851 [01:17<00:42,  6.97it/s]Loading weights:  65%|██████▌   | 557/851 [01:18<00:46,  6.33it/s]Loading weights:  66%|██████▌   | 558/851 [01:18<00:55,  5.29it/s]Loading weights:  66%|██████▌   | 559/851 [01:19<01:07,  4.33it/s]Loading weights:  67%|██████▋   | 567/851 [01:19<00:30,  9.20it/s]Loading weights:  67%|██████▋   | 569/851 [01:19<00:29,  9.48it/s]Loading weights:  67%|██████▋   | 571/851 [01:20<00:41,  6.77it/s]Loading weights:  67%|██████▋   | 572/851 [01:20<00:50,  5.51it/s]Loading weights:  67%|██████▋   | 573/851 [01:21<01:03,  4.34it/s]Loading weights:  68%|██████▊   | 576/851 [01:21<00:54,  5.01it/s]Loading weights:  68%|██████▊   | 577/851 [01:22<01:05,  4.20it/s]Loading weights:  68%|██████▊   | 578/851 [01:22<01:14,  3.64it/s]Loading weights:  68%|██████▊   | 582/851 [01:22<00:42,  6.40it/s]Loading weights:  69%|██████▊   | 584/851 [01:23<00:42,  6.24it/s]Loading weights:  70%|██████▉   | 592/851 [01:23<00:22, 11.52it/s]Loading weights:  70%|██████▉   | 594/851 [01:23<00:21, 12.01it/s]Loading weights:  70%|███████   | 596/851 [01:24<00:45,  5.58it/s]Loading weights:  70%|███████   | 598/851 [01:25<00:48,  5.23it/s]Loading weights:  71%|███████   | 605/851 [01:25<00:28,  8.76it/s]Loading weights:  71%|███████▏  | 607/851 [01:25<00:27,  8.84it/s]Loading weights:  72%|███████▏  | 609/851 [01:25<00:25,  9.57it/s]Loading weights:  72%|███████▏  | 611/851 [01:26<00:44,  5.36it/s]Loading weights:  72%|███████▏  | 612/851 [01:27<00:56,  4.26it/s]Loading weights:  73%|███████▎  | 620/851 [01:27<00:26,  8.64it/s]Loading weights:  73%|███████▎  | 622/851 [01:27<00:26,  8.60it/s]Loading weights:  73%|███████▎  | 624/851 [01:28<00:33,  6.86it/s]Loading weights:  73%|███████▎  | 625/851 [01:28<00:42,  5.33it/s]Loading weights:  74%|███████▎  | 626/851 [01:29<00:54,  4.13it/s]Loading weights:  74%|███████▍  | 629/851 [01:29<00:45,  4.87it/s]Loading weights:  74%|███████▍  | 630/851 [01:30<00:53,  4.12it/s]Loading weights:  74%|███████▍  | 631/851 [01:30<01:01,  3.58it/s]Loading weights:  75%|███████▍  | 635/851 [01:30<00:35,  6.13it/s]Loading weights:  75%|███████▍  | 637/851 [01:31<00:36,  5.94it/s]Loading weights:  76%|███████▌  | 645/851 [01:31<00:19, 10.83it/s]Loading weights:  76%|███████▌  | 647/851 [01:31<00:20,  9.73it/s]Loading weights:  76%|███████▋  | 649/851 [01:32<00:30,  6.59it/s]Loading weights:  76%|███████▋  | 650/851 [01:33<00:38,  5.29it/s]Loading weights:  76%|███████▋  | 651/851 [01:33<00:47,  4.22it/s]Loading weights:  77%|███████▋  | 659/851 [01:33<00:20,  9.32it/s]Loading weights:  78%|███████▊  | 661/851 [01:34<00:23,  8.14it/s]Loading weights:  78%|███████▊  | 663/851 [01:34<00:27,  6.91it/s]Loading weights:  78%|███████▊  | 664/851 [01:35<00:34,  5.49it/s]Loading weights:  78%|███████▊  | 665/851 [01:35<00:41,  4.43it/s]Loading weights:  79%|███████▉  | 671/851 [01:35<00:22,  7.84it/s]Loading weights:  79%|███████▉  | 674/851 [01:36<00:20,  8.76it/s]Loading weights:  79%|███████▉  | 676/851 [01:36<00:26,  6.50it/s]Loading weights:  80%|███████▉  | 678/851 [01:37<00:40,  4.29it/s]Loading weights:  80%|████████  | 682/851 [01:38<00:31,  5.42it/s]Loading weights:  80%|████████  | 683/851 [01:38<00:35,  4.68it/s]Loading weights:  80%|████████  | 684/851 [01:38<00:40,  4.08it/s]Loading weights:  81%|████████  | 688/851 [01:39<00:25,  6.52it/s]Loading weights:  81%|████████  | 689/851 [01:39<00:29,  5.49it/s]Loading weights:  82%|████████▏ | 698/851 [01:39<00:13, 11.07it/s]Loading weights:  82%|████████▏ | 700/851 [01:40<00:13, 11.22it/s]Loading weights:  82%|████████▏ | 702/851 [01:40<00:20,  7.44it/s]Loading weights:  83%|████████▎ | 703/851 [01:41<00:25,  5.71it/s]Loading weights:  83%|████████▎ | 704/851 [01:41<00:32,  4.50it/s]Loading weights:  84%|████████▎ | 712/851 [01:41<00:14,  9.49it/s]Loading weights:  84%|████████▍ | 714/851 [01:42<00:13, 10.11it/s]Loading weights:  84%|████████▍ | 716/851 [01:42<00:19,  6.95it/s]Loading weights:  84%|████████▍ | 717/851 [01:43<00:24,  5.53it/s]Loading weights:  84%|████████▍ | 718/851 [01:43<00:29,  4.47it/s]Loading weights:  85%|████████▌ | 726/851 [01:43<00:13,  9.51it/s]Loading weights:  86%|████████▌ | 728/851 [01:44<00:12,  9.99it/s]Loading weights:  86%|████████▌ | 730/851 [01:45<00:23,  5.16it/s]Loading weights:  86%|████████▌ | 732/851 [01:45<00:24,  4.87it/s]Loading weights:  86%|████████▋ | 735/851 [01:46<00:22,  5.15it/s]Loading weights:  86%|████████▋ | 736/851 [01:47<00:33,  3.41it/s]Loading weights:  87%|████████▋ | 741/851 [01:47<00:18,  5.92it/s]Loading weights:  87%|████████▋ | 743/851 [01:47<00:18,  5.82it/s]Loading weights:  88%|████████▊ | 751/851 [01:48<00:10,  9.46it/s]Loading weights:  88%|████████▊ | 753/851 [01:48<00:10,  9.52it/s]Loading weights:  89%|████████▊ | 755/851 [01:48<00:13,  7.10it/s]Loading weights:  89%|████████▉ | 756/851 [01:49<00:16,  5.79it/s]Loading weights:  89%|████████▉ | 757/851 [01:49<00:19,  4.80it/s]Loading weights:  90%|████████▉ | 764/851 [01:49<00:09,  9.08it/s]Loading weights:  90%|█████████ | 766/851 [01:50<00:09,  9.32it/s]Loading weights:  90%|█████████ | 768/851 [01:50<00:08,  9.55it/s]Loading weights:  90%|█████████ | 770/851 [01:51<00:15,  5.24it/s]Loading weights:  91%|█████████ | 771/851 [01:51<00:18,  4.44it/s]Loading weights:  92%|█████████▏| 779/851 [01:51<00:07,  9.34it/s]Loading weights:  92%|█████████▏| 781/851 [01:52<00:07,  9.88it/s]Loading weights:  92%|█████████▏| 783/851 [01:52<00:10,  6.77it/s]Loading weights:  92%|█████████▏| 785/851 [01:53<00:13,  4.77it/s]Loading weights:  93%|█████████▎| 788/851 [01:54<00:12,  5.20it/s]Loading weights:  93%|█████████▎| 789/851 [01:55<00:18,  3.35it/s]Loading weights:  93%|█████████▎| 794/851 [01:55<00:11,  4.85it/s]Loading weights:  94%|█████████▍| 804/851 [01:55<00:04,  9.48it/s]Loading weights:  95%|█████████▍| 806/851 [01:56<00:04,  9.63it/s]Loading weights:  95%|█████████▍| 808/851 [01:56<00:06,  7.10it/s]Loading weights:  95%|█████████▌| 809/851 [01:57<00:07,  5.83it/s]Loading weights:  95%|█████████▌| 810/851 [01:57<00:08,  4.82it/s]Loading weights:  96%|█████████▌| 818/851 [01:57<00:03,  9.75it/s]Loading weights:  96%|█████████▋| 820/851 [01:58<00:03,  8.61it/s]Loading weights:  97%|█████████▋| 822/851 [01:58<00:04,  6.99it/s]Loading weights:  97%|█████████▋| 823/851 [01:59<00:05,  5.56it/s]Loading weights:  97%|█████████▋| 824/851 [01:59<00:05,  4.72it/s]Loading weights:  98%|█████████▊| 832/851 [02:00<00:02,  8.20it/s]Loading weights:  98%|█████████▊| 835/851 [02:00<00:01,  9.60it/s]Loading weights:  98%|█████████▊| 837/851 [02:01<00:02,  5.86it/s]Loading weights:  98%|█████████▊| 838/851 [02:01<00:02,  4.87it/s]Loading weights:  99%|█████████▉| 841/851 [02:02<00:01,  5.24it/s]Loading weights:  99%|█████████▉| 842/851 [02:03<00:02,  3.53it/s]Loading weights: 100%|█████████▉| 847/851 [02:03<00:00,  6.14it/s]Loading weights: 100%|█████████▉| 849/851 [02:03<00:00,  6.02it/s]Loading weights: 100%|██████████| 851/851 [02:03<00:00,  6.88it/s]
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built atomic-26-symbol: bridge dirs 4, cue dirs 96, cue words ['26', 'atomic', 'chemical', 'element', 'number', 'symbol']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built atomic-79-symbol: bridge dirs 4, cue dirs 86, cue words ['79', 'atomic', 'chemical', 'element', 'number', 'symbol']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built birthstone-emerald-month: bridge dirs 8, cue dirs 24, cue words ['birthstone', 'emerald', 'month', 'number']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built chem-bones-Z: bridge dirs 4, cue dirs 137, cue words ['abundant', 'atomic', 'bones', 'human', 'metal', 'most', 'number']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built chem-organic-Z: bridge dirs 4, cue dirs 106, cue words ['all', 'atomic', 'compounds', 'definition', 'element', 'number', 'organic', 'present']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built chem-photosynthesis-Z: bridge dirs 112, cue dirs 62, cue words ['atomic', 'during', 'gas', 'number', 'photosynthesis', 'plants', 'release']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built dbl-altitude-antonym: bridge dirs 4, cue dirs 189, cue words ['airplane', 'altitude', 'antonym', 'cruising', 'describe', 'how', 'would', 'you']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built double-dice-faces: bridge dirs 67, cue dirs 26, cue words ['die', 'double', 'faces', 'number', 'standard']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built etym-caesar-monthnum: bridge dirs 47, cue dirs 31, cue words ['after', 'caesar', 'julius', 'month', 'named', 'number']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built firstletter-valentines-month: bridge dirs 22, cue dirs 38, cue words ['containing', 'day', 'first', 'letter', 'month', 'valentine']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built func-filters-count: bridge dirs 5, cue dirs 133, cue words ['blood', 'filter', 'humans', 'make', 'number', 'organs', 'urine']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built func-pumps-chambers: bridge dirs 6, cue dirs 213, cue words ['blood', 'body', 'chambers', 'has', 'humans', 'many', 'organ', 'pumps', 'through']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built half-clock-hours: bridge dirs 46, cue dirs 39, cue words ['clock', 'face', 'half', 'hours', 'number', 'shown', 'standard']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built holiday-christmas-monthnum: bridge dirs 16, cue dirs 31, cue words ['celebrated', 'christmas', 'day', 'month', 'number']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built holiday-halloween-monthnum: bridge dirs 20, cue dirs 176, cue words ['celebrated', 'halloween', 'month', 'number']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built holiday-independence-monthnum: bridge dirs 47, cue dirs 62, cue words ['celebrated', 'day', 'holiday', 'independence', 'month', 'number', 'us']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built holiday-valentines-monthnum: bridge dirs 22, cue dirs 31, cue words ['celebrated', 'day', 'month', 'number', 'valentine']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built inv-antarctica-opposite: bridge dirs 10, cue dirs 132, cue words ['antarctica', 'cardinal', 'direction', 'equator', 'lies', 'opposite', 'where']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built inv-roots-opposite: bridge dirs 4, cue dirs 131, cue words ['direction', 'grow', 'one', 'opposite', 'roots', 'tree']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built inv-sunrise-opposite: bridge dirs 11, cue dirs 201, cue words ['cardinal', 'direction', 'one', 'opposite', 'rises', 'sun', 'where']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built month-7-namedafter: bridge dirs 47, cue dirs 139, cue words ['after', 'julius', 'leader', 'month', 'named', 'roman', 'seventh', 'year']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built nhop-cube-element: bridge dirs 67, cue dirs 134, cue words ['count', 'cube', 'dozen', 'element', 'faces', 'items', 'magnesium', 'periodic', 'position', 'table']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built nhop-rainbow-element: bridge dirs 41, cue dirs 139, cue words ['colors', 'count', 'dozen', 'element', 'items', 'magnesium', 'periodic', 'position', 'rainbow', 'table']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built nhop-spider-element: bridge dirs 43, cue dirs 131, cue words ['count', 'dozen', 'element', 'items', 'legs', 'magnesium', 'periodic', 'position', 'spider', 'table']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built pred-valentines-prevmonth: bridge dirs 22, cue dirs 140, cue words ['before', 'containing', 'day', 'immediately', 'month', 'one', 'valentine']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built rhyme-tree-squared: bridge dirs 18, cue dirs 31, cue words ['name', 'number', 'rhymes', 'square', 'tree']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built spaceneedle-border: bridge dirs 4, cue dirs 51, cue words ['border', 'located', 'needle', 'northern', 'shares', 'space', 'state', 'us', 'where']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built spider-legs: bridge dirs 5, cue dirs 141, cue words ['animal', 'legs', 'number', 'spins', 'webs']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built violin-strings: bridge dirs 6, cue dirs 206, cue words ['fiddlers', 'instrument', 'number', 'play', 'strings']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-boot-capital: bridge dirs 19, cue dirs 140, cue words ['boot', 'capital', 'country', 'european', 'like', 'shaped']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built bf-bordeaux-fruit: bridge dirs 105, cue dirs 65, cue words ['bordeaux', 'drink', 'famous', 'fermented', 'fruit', 'make']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built bf-christmas-season: bridge dirs 16, cue dirs 142, cue words ['christmas', 'during', 'hemisphere', 'month', 'northern', 'season']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-eiffel-currency: bridge dirs 8, cue dirs 169, cue words ['country', 'currency', 'eiffel', 'home', 'tower', 'used']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built bf-fuji-ocean: bridge dirs 33, cue dirs 41, cue words ['country', 'east', 'fuji', 'mount', 'ocean']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built bf-giza-continent: bridge dirs 27, cue dirs 190, cue words ['containing', 'continent', 'country', 'famous', 'giza', 'pyramids']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built bf-kathmandu-mountain: bridge dirs 95, cue dirs 74, cue words ['capital', 'country', 'kathmandu', 'mountain', 'tallest']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built bf-madrid-language: bridge dirs 7, cue dirs 36, cue words ['capital', 'country', 'language', 'madrid', 'spoken']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built bf-moonwalk-firstname: bridge dirs 6, cue dirs 31, cue words ['first', 'moon', 'name', 'person', 'walk']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built bf-rio2016-language: bridge dirs 49, cue dirs 109, cue words ['2016', 'country', 'hosted', 'language', 'olympics', 'summer']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-southpole-bird: bridge dirs 5, cue dirs 141, cue words ['bird', 'continent', 'flightless', 'living', 'pole', 'south', 'surrounding']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-sphinx-river: bridge dirs 27, cue dirs 120, cue words ['country', 'flowing', 'great', 'river', 'sphinx', 'through']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-stopsign-sides: bridge dirs 4, cue dirs 146, cue words ['number', 'shape', 'sides', 'sign', 'standard', 'stop']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.1GB
+built bf-sushi-capital: bridge dirs 33, cue dirs 117, cue words ['capital', 'city', 'country', 'originated', 'sushi', 'where']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built bf-whitebear-ocean: bridge dirs 121, cue dirs 49, cue words ['far', 'hunts', 'north', 'ocean', 'where', 'white']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.0GB
+built b3-mh-acropolis-capital: bridge dirs 126, cue dirs 15, cue words ['acropolis', 'capital', 'country']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built b3-mh-bakerstreet-city: bridge dirs 4, cue dirs 152, cue words ['221b', 'baker', 'city', 'detective', 'home', 'street']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built b3-mh-blindpoet-epic: bridge dirs 129, cue dirs 25, cue words ['also', 'blind', 'composed', 'odyssey', 'poet']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built b3-mh-buenosaires-language: bridge dirs 8, cue dirs 189, cue words ['aires', 'buenos', 'capital', 'country', 'language']
+[jlens] layer 42 allocated 59.1GB
+[jlens] layer 42 allocated 59.0GB
+built b3-mh-colosseum-capital: bridge dirs 19, cue dirs 122, cue words ['capital', 'colosseum', 'country', 'stands', 'where']
+[jlens] layer 42 allocated 59.0GB
+[jlens] layer 42 allocated 59.1GB
+built b3-mh-cuckoo-mountains: bridge dirs 5, cue dirs 189, cue words ['clocks', 'country', 'cuckoo', 'famous', 'mountain', 'neutrality', 'range']
+JLENS_DONE
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:00,  7.30it/s]Fetching 6 files:  50%|█████     | 3/6 [00:00<00:00, 12.05it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 20.35it/s]
+olens sampling Sampling(temperature=1.0, top_p=0.95, top_k=64, max_new_tokens=256, k=4)
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+olens atomic-26-symbol cue_orth n=4 22.3s
+olens atomic-79-symbol cue_orth n=4 14.7s
+olens birthstone-emerald-month cue_orth n=4 16.6s
+olens chem-bones-Z cue_orth n=4 17.4s
+olens chem-organic-Z cue_orth n=4 13.1s
+olens chem-photosynthesis-Z cue_orth n=4 15.3s
+olens dbl-altitude-antonym cue_orth n=4 15.2s
+olens double-dice-faces cue_orth n=4 16.1s
+olens etym-caesar-monthnum cue_orth n=4 14.2s
+olens firstletter-valentines-month cue_orth n=4 14.0s
+olens func-filters-count cue_orth n=4 14.5s
+olens func-pumps-chambers cue_orth n=4 15.4s
+olens half-clock-hours cue_orth n=4 16.8s
+olens holiday-christmas-monthnum cue_orth n=4 13.9s
+olens holiday-halloween-monthnum cue_orth n=4 14.8s
+olens holiday-independence-monthnum cue_orth n=4 15.9s
+olens holiday-valentines-monthnum cue_orth n=4 15.0s
+olens inv-antarctica-opposite cue_orth n=4 15.8s
+olens inv-roots-opposite cue_orth n=4 14.4s
+olens inv-sunrise-opposite cue_orth n=4 14.9s
+olens month-7-namedafter cue_orth n=4 12.7s
+olens nhop-cube-element cue_orth n=4 15.2s
+olens nhop-rainbow-element cue_orth n=4 15.1s
+olens nhop-spider-element cue_orth n=4 16.3s
+olens pred-valentines-prevmonth cue_orth n=4 15.5s
+olens rhyme-tree-squared cue_orth n=4 16.1s
+olens spaceneedle-border cue_orth n=4 16.0s
+olens spider-legs cue_orth n=4 14.8s
+olens violin-strings cue_orth n=4 15.3s
+olens bf-boot-capital cue_orth n=4 15.2s
+olens bf-bordeaux-fruit cue_orth n=4 15.7s
+olens bf-christmas-season cue_orth n=4 15.3s
+olens bf-eiffel-currency cue_orth n=4 14.9s
+olens bf-fuji-ocean cue_orth n=4 15.2s
+olens bf-giza-continent cue_orth n=4 16.2s
+olens bf-kathmandu-mountain cue_orth n=4 17.3s
+olens bf-madrid-language cue_orth n=4 14.7s
+olens bf-moonwalk-firstname cue_orth n=4 16.4s
+olens bf-rio2016-language cue_orth n=4 15.7s
+olens bf-southpole-bird cue_orth n=4 16.7s
+olens bf-sphinx-river cue_orth n=4 15.2s
+olens bf-stopsign-sides cue_orth n=4 15.7s
+olens bf-sushi-capital cue_orth n=4 15.8s
+olens bf-whitebear-ocean cue_orth n=4 15.2s
+olens b3-mh-acropolis-capital cue_orth n=4 16.4s
+olens b3-mh-bakerstreet-city cue_orth n=4 15.4s
+olens b3-mh-blindpoet-epic cue_orth n=4 14.6s
+olens b3-mh-buenosaires-language cue_orth n=4 15.3s
+olens b3-mh-colosseum-capital cue_orth n=4 13.8s
+olens b3-mh-cuckoo-mountains cue_orth n=4 15.0s
+CW11C_PASS_A_DONE

@@ -1,0 +1,12 @@
+template lens: 13174 words, layer 42; items 50
+centred: bridge in vocabulary for 41/50; median rank 34; within top k: k=1: 5, k=10: 12, k=50: 25, k=200: 31, k=1000: 36
+raw dot product: bridge in vocabulary for 41/50; median rank 36; within top k: k=1: 5, k=10: 11, k=50: 25, k=200: 32, k=1000: 37
+parts (30 items, raw dot product): part | in vocab | median rank | within top 10 / 50 / 200
+  full: 25 | 37 | 6 / 14 / 18
+  J1024: 25 | 61 | 5 / 12 / 15
+  N1024: 25 | 93 | 4 / 11 / 16
+  R1024: 25 | 896 | 1 / 5 / 8
+  RN1024: 25 | 97 | 5 / 10 / 17
+  P1024: 25 | 33 | 7 / 14 / 18
+  PN1024: 25 | 4012 | 2 / 4 / 4
+example atomic-26-symbol (bridge iron): rank 448, top 10 ['mps', 'iii', 'afl', 'nsw', 'viii', 'vic', 'vii', 'astatine', 'der', 'jin']
