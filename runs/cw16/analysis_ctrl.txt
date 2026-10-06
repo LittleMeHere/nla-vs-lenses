@@ -1,0 +1,9 @@
+post hoc control (added after seeing the first results): random sentences deleted to about the length of the edited version
+version | FVE | FVE in J part | FVE in rest
+  original: +0.411 | +0.593 | +0.311
+  false statements removed (LLM): -0.027 | +0.278 | -0.195
+  random deletion, length of the above: -0.095 | +0.152 | -0.231
+  content only (LLM): -0.326 | +0.025 | -0.527
+  random deletion, length of the above: -0.347 | -0.085 | -0.500
+  false statements removed - random deletion (70 prompts): +0.068 [-0.049, +0.186] | +0.126 [+0.021, +0.234] | +0.036 [-0.090, +0.160]
+  content only - random deletion (70 prompts): +0.021 [-0.132, +0.178] | +0.109 [-0.039, +0.258] | -0.027 [-0.189, +0.138]

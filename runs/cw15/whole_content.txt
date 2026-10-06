@@ -1,0 +1,25 @@
+Share of a write-up's content words in each bucket (mean over 100 prompts [95% bootstrap]); then length and the commonest 'other' words
+
+NLA, L42: 100 write-ups, 80 content words each, 0.0% of characters Chinese
+  hidden step  0.03 [0.02, 0.03]
+  answer       0.02 [0.01, 0.02]
+  prompt word  0.17 [0.16, 0.18]
+  format word  0.41 [0.40, 0.42]
+  other        0.37 [0.35, 0.39]
+  commonest other words (write-ups containing it): sets 50, up 49, like 40, puzzle 36, immediately 35, immediate 33, geographic 33, clue 31, direct 24, logic 21, given 21, similar 19, city 18, referencing 17, structured 16, knowledge 16, logical 15, numerical 15, reasoning 14, located 14, chain 14, br 13, value 13, construction 13, related 13, concise 13, true 13, short 12
+
+Oracle lens, L42 (off its trained layers): 100 write-ups, 35 content words each, 0.8% of characters Chinese
+  hidden step  0.07 [0.06, 0.09]
+  answer       0.08 [0.07, 0.09]
+  prompt word  0.34 [0.31, 0.37]
+  format word  0.04 [0.03, 0.05]
+  other        0.47 [0.44, 0.49]
+  commonest other words (write-ups containing it): city 29, located 23, capital 19, hint 18, national 16, currency 12, depending 11, but 11, official 11, year 9, main 9, animal 9, largest 8, let 8, famous 8, specifically 7, based 7, many 7, letter 7, lives 7, nation 7, given 6, note 6, primary 6, home 6, spoken 6, asks 6, sport 6
+
+Oracle lens, L44 (trained layer): 100 write-ups, 34 content words each, 0.5% of characters Chinese
+  hidden step  0.07 [0.06, 0.08]
+  answer       0.09 [0.07, 0.10]
+  prompt word  0.34 [0.31, 0.36]
+  format word  0.04 [0.04, 0.05]
+  other        0.46 [0.44, 0.49]
+  commonest other words (write-ups containing it): city 28, located 22, currency 19, capital 16, largest 15, national 14, main 13, famous 12, hint 11, after 11, sport 11, letter 10, clue 10, based 8, nation 8, animal 8, let 8, described 7, flower 7, associated 7, letters 7, note 7, starts 7, but 7, official 7, season 6, year 6, standard 6
