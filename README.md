@@ -9,7 +9,7 @@ What do activation readers tell us about Qwen3.6-27B, and what does a natural la
 - **On multihop prompts, both the oracle lens and the NLA name the hidden reasoning step from the "J part" of the activation** (its projection on the top 1,024 J-Lens directions, 16% of the squared norm) and rarely from the rest. Confirmed on 70 prompts not used before, with the tests fixed in advance. Plot: `figs/cw14_split_70_new_prompts.png`.
 - **We have not found a clear NLA advantage** on hidden steps.
 - **What the readers write differs.** Both carry about the same task content; the NLA adds a description of the prompt's form. From outside the J part the NLA still reports the prompt's last word correctly but gets the content wrong. Plot: `figs/cw15_content_by_part.png`.
-- **Removing false statements from an NLA write-up does not improve what its reconstructor rebuilds**; it lowers it about as much as deleting random sentences of the same length.
+- **What an NLA write-up's reconstructor depends on.** Rebuilding the activation from the NLA's own text depends most on its restatement of the prompt, even when the restatement is inexact. Wrong claims about the topic matter no more than an average piece of text, and correcting the wrong parts in place gives a small gain. Plot: `figs/cw16b_what_the_rebuild_needs.png`.
 
 ## Where things are
 
@@ -35,7 +35,7 @@ What do activation readers tell us about Qwen3.6-27B, and what does a natural la
 | CW-13 | Where does the step rank in J-Lens's full list? Is it in the rest (template lens)? | `runs/jrank` |
 | CW-14 | CW-12 repeated on 70 new prompts with tests fixed in advance | `runs/cw14` |
 | CW-15 | What do the readers actually write from each part? | `runs/cw15` |
-| CW-16 | What does the NLA's text rebuild through its reconstructor? | `runs/cw16` |
+| CW-16 | What does the NLA's text rebuild through its reconstructor? (first attempt in `runs/cw16`, redone properly in `runs/cw16b`) | `runs/cw16`, `runs/cw16b` |
 
 ## Useful pieces of code
 

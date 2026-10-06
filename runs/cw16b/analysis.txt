@@ -1,0 +1,25 @@
+prompts: 70
+version | FVE | FVE in J part | FVE in rest   (mean over prompts)
+  original (70): +0.413 | +0.596 | +0.311
+  wrong parts corrected in place (70): +0.467 | +0.620 | +0.381
+  wrong facts removed (56): +0.382 | +0.562 | +0.284
+    control: random spans, same length (56): +0.397 | +0.580 | +0.297
+  wrong restatements of the prompt removed (70): +0.160 | +0.449 | +0.003
+    control (70): +0.341 | +0.542 | +0.229
+  everything wrong removed (70): +0.129 | +0.413 | -0.027
+    control (70): +0.307 | +0.515 | +0.192
+  all restatements removed (70): -0.253 | +0.187 | -0.495
+    control (70): +0.258 | +0.480 | +0.134
+  format statements removed (70): +0.403 | +0.586 | +0.300
+    control (70): +0.306 | +0.508 | +0.195
+  all content claims removed (70): +0.160 | +0.380 | +0.038
+    control (70): +0.274 | +0.489 | +0.155
+
+paired differences (mean over prompts [95% bootstrap]): FVE | FVE in J part | FVE in rest
+  corrected - orig (70): +0.054 [+0.026, +0.080] | +0.024 [-0.002, +0.047] | +0.071 [+0.039, +0.100]
+  drop_content_wrong - rand_content_wrong (56): -0.015 [-0.033, +0.001] | -0.018 [-0.037, -0.001] | -0.014 [-0.032, +0.003]
+  drop_restate_wrong - rand_restate_wrong (70): -0.181 [-0.236, -0.127] | -0.094 [-0.129, -0.060] | -0.226 [-0.293, -0.160]
+  drop_all_wrong - rand_all_wrong (70): -0.179 [-0.241, -0.117] | -0.101 [-0.146, -0.058] | -0.220 [-0.293, -0.147]
+  drop_restate - rand_restate (70): -0.511 [-0.592, -0.428] | -0.292 [-0.346, -0.239] | -0.629 [-0.729, -0.527]
+  drop_format - rand_format (70): +0.097 [+0.057, +0.150] | +0.079 [+0.041, +0.129] | +0.106 [+0.064, +0.161]
+  drop_content - rand_content (70): -0.114 [-0.159, -0.066] | -0.109 [-0.150, -0.066] | -0.116 [-0.166, -0.064]
