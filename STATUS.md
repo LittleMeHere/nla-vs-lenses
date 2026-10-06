@@ -4,7 +4,7 @@
 
 **What we test:** the NLA and the oracle lens are Qwen3.6-27B itself with a LoRA, trained to describe an injected activation. When one of them names a hidden reasoning step, did it read the step from the activation, or re-solve the question from the prompt it decodes? J-Lens is a fixed linear map and cannot re-solve.
 
-Updated 2026-10-04 (after CW-11); the pilot numbers were recomputed from the raw files on 2026-10-04. Everything here is exploratory: one model, 50–100 items per experiment, dev items only.
+Updated 2026-10-05 (after CW-14); the pilot numbers were recomputed from the raw files on 2026-10-04. Everything here is exploratory except CW-14's three pre-set tests: one model, 30–100 items per experiment, dev items only.
 
 ## Plain summary (joint; see Collaboration and resources)
 
@@ -12,29 +12,34 @@ Example used throughout: the prompt "The chemical symbol for the element with at
 
 | # | What was done | What came out | What it means | Who | How firm |
 |---|---|---|---|---|---|
-| 1 | Asked all three for the hidden step on 100 prompts, layer 42 | Oracle lens 80, NLA 75, J-Lens 39 | The writers mention the hidden step far more often than J-Lens's ten words do | this repo | Firm as a count of mentions (word match, checked by hand on 30) |
+| 1 | Asked all three for the hidden step on 100 prompts, layer 42 | Oracle lens 80, NLA 75, J-Lens 39. Layer 42 is outside the oracle lens's trained layers; at layer 44, which is inside them, it names the step in 72 | The writers mention the hidden step far more often than J-Lens's ten words do | this repo | Firm as a count of mentions (word match, checked by hand on 30) |
 | 2 | Looked at J-Lens on other layers for the 36 it missed | It shows the step at another layer in 22, only after layer 42 in 14 of those | Some of the gap is which layer J-Lens is read at; it could also be the writers picking the step up before J-Lens's top ten does | this repo | Count firm, reading open |
 | 3 | Colour task: two positions where the hidden colour can be read; patching one changes the answer, the other does not | The tools report the colour about equally at both | A tool saying something does not show the model is using it | Vishesh | Firm, one task |
 | 4 | Planted a known concept, split into its J part and the rest (his split: 16 directions per concept) | Both writers name "the rest" only at full strength; the oracle lens more than the NLA | No sign that either writer sees content outside J-space | Vishesh | Fair; absence of evidence |
 | 5 | Sorted what the NLA wrote on 100 prompts | About 60% prompt wording or format; 66 of 98 write-ups include something the prompt rules out | The NLA pads a lot; "false" was judged by a model and not checked by hand | this repo | Padding firm, "false" unvalidated |
 | 6 | Deleted the hidden step's J-Lens directions; separately deleted the prompt words' directions (CW-11) | Naming falls (oracle 65% → 37%, NLA 65% → 53%); prompt words are still reported (54% → 45%, 58% → 53%) | The writers read those directions in part. Deleting a few directions removes under 1% of the activation, so what survives cannot show the step was worked out from the prompt | this repo; both found the flaw | Firm |
 | 7 | Split each natural activation into J-Lens's top 1,024 directions (the J part, 16% of the activation) and the rest (84%), and gave each part to a reader alone (CW-12, 30 prompts) | Names the bridge: whole 45% (oracle) / 43% (NLA); J part 48% / 42%; the rest 20% / 12%. Removing a random part of the same size instead leaves 45% / 38%. PCA's top 1,024 directions (91% of the activation) give 58% / 45%. A linear probe decodes simple prompt facts from either part equally well | Both readers get the bridge from the part J-Lens reads. The rest still holds information, but the readers use it little. No sign the NLA reads the bridge from outside the J part | this repo | Fair: 30 prompts, 2 samples, word match |
+| 8 | Looked 200 words down J-Lens's list instead of 10; ran the template lens on each part of the split (CW-13, 50 and 25 prompts, no GPU) | Bridge in J-Lens's top 200 for 35 of 50, against about two thirds of single write-ups (oracle 133/200, NLA 127/200). Template lens finds the bridge in its top 50 from the rest in 16 of 25, from the J part in 15 | Row 1's gap is largely the top-10 cutoff. The bridge is also in the rest, and the readers pick it up there little, the NLA not more than the oracle lens (12% against 20%, difference within noise) | this repo | Fair: asked for after CW-12, one lens |
+| 9 | Re-scored chain at L56 with WorkspaceBench's rule: the number given as the computed result (his check C1, 60 items) | Oracle 11, J-Lens 11, NLA 1; decoy null 0.02–0.04. Under the any-mention rule it was 36 / 25 / 13 | The oracle lens reads the number, at a third of the any-mention size and no more often than J-Lens | Vishesh, on this repo's readouts | Fair: one readout per cell |
+| 10 | Repeated row 7's split on the 70 multihop prompts it had not used, with the cutoff, scoring and three tests fixed before the run (CW-14, layer 42, 2 write-ups per prompt) | Names the step from whole / J part / rest / random part: oracle lens 86 / 93 / 21 / 44%, NLA 85 / 88 / 23 / 49%. J part minus rest: oracle +0.71 [0.61, 0.81], NLA +0.65 [0.55, 0.74]; oracle J part minus random part +0.49 [0.37, 0.59]; each p < 0.0001, also when prompts are grouped into their 26 families | Row 7 holds on new prompts for both readers. The NLA does not differ from the oracle lens on any part, so row 7's "NLA does better on a random part" did not repeat | this repo | Firm for multihop at layer 42 (off the oracle lens's trained layers); the J part is by construction the part that maps to output words |
 | – | Reader-free label for "the model uses this content here" | Reliable for whole positions; not for specific content (two fits disagree) | The yardstick the project wanted does not exist yet | Vishesh | Firm as a negative |
 
 His "rest" (row 4) and ours (row 7) are different splits: his is everything outside 16 directions per concept, about 95% of the concept; ours is everything outside J-Lens's top 1,024 directions. Much of his "rest" may lie inside our J part. Not checked.
 
 ## Current conclusion
 
-Whether the prose readers re-solve depends on the task.
+**Neel's question.** No evidence that the NLA reads content outside the J part that the oracle lens does not. On natural prompts both readers get the bridge from the J part (CW-12); the bridge is also present in the rest (template lens, CW-13) and the NLA names it from there in 12% of samples against the oracle lens's 20% (NLA − oracle −0.08 [−0.20, +0.03], 30 items: not distinguishable). On planted concepts (Vishesh, 45 test concepts) the oracle lens and a linear probe read the non-J part better than the NLA. The NLA does name the bridge more often than the oracle lens on damaged activations: a random 1,024-dimensional part alone (35% against 17%, +0.18 [+0.08, +0.32], 30 items) and after the bridge's J-Lens directions are deleted (53% against 37%, +0.16 [+0.06, +0.27], 50 items, CW-11). Why is not tested. These paired differences were computed on 2026-10-05 after the results were known (`scripts/recount_nla_vs_oracle.py`, `runs/recount/analysis.txt`; the same script recounts CW-1, CW-11 and CW-12 from the raw files with separately written matching code and reproduces them). Limits: 30 prompts for the split, one NLA checkpoint, two different definitions of the J part. CW-14 (70 new prompts, tests fixed in advance) confirms the J-part result for both readers and finds no NLA-minus-oracle difference on any part (random part +0.05 [−0.04, +0.13]), so the earlier "NLA names the bridge more often on a random part" is withdrawn. Vishesh's 007 stage 1a (brew, 48 dev tables, oracle lens at its trained layers 40 and 44, likelihood scoring, 10 random draws) finds the same for the oracle lens. What this does not show: that the J part is a workspace the model uses. The J part is the subspace that maps to output words, and removing it at L42 changes the model's own answer no more than removing a random part (CW-14 add-on, rough).
 
-- **multihop (one-line trivia):** they name the hidden step about twice as often as J-Lens at L42, and they also name it at L28, where J-Lens shows it in 1/50. Deleting the step's J-Lens directions lowers naming (oracle lens 65% → 37% of samples, NLA 65% → 53%), so both read those directions in part, the oracle lens more. What survives deletion is **not** good evidence of re-solving: CW-11 shows that deleting the J-Lens directions of the prompt's own words barely stops the readers reporting those words (CW-11 below). "Mostly re-solving" is withdrawn; how much is re-solved is open.
-- **chain (arithmetic), at L56 where J-Lens shows the number:** the oracle lens names the number in 36/60 (chance 12), in 31 of those without restating the starting number. Reading. The NLA is near chance.
+Whether the prose readers re-solve is open (below, by task).
+
+- **multihop (one-line trivia):** they name the hidden step about twice as often as J-Lens's top 10 at L42 (largely the top-10 cutoff: CW-13), and they also name it at L28, where J-Lens shows it in 1/50 (the NLA is off its training layer at L28). Deleting the step's J-Lens directions lowers naming (oracle lens 65% → 37% of samples, NLA 65% → 53%), so both read those directions in part, the oracle lens more. What survives deletion is **not** good evidence of re-solving: CW-11 shows that deleting the J-Lens directions of the prompt's own words barely stops the readers reporting those words (CW-11 below). "Mostly re-solving" is withdrawn; how much is re-solved is open.
+- **chain (arithmetic), at L56 where J-Lens shows the number:** the oracle lens names the number in 36/60 (chance 12), in 31 of those without restating the starting number. Reading. The NLA is near chance. Under WorkspaceBench's stricter rule (Vishesh's check C1, his `docs/reports/checks_2026-10-04_no_gpu.md`) it is oracle 11/60, J-Lens 11/60, NLA 1/60, null 0.02–0.04: still reading, a third of the size, and not more than J-Lens.
 - **brew (10-rule colour table), at ":" L42:** both readers rarely state the hidden colour in its role (2–5 of 50), and those mentions go to about zero when its directions are deleted. No sign of re-solving.
-- **NLA text:** about 60% of its concepts on multihop are prompt wording or format; 66/98 readouts contain at least one claim the prompt rules out. The NLA rarely names a hidden step the oracle lens misses: 3 of 100 multihop prompts at L42 against 8 the other way (one readout each), 3 of 50 against 6 with 4 samples, 0 of 30 against 1 with 2 samples. On every task its total is at or below the oracle lens's.
+- **NLA text:** about 60% of its concepts on multihop are prompt wording or format; 66/98 readouts contain at least one claim the prompt rules out. The NLA rarely names a hidden step the oracle lens misses: 3 of 100 multihop prompts at L42 against 8 the other way (one readout each), 3 of 50 against 6 with 4 samples, 0 of 30 against 1 with 2 samples. On intact multihop and chain activations its total is at or below the oracle lens's; on brew it is mixed (ours 5 against 2 or 3 against 5 by judge; Vishesh's 5–15% against 0–3%).
 
 The explanation "a reader re-solves when it can rebuild the prompt" has one weak support (CW-10: NLA readouts that recover more of the prompt name the step more often) and no causal test: CW-11's cue removal did not hide the prompt, so it could not test it.
 
-Not tested: content known to be outside J-space. So "is it the stuff not in the workspace?" is not answered directly; see Next.
+Vishesh's later brew results (his repo STATUS, 2026-10-05; not in the shared doc's log yet): scored by likelihood, the NLA favours z at ":" (+1.86 nats [1.41, 2.34], 44/48 tables), but the model's own output at that cell already favours z (runner-up in 56% of tables), so no held intermediate beyond the output is shown.
 
 ## Setup
 
@@ -48,6 +53,15 @@ Not tested: content known to be outside J-space. So "is it the stuff not in the 
   - J-Lens: top-10 tokens, cosine readout ([neuronpedia/jacobian-lens](https://huggingface.co/neuronpedia/jacobian-lens), Qwen3.6-27B n1000 wikitext). Also R-lens and logit lens.
   - Oracle lens: WorkspaceBench default LoRA (`agu18dec/local-workspace`, `s3d.ddp600.s0/iter_000600`), one readout of four bullets.
   - NLA: [ceselder/qwen3.6-27b-nla-rl](https://huggingface.co/ceselder/qwen3.6-27b-nla-rl), adapter `iter_000400`, trained at L42, one sample.
+  - **Trained layers (added 2026-10-05).** The oracle lens's README (`agu18dec/olens_and_ar`, read 2026-10-05) gives its trained layers as 20–60 in steps of 4 and says "Layers outside 20–60 step 4 are off-contract. The student never saw them." The NLA was trained at L42 only. So no layer used here is a trained layer for both readers:
+
+    | layer | oracle lens | NLA |
+    |---|---|---|
+    | 16 | off | off |
+    | 28, 36, 44, 56 | on | off |
+    | 42 | off | on |
+
+    Every L42 result below (main comparison, deletion, CW-11, CW-12, brew) has the oracle lens off its trained layers. The one check so far: on the 100 multihop items the oracle lens names the bridge in 80 at L42 and 72 at L44 (one readout each, same word match; named at both 68, at neither 16, only L42 12, only L44 4; `runs/multihop100/olens_L42,44.multihop.jsonl`). Not checked: whether our oracle-lens calls used the README's prompt (`concepts_raw`), transform (`unit`) and alpha (16000); the README says changing any of these is a different experiment.
 - **Scoring:**
   - multihop: exact word match of the bank's intermediate in the readout. This counts mentions, not role-correct claims.
   - chain: the number as digits, an English number word or a Chinese numeral (`scripts/score_chain.py`).
@@ -62,11 +76,12 @@ Counts are items whose readout names the hidden step.
 |---|---|---|---|---|---|---|---|
 | 1 | Main comparison | 100 multihop | 42 | 39 | 80 | 75 | [multihop100](runs/multihop100/) |
 |   | chance | | | 0.7 | 1.7 | 1.2 | |
+|   | Same 100 items, oracle lens at a trained layer | 100 multihop | 44 | — | 72 | — | [multihop100](runs/multihop100/) |
 | 2 | Earlier layers | 50 multihop | 16 / 28 / 36 | 0 / 1 / 9 | 9 / 26 / 33 | 11 / 27 / 28 | [sweep50](runs/sweep50/) |
 | 3 | Delete the step's J-Lens directions (2–6 per item); random-direction control unchanged | 50 multihop | 42 | 15 → 0 | 30 → 17 | 36 → 25 | [abl50](runs/abl50/) |
 | 4 | Delete the step's neighbourhood (cos > 0.8, ~31 directions). Control = same number of random directions | 50 multihop | 42 | 15 → 0 | 33 → 20 | 34 → 23 | [abl3](runs/abl3/) |
 | 5 | Swap: delete own step, add another item's step | 50 multihop | 42 | planted 14 | own 20, planted 7 | own 20, planted 6 | [abl3](runs/abl3/) |
-| 6 | chain at the readers' training layer | 60 chain | 42 | 6 (chance 4) | 27 (chance 21) | 9 (chance 12) | [chain60](runs/chain60/) |
+| 6 | chain at the NLA's training layer (oracle lens off its trained layers) | 60 chain | 42 | 6 (chance 4) | 27 (chance 21) | 9 (chance 12) | [chain60](runs/chain60/) |
 | 7 | chain at L56, where J-Lens shows the number | 60 chain | 56 | 25 (chance 7) | 36 (chance 12) | 13 (chance 9) | [chain60_L56](runs/chain60_L56/) |
 | 8 | brew, z in its correct role (Claude / Gemini judge) | 50 brew | 42 | 0 in top-10 | 2 / 5 | 5 / 3 | [brew50](runs/brew50/) |
 | 9 | brew, z in any role: random control → z deleted (Gemini judge) | 50 brew | 42 | — | 7 → 0 | 12 → 2 | [brew50_abl](runs/brew50_abl/) |
@@ -82,7 +97,7 @@ Counts are items whose readout names the hidden step.
 
 - **Measured.** J-Lens finds an intermediate at 0 items for L20–36, 6–8 for L40–52, 25 at L56, 6 at L60. At L42 no reader is clearly above chance. At L56 the oracle lens names an intermediate in 36/60 (chance 12.1), the NLA in 13 (chance 8.9). The oracle lens states the start number in 12 readouts; 31 of its 36 hits do not contain it.
 - **Taken to mean.** Where the number is linearly present, the oracle lens reads it, more often than J-Lens top-10, and without the context it would need to recompute. Random example (`chain-d2p-0298`, start 24, halve, add 6 → 12): "12. A quick nod, a flushed face, and a wide smile. The party…".
-- **Not ruled out.** Readers are off their training layer at L56. Readouts contain many numbers (oracle 6–9, NLA 4–5 distinct per readout), hence the high chance rates. Predictions were written before the L42 run; the L56 run was added after seeing that J-Lens peaks there.
+- **Not ruled out.** The NLA is off its training layer at L56; the oracle lens is on a trained layer there. Readouts contain many numbers (oracle 6–9, NLA 4–5 distinct per readout), hence the high chance rates. Predictions were written before the L42 run; the L56 run was added after seeing that J-Lens peaks there.
 
 ### brew (8–9)
 
@@ -211,10 +226,42 @@ Code: `scripts/cw13_jrank.py`, `scripts/cw13_template.py`, `scripts/cw13_fig.py`
 - For Neel's question: there is bridge content outside the J part, and the NLA does not pick it up better than the oracle lens (12% against 20%).
 - **Most likely objection:** 25 to 30 items, and one lens. A first pass used an unnormalised projection in place of the lens's stated cosine rule; the numbers here are from the stated rule (the earlier ones were 14, 12 and 11 of 25, the same pattern).
 
+### CW-14: the split repeated on 70 new prompts with tests fixed in advance (2026-10-05)
+
+Design, with its amendments in order: [designs/CW-14_split_confirmation.md](designs/CW-14_split_confirmation.md) (committed at `1791322` before any data). Raw rows: [runs/cw14/](runs/cw14/). Analysis: [analysis.txt](runs/cw14/analysis.txt), [analysis_family.txt](runs/cw14/analysis_family.txt). Plot: [figs/cw14_split_70_new_prompts.png](figs/cw14_split_70_new_prompts.png).
+
+- **Setup.** Qwen3.6-27B bf16, layer 42, read position of the bank. The 70 multihop items not in CW-12 (items 31–100; 26 item families, the largest has 15 prompts). J part = projection on the top 1,024 directions of the one CW-12 J basis; one random 1,024-dimensional subspace (seed 0). Oracle lens and NLA, 2 samples per cell, word match. Fresh captures reproduce the saved activations on the 50 overlapping items (cosine 1.00000).
+- **Measured** (share of samples naming the hidden step, 95% bootstrap over prompts):
+
+  | part | share of squared norm | oracle lens | NLA |
+  |---|---|---|---|
+  | whole | 1.00 | 0.86 [0.79, 0.93] | 0.85 [0.76, 0.92] |
+  | J part | 0.16 | 0.93 [0.86, 0.98] | 0.88 [0.81, 0.94] |
+  | rest | 0.84 | 0.21 [0.14, 0.30] | 0.23 [0.14, 0.32] |
+  | random part | 0.21 | 0.44 [0.34, 0.56] | 0.49 [0.38, 0.60] |
+
+- **Pre-set tests** (paired over 70 prompts, sign-flip permutation; rule: confirmed at p < 0.005 with CW-12's sign):
+  1. Oracle lens, J part − rest: +0.71 [0.61, 0.81], p < 0.0001, prompts +/0/−: 57/12/1. Confirmed.
+  2. NLA, J part − rest: +0.65 [0.55, 0.74], p < 0.0001, 54/16/0. Confirmed.
+  3. Oracle lens, J part − random part: +0.49 [0.37, 0.59], p < 0.0001, 38/32/0. Confirmed.
+  - Grouped by the 26 item families (bootstrap and sign-flip over families; chosen after the run, because prompts in a family share a template): +0.71 [0.62, 0.83], +0.65 [0.55, 0.73], +0.49 [0.34, 0.63], each p < 0.0001.
+- **Secondary.** NLA J part − random part +0.39 [0.28, 0.49] (CW-12: +0.07, not shown). Random part − rest: oracle +0.23 [0.12, 0.34], NLA +0.26 [0.16, 0.37]; not predicted. J part − whole: oracle +0.06 [0.00, 0.13], NLA +0.03 [−0.03, 0.09]. NLA − oracle by part (by family): whole −0.01 [−0.12, 0.06], J part −0.05 [−0.12, 0.01], rest +0.01 [−0.05, 0.12], random part +0.05 [−0.04, 0.13]. On the whole activation the step is named by both for 61 prompts, oracle only 5, NLA only 1, neither 3. J-Lens top-10 names it for 36 (whole), 37 (J part), 0 (rest), 20 (random part) of 70.
+- **Differences from CW-12.** The effect is larger (+0.71 against +0.28) and whole-activation naming is higher (0.86 against 0.45): these 70 prompts are other item types and easier for the readers. CW-12's NLA-over-oracle gap on the random part (0.35 against 0.17) is not there.
+- **Is the rest read badly because it is unusual input?** Checked after the run: the rest has cosine 0.92 with the whole activation and holds 95% of the mean activation; the J part has cosine 0.40 and holds 5% of the mean. The most ordinary-looking input is read worst.
+- **Add-on, model side (exploratory, rough;** [modeluse.jsonl](runs/cw14/modeluse.jsonl)**).** Replacing the L42 read-position activation by one part and reading the model's next token, 63 of the 70 prompts whose unpatched top token starts the target: removing the J part changes the log-probability of that token by −0.03 [−0.12, +0.04]; removing random parts −0.09 and −0.13; removing the unembedding part −0.12; keeping only the 10% outside the PCA part −3.65. One layer and one position, so the model can route around it. It gives no sign that the model needs the J part there.
+- **Unembedding part.** The top 1,024 directions of the unit unembedding rows overlap the J part by 0.32 (0.20 is unrelated), so the J part is not the plain output-embedding subspace ([ubasis_overlap.txt](runs/cw14/ubasis_overlap.txt)).
+- **Most likely objection.** The J directions are built from the Jacobian to the output, so the J part is the part of the activation that maps to words. "Readers that write words read the word-mapped part" may be all this shows; it does not make the J part a workspace. Not addressed here. Vishesh's 007 stages 2 and 2b (swaps between paired brew prompts) test the model side.
+- **Still running at the time of writing:** four secondary conditions (all but random, a second random draw, PCA part, all but PCA). Not run: a centred-activation condition (prepared, held back).
+
 ## Limits
 
-- One model. One sample per NLA cell. Dev items only; nothing held out.
+- One model. One sample per NLA cell in the pilot (CW-11: 4, CW-12: 2). Dev items only; nothing held out.
 - multihop scoring is word match. Judges are unvalidated.
+- No layer is a trained layer for both readers (Setup). L42 comparisons put the oracle lens off its trained layers; the sweep and L56 put the NLA off its.
+- Number bridges: 8 of the 100 multihop items have a number as the bridge, and 5 list it in one form only (`12`, `7`, `8`, `11`, `three`), so a readout that gives the other form is scored as a miss. Seen once in a sample of 21 readouts ("3" for `three`). Not rescored.
+- CW-12's random control is one draw (seed 0). The NLA-minus-oracle difference on a random part (35% against 17%) rests on that draw. The oracle lens's readouts on the random part are mostly unrelated text, and 72% of them contain Chinese against 30% on the whole activation, so its low score there may be a failure on unusual input.
+- The oracle lens writes some Chinese in 30–72% of readouts (the NLA in none) and word match reads only Latin letters and digits. In 21 random Chinese-containing readouts scored as misses (CW-12; whole, the rest, random part), none names the bridge in Chinese.
+- CW-12's 30 items are harder than the 50 they come from: on the same 30, CW-11's intact rates are 0.48 (oracle) and 0.44 (NLA), against 0.67 and 0.64 on all 50.
 - No reader-free label for whether the model uses the hidden step (the collaborator's half addresses this).
 - No SAE: no labelled SAE exists for Qwen3.6-27B (Gemma 3 has Gemma Scope 2).
 

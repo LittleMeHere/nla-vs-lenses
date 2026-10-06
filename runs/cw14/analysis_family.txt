@@ -1,0 +1,12 @@
+prompts 70 families (last field of the item name) 26 {'capital': 15, 'language': 9, 'continent': 6, 'ocean': 5, 'river': 5, 'country': 4, 'currency': 3, 'fruit': 2, 'state': 2, 'firstname': 2, 'opposite': 2, 'city': 1, 'epic': 1, 'mountains': 1, 'sea': 1, 'moons': 1, 'players': 1, 'season': 1, 'mountain': 1, 'desert': 1, 'bird': 1, 'sides': 1, 'antonym': 1, 'month': 1, 'element': 1, 'olympic': 1}
+PRIMARY, by family
+  1. oracle J - rest: mean +0.714, family-bootstrap 95% [+0.616, +0.833], families +/0/-: 23/2/1, sign-flip over families p = 0.00000
+  2. NLA J - rest: mean +0.650, family-bootstrap 95% [+0.549, +0.729], families +/0/-: 23/3/0, sign-flip over families p = 0.00000
+  3. oracle J - random: mean +0.486, family-bootstrap 95% [+0.337, +0.633], families +/0/-: 18/8/0, sign-flip over families p = 0.00003
+SECONDARY
+  NLA J - random: mean +0.386, family-bootstrap 95% [+0.258, +0.522], families +/0/-: 17/8/1, sign-flip over families p = 0.00010
+NLA minus oracle, per part
+  full: mean -0.014, family-bootstrap 95% [-0.117, +0.064], families +/0/-: 7/16/3, sign-flip over families p = 0.94651
+  J1024: mean -0.050, family-bootstrap 95% [-0.123, +0.012], families +/0/-: 1/20/5, sign-flip over families p = 0.37540
+  N1024: mean +0.014, family-bootstrap 95% [-0.053, +0.123], families +/0/-: 7/14/5, sign-flip over families p = 0.13214
+  R1024: mean +0.050, family-bootstrap 95% [-0.042, +0.129], families +/0/-: 7/15/4, sign-flip over families p = 0.52796

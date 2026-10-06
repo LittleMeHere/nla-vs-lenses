@@ -1,0 +1,27 @@
+prompts complete for both readers: 70 (oracle 70, NLA 70)
+
+ORACLE (70 prompts x 2 samples): part | share of squared norm | samples naming the hidden step [95% bootstrap]
+  whole: 1.00 | 0.864 [0.793, 0.929]
+  J part: 0.16 | 0.929 [0.864, 0.979]
+  rest: 0.84 | 0.214 [0.136, 0.300]
+  random part: 0.21 | 0.443 [0.336, 0.557]
+
+NLA (70 prompts x 2 samples): part | share of squared norm | samples naming the hidden step [95% bootstrap]
+  whole: 1.00 | 0.850 [0.764, 0.921]
+  J part: 0.16 | 0.879 [0.807, 0.943]
+  rest: 0.84 | 0.229 [0.143, 0.321]
+  random part: 0.21 | 0.493 [0.379, 0.600]
+
+PRIMARY (confirmed at p < 0.005 with the CW-12 sign; not confirmed if the interval includes 0)
+  1. oracle: J part - rest = +0.714 [+0.614, +0.807], sign-flip p = 0.00001, SD 0.413, prompts +/0/-: 57/12/1
+  2. NLA: J part - rest = +0.650 [+0.550, +0.743], sign-flip p = 0.00001, SD 0.411, prompts +/0/-: 54/16/0
+  3. oracle: J part - random part = +0.486 [+0.371, +0.593], sign-flip p = 0.00001, SD 0.474, prompts +/0/-: 38/32/0
+
+SECONDARY
+  - NLA: J part - random part = +0.386 [+0.279, +0.493], sign-flip p = 0.00001, SD 0.452, prompts +/0/-: 34/35/1
+  - oracle: J part - whole = +0.064 [+0.000, +0.129], sign-flip p = 0.07749, SD 0.268, prompts +/0/-: 12/55/3
+  - NLA: J part - whole = +0.029 [-0.029, +0.093], sign-flip p = 0.48882, SD 0.254, prompts +/0/-: 7/58/5
+  - oracle: random part - rest = +0.229 [+0.121, +0.343], sign-flip p = 0.00029, SD 0.472, prompts +/0/-: 24/39/7
+  - NLA: random part - rest = +0.264 [+0.157, +0.371], sign-flip p = 0.00004, SD 0.456, prompts +/0/-: 28/38/4
+  whole activation, any sample names the step: both 61, oracle only 5, NLA only 1, neither 3
+  J-Lens top-10 names the step: whole 36/70, J part 37/70, rest 0/70, random part 20/70

@@ -1,0 +1,3 @@
+unembedding basis: top 1024 directions hold 0.390 of the unit-row variance
+overlap (1 = same subspace, 0.20 = unrelated): unembedding vs J 0.318; unembedding vs PCA 0.207; J vs PCA 0.311
+share of activation squared norm (70 CW-14 prompts, L42): unembedding part 0.338; J part 0.160; PCA part 0.902
