@@ -24,7 +24,7 @@ h = 0.34
 for cond, label, y in ROWS:
     sh = 100 * np.mean([r["share"] for r in data["oracle"] if r["cond"] == cond])
     ax.text(-3, y + 0.10, label.split("\n")[0], ha="right", va="center", fontsize=12.5, color=INK, fontweight="semibold" if cond in ("J1024", "N1024") else "regular")
-    ax.text(-3, y - 0.22, (label.split("\n")[1] + " · " if "\n" in label else "") + f"{sh:.0f}% of the activation", ha="right", va="center", fontsize=9.5, color=MUTED)
+    ax.text(-3, y - 0.22, (label.split("\n")[1] + " · " if "\n" in label else "") + f"{sh:.0f}% of squared norm", ha="right", va="center", fontsize=9.5, color=MUTED)
     for j, rd in enumerate(("oracle", "nla")):
         v = [np.mean([names(s, bank[r["id"]]["intermediates"]) for s in r["samples"]]) for r in data[rd] if r["cond"] == cond]
         m, lo, hi = boot(v); yy = y + (h / 2 + 0.02) * (1 if j == 0 else -1)

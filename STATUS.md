@@ -61,7 +61,7 @@ Vishesh's later brew results (his repo STATUS, 2026-10-05; not in the shared doc
     | 28, 36, 44, 56 | on | off |
     | 42 | off | on |
 
-    Every L42 result below (main comparison, deletion, CW-11, CW-12, brew) has the oracle lens off its trained layers. The one check so far: on the 100 multihop items the oracle lens names the bridge in 80 at L42 and 72 at L44 (one readout each, same word match; named at both 68, at neither 16, only L42 12, only L44 4; `runs/multihop100/olens_L42,44.multihop.jsonl`). Not checked: whether our oracle-lens calls used the README's prompt (`concepts_raw`), transform (`unit`) and alpha (16000); the README says changing any of these is a different experiment.
+    Every L42 result below (main comparison, deletion, CW-11, CW-12, brew) has the oracle lens off its trained layers. The one check so far: on the 100 multihop items the oracle lens names the bridge in 80 at L42 and 72 at L44 (one readout each, same word match; named at both 68, at neither 16, only L42 12, only L44 4; `runs/multihop100/olens_L42,44.multihop.jsonl`). Checked 2026-10-05: the WorkspaceBench `OLens` class used for every oracle-lens call here has the README's prompt text (`concepts_raw`, word for word), transform (`unit`) and alpha (16000); the checkpoint's `run.json` lists the same. So the only departure from its contract is the layer.
 - **Scoring:**
   - multihop: exact word match of the bank's intermediate in the readout. This counts mentions, not role-correct claims.
   - chain: the number as digits, an English number word or a Chinese numeral (`scripts/score_chain.py`).
@@ -251,7 +251,19 @@ Design, with its amendments in order: [designs/CW-14_split_confirmation.md](desi
 - **Add-on, model side (exploratory, rough;** [modeluse.jsonl](runs/cw14/modeluse.jsonl)**).** Replacing the L42 read-position activation by one part and reading the model's next token, 63 of the 70 prompts whose unpatched top token starts the target: removing the J part changes the log-probability of that token by −0.03 [−0.12, +0.04]; removing random parts −0.09 and −0.13; removing the unembedding part −0.12; keeping only the 10% outside the PCA part −3.65. One layer and one position, so the model can route around it. It gives no sign that the model needs the J part there.
 - **Unembedding part.** The top 1,024 directions of the unit unembedding rows overlap the J part by 0.32 (0.20 is unrelated), so the J part is not the plain output-embedding subspace ([ubasis_overlap.txt](runs/cw14/ubasis_overlap.txt)).
 - **Most likely objection.** The J directions are built from the Jacobian to the output, so the J part is the part of the activation that maps to words. "Readers that write words read the word-mapped part" may be all this shows; it does not make the J part a workspace. Not addressed here. Vishesh's 007 stages 2 and 2b (swaps between paired brew prompts) test the model side.
-- **Still running at the time of writing:** four secondary conditions (all but random, a second random draw, PCA part, all but PCA). Not run: a centred-activation condition (prepared, held back).
+- **Extension (secondary; four more conditions on the same 70 prompts, added before any reader output existed).**
+
+  | part | share of squared norm | oracle lens | NLA |
+  |---|---|---|---|
+  | all but the random part | 0.79 | 0.84 [0.76, 0.91] | 0.84 [0.76, 0.91] |
+  | second random part (seed 1) | 0.19 | 0.55 [0.44, 0.66] | 0.54 [0.44, 0.65] |
+  | PCA part | 0.90 | 0.84 [0.76, 0.91] | 0.79 [0.70, 0.87] |
+  | all but the PCA part | 0.10 | 0.06 [0.01, 0.11] | 0.16 [0.09, 0.24] |
+
+  - Removing the J part costs far more than removing a random part of the same size: rest − all-but-random −0.62 [−0.73, −0.51] (oracle), −0.61 [−0.70, −0.51] (NLA), each p < 0.0001 (CW-12: −0.25 and −0.27).
+  - The random-part result does not depend on the draw: J part − second random part +0.38 [0.28, 0.48] (oracle), +0.34 [0.24, 0.44] (NLA); the two draws differ by −0.11 [−0.21, 0.00] and −0.05 [−0.15, 0.05].
+  - J part − PCA part +0.09 for both readers (oracle [0.03, 0.15], p = 0.014; NLA [0.02, 0.16], p = 0.020): weak. The PCA part holds 90% of the squared norm and overlaps the J part by 0.31, so it contains much of it.
+  - Not run: a centred-activation condition (prepared at Vishesh's suggestion, held back).
 
 ## Limits
 

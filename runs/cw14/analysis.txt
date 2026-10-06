@@ -24,4 +24,26 @@ SECONDARY
   - oracle: random part - rest = +0.229 [+0.121, +0.343], sign-flip p = 0.00029, SD 0.472, prompts +/0/-: 24/39/7
   - NLA: random part - rest = +0.264 [+0.157, +0.371], sign-flip p = 0.00004, SD 0.456, prompts +/0/-: 28/38/4
   whole activation, any sample names the step: both 61, oracle only 5, NLA only 1, neither 3
+
+EXTENSION (secondary; 70 prompts complete for all 8 conditions)
+  oracle all but random: 0.79 | 0.836 [0.757, 0.907]
+  oracle random part (seed 1): 0.19 | 0.550 [0.443, 0.657]
+  oracle PCA part: 0.90 | 0.843 [0.764, 0.914]
+  oracle all but PCA: 0.10 | 0.057 [0.014, 0.107]
+  NLA all but random: 0.79 | 0.836 [0.757, 0.914]
+  NLA random part (seed 1): 0.19 | 0.543 [0.436, 0.650]
+  NLA PCA part: 0.90 | 0.793 [0.700, 0.871]
+  NLA all but PCA: 0.10 | 0.164 [0.093, 0.243]
+  - oracle: rest - all but random = -0.621 [-0.729, -0.507], sign-flip p = 0.00001, SD 0.492, prompts +/0/-: 5/12/53
+  - oracle: J part - random part (seed 1) = +0.379 [+0.279, +0.479], sign-flip p = 0.00001, SD 0.446, prompts +/0/-: 32/38/0
+  - oracle: random part - random part (seed 1) = -0.107 [-0.214, +0.000], sign-flip p = 0.07267, SD 0.458, prompts +/0/-: 10/42/18
+  - oracle: J part - PCA part = +0.086 [+0.029, +0.150], sign-flip p = 0.01406, SD 0.269, prompts +/0/-: 11/57/2
+  - oracle: rest - all but PCA = +0.157 [+0.071, +0.250], sign-flip p = 0.00139, SD 0.386, prompts +/0/-: 18/49/3
+  - oracle: PCA part - all but PCA = +0.786 [+0.700, +0.864], sign-flip p = 0.00001, SD 0.367, prompts +/0/-: 62/7/1
+  - NLA: rest - all but random = -0.607 [-0.700, -0.507], sign-flip p = 0.00001, SD 0.416, prompts +/0/-: 0/18/52
+  - NLA: J part - random part (seed 1) = +0.336 [+0.236, +0.436], sign-flip p = 0.00001, SD 0.423, prompts +/0/-: 30/40/0
+  - NLA: random part - random part (seed 1) = -0.050 [-0.150, +0.050], sign-flip p = 0.40527, SD 0.427, prompts +/0/-: 12/43/15
+  - NLA: J part - PCA part = +0.086 [+0.021, +0.157], sign-flip p = 0.02046, SD 0.282, prompts +/0/-: 12/55/3
+  - NLA: rest - all but PCA = +0.064 [-0.036, +0.164], sign-flip p = 0.28319, SD 0.442, prompts +/0/-: 18/39/13
+  - NLA: PCA part - all but PCA = +0.629 [+0.529, +0.729], sign-flip p = 0.00001, SD 0.423, prompts +/0/-: 54/15/1
   J-Lens top-10 names the step: whole 36/70, J part 37/70, rest 0/70, random part 20/70
