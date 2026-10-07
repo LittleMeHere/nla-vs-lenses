@@ -1,0 +1,9 @@
+olens {('L40', 'n'): 100, ('L40', 'yes'): 4, ('L44', 'n'): 100, ('L44', 'yes'): 11} pass at any layer: 15
+nla {('L42', 'n'): 100, ('L42', 'yes'): 30} pass at any layer: 30
+n: 100
+write-up restates a line: 100
+a restated line ends in the real last word: 43
+a restated line ends in the target: 23
+restated lines end in neither: 46
+judge pass: 30
+judge pass, target is the end of a restated line: 23

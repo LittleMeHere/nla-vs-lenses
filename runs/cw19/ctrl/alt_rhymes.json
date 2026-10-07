@@ -1,0 +1,1590 @@
+[
+ {
+  "name": "couplet-ahead-head",
+  "last_word": "ahead",
+  "target": "led",
+  "target_zipf": 5.11,
+  "controls": [
+   "bed",
+   "dead",
+   "lead"
+  ],
+  "control_zipf": [
+   5.07,
+   5.19,
+   5.2
+  ]
+ },
+ {
+  "name": "couplet-blame-game",
+  "last_word": "blame",
+  "target": "game",
+  "target_zipf": 5.72,
+  "controls": [
+   "same",
+   "name",
+   "came"
+  ],
+  "control_zipf": [
+   5.8,
+   5.61,
+   5.5
+  ]
+ },
+ {
+  "name": "couplet-crack-black",
+  "last_word": "crack",
+  "target": "black",
+  "target_zipf": 5.46,
+  "controls": [
+   "attack",
+   "track",
+   "lack"
+  ],
+  "control_zipf": [
+   5.09,
+   5.02,
+   4.92
+  ]
+ },
+ {
+  "name": "couplet-divine-wine",
+  "last_word": "divine",
+  "target": "wine",
+  "target_zipf": 4.74,
+  "controls": [
+   "nine",
+   "mine",
+   "decline"
+  ],
+  "control_zipf": [
+   4.87,
+   5.04,
+   4.4
+  ]
+ },
+ {
+  "name": "couplet-divine-wine-to-sign",
+  "last_word": "divine",
+  "target": "wine",
+  "target_zipf": 4.74,
+  "controls": [
+   "nine",
+   "mine",
+   "decline"
+  ],
+  "control_zipf": [
+   4.87,
+   5.04,
+   4.4
+  ]
+ },
+ {
+  "name": "couplet-dream-seem",
+  "last_word": "dream",
+  "target": "seem",
+  "target_zipf": 5.08,
+  "controls": [
+   "supreme",
+   "cream",
+   "stream"
+  ],
+  "control_zipf": [
+   4.69,
+   4.62,
+   4.62
+  ]
+ },
+ {
+  "name": "couplet-gray-day",
+  "last_word": "gray",
+  "target": "day",
+  "target_zipf": 5.95,
+  "controls": [
+   "may",
+   "way",
+   "say"
+  ],
+  "control_zipf": [
+   5.98,
+   6.01,
+   5.89
+  ]
+ },
+ {
+  "name": "couplet-known-grown",
+  "last_word": "known",
+  "target": "grown",
+  "target_zipf": 4.67,
+  "controls": [
+   "loan",
+   "zone",
+   "stone"
+  ],
+  "control_zipf": [
+   4.68,
+   4.72,
+   4.8
+  ]
+ },
+ {
+  "name": "couplet-mistake-make",
+  "last_word": "mistake",
+  "target": "make",
+  "target_zipf": 6.08,
+  "controls": [
+   "take",
+   "break",
+   "lake"
+  ],
+  "control_zipf": [
+   5.92,
+   5.18,
+   4.83
+  ]
+ },
+ {
+  "name": "couplet-moon-soon",
+  "last_word": "moon",
+  "target": "soon",
+  "target_zipf": 5.32,
+  "controls": [
+   "june",
+   "afternoon",
+   "tune"
+  ],
+  "control_zipf": [
+   5.21,
+   4.72,
+   4.27
+  ]
+ },
+ {
+  "name": "couplet-pace-race",
+  "last_word": "pace",
+  "target": "race",
+  "target_zipf": 5.08,
+  "controls": [
+   "base",
+   "space",
+   "face"
+  ],
+  "control_zipf": [
+   5.05,
+   5.23,
+   5.45
+  ]
+ },
+ {
+  "name": "couplet-scar-star",
+  "last_word": "scar",
+  "target": "star",
+  "target_zipf": 5.19,
+  "controls": [
+   "r",
+   "bar",
+   "car"
+  ],
+  "control_zipf": [
+   5.35,
+   4.94,
+   5.45
+  ]
+ },
+ {
+  "name": "couplet-sky-fly",
+  "last_word": "sky",
+  "target": "fly",
+  "target_zipf": 4.75,
+  "controls": [
+   "dry",
+   "apply",
+   "supply"
+  ],
+  "control_zipf": [
+   4.74,
+   4.81,
+   4.81
+  ]
+ },
+ {
+  "name": "couplet-smoke-spoke",
+  "last_word": "smoke",
+  "target": "spoke",
+  "target_zipf": 4.61,
+  "controls": [
+   "joke",
+   "broke",
+   "stroke"
+  ],
+  "control_zipf": [
+   4.68,
+   4.85,
+   4.27
+  ]
+ },
+ {
+  "name": "couplet-star-far",
+  "last_word": "star",
+  "target": "far",
+  "target_zipf": 5.5,
+  "controls": [
+   "car",
+   "r",
+   "bar"
+  ],
+  "control_zipf": [
+   5.45,
+   5.35,
+   4.94
+  ]
+ },
+ {
+  "name": "couplet-tall-small",
+  "last_word": "tall",
+  "target": "small",
+  "target_zipf": 5.51,
+  "controls": [
+   "call",
+   "fall",
+   "lol"
+  ],
+  "control_zipf": [
+   5.51,
+   5.13,
+   5.05
+  ]
+ },
+ {
+  "name": "couplet-throne-alone",
+  "last_word": "throne",
+  "target": "alone",
+  "target_zipf": 5.16,
+  "controls": [
+   "phone",
+   "known",
+   "shown"
+  ],
+  "control_zipf": [
+   5.3,
+   5.39,
+   4.9
+  ]
+ },
+ {
+  "name": "couplet-war-door",
+  "last_word": "war",
+  "target": "door",
+  "target_zipf": 5.08,
+  "controls": [
+   "store",
+   "anymore",
+   "floor"
+  ],
+  "control_zipf": [
+   5.02,
+   4.94,
+   4.94
+  ]
+ },
+ {
+  "name": "bf-couplet-beast-feast",
+  "last_word": "beast",
+  "target": "feast",
+  "target_zipf": 3.95,
+  "controls": [
+   "deceased",
+   "decreased",
+   "northeast"
+  ],
+  "control_zipf": [
+   3.96,
+   4.0,
+   4.06
+  ]
+ },
+ {
+  "name": "bf-couplet-brick-wick",
+  "last_word": "brick",
+  "target": "wick",
+  "target_zipf": 3.34,
+  "controls": [
+   "prick",
+   "sic",
+   "flick"
+  ],
+  "control_zipf": [
+   3.6,
+   3.62,
+   3.63
+  ]
+ },
+ {
+  "name": "bf-couplet-one-done",
+  "last_word": "one",
+  "target": "done",
+  "target_zipf": 5.58,
+  "controls": [
+   "run",
+   "fun",
+   "son"
+  ],
+  "control_zipf": [
+   5.49,
+   5.3,
+   5.28
+  ]
+ },
+ {
+  "name": "b3-po-bird-word",
+  "last_word": "bird",
+  "target": "word",
+  "target_zipf": 5.26,
+  "controls": [
+   "heard",
+   "third",
+   "referred"
+  ],
+  "control_zipf": [
+   5.27,
+   5.32,
+   4.61
+  ]
+ },
+ {
+  "name": "b3-po-book-look",
+  "last_word": "book",
+  "target": "look",
+  "target_zipf": 5.81,
+  "controls": [
+   "took",
+   "cook",
+   "hook"
+  ],
+  "control_zipf": [
+   5.51,
+   4.65,
+   4.37
+  ]
+ },
+ {
+  "name": "b3-po-bread-fed",
+  "last_word": "bread",
+  "target": "fed",
+  "target_zipf": 4.51,
+  "controls": [
+   "thread",
+   "ted",
+   "shed"
+  ],
+  "control_zipf": [
+   4.44,
+   4.26,
+   4.23
+  ]
+ },
+ {
+  "name": "b3-po-chair-hair",
+  "last_word": "chair",
+  "target": "hair",
+  "target_zipf": 5.08,
+  "controls": [
+   "fair",
+   "share",
+   "wear"
+  ],
+  "control_zipf": [
+   4.99,
+   5.2,
+   4.92
+  ]
+ },
+ {
+  "name": "b3-po-clock-knock",
+  "last_word": "clock",
+  "target": "knock",
+  "target_zipf": 4.35,
+  "controls": [
+   "doc",
+   "iraq",
+   "shock"
+  ],
+  "control_zipf": [
+   4.36,
+   4.43,
+   4.46
+  ]
+ },
+ {
+  "name": "b3-po-coat-throat",
+  "last_word": "coat",
+  "target": "throat",
+  "target_zipf": 4.3,
+  "controls": [
+   "remote",
+   "quote",
+   "promote"
+  ],
+  "control_zipf": [
+   4.41,
+   4.51,
+   4.56
+  ]
+ },
+ {
+  "name": "b3-po-dish-wish",
+  "last_word": "dish",
+  "target": "wish",
+  "target_zipf": 5.18,
+  "controls": [
+   "fish",
+   "ish"
+  ],
+  "control_zipf": [
+   4.9,
+   3.72
+  ]
+ },
+ {
+  "name": "b3-po-door-floor",
+  "last_word": "door",
+  "target": "floor",
+  "target_zipf": 4.94,
+  "controls": [
+   "anymore",
+   "store",
+   "score"
+  ],
+  "control_zipf": [
+   4.94,
+   5.02,
+   4.83
+  ]
+ },
+ {
+  "name": "b3-po-grain-plain",
+  "last_word": "grain",
+  "target": "plain",
+  "target_zipf": 4.43,
+  "controls": [
+   "jane",
+   "insane",
+   "obtain"
+  ],
+  "control_zipf": [
+   4.42,
+   4.4,
+   4.4
+  ]
+ },
+ {
+  "name": "b3-po-hill-still",
+  "last_word": "hill",
+  "target": "still",
+  "target_zipf": 5.92,
+  "controls": [
+   "until",
+   "will",
+   "bill"
+  ],
+  "control_zipf": [
+   5.61,
+   6.45,
+   5.15
+  ]
+ },
+ {
+  "name": "b3-po-lake-wake",
+  "last_word": "lake",
+  "target": "wake",
+  "target_zipf": 4.76,
+  "controls": [
+   "mistake",
+   "fake",
+   "cake"
+  ],
+  "control_zipf": [
+   4.67,
+   4.65,
+   4.53
+  ]
+ },
+ {
+  "name": "b3-po-moon-soon",
+  "last_word": "moon",
+  "target": "soon",
+  "target_zipf": 5.32,
+  "controls": [
+   "june",
+   "afternoon",
+   "tune"
+  ],
+  "control_zipf": [
+   5.21,
+   4.72,
+   4.27
+  ]
+ },
+ {
+  "name": "b3-po-mouse-house",
+  "last_word": "mouse",
+  "target": "house",
+  "target_zipf": 5.71,
+  "controls": [
+   "spouse",
+   "klaus"
+  ],
+  "control_zipf": [
+   3.95,
+   3.5
+  ]
+ },
+ {
+  "name": "b3-po-nail-mail",
+  "last_word": "nail",
+  "target": "mail",
+  "target_zipf": 4.72,
+  "controls": [
+   "email",
+   "jail",
+   "fail"
+  ],
+  "control_zipf": [
+   4.68,
+   4.62,
+   4.61
+  ]
+ },
+ {
+  "name": "b3-po-pen-den",
+  "last_word": "pen",
+  "target": "den",
+  "target_zipf": 4.01,
+  "controls": [
+   "sen",
+   "glenn",
+   "chen"
+  ],
+  "control_zipf": [
+   4.01,
+   3.97,
+   3.96
+  ]
+ },
+ {
+  "name": "b3-po-rope-hope",
+  "last_word": "rope",
+  "target": "hope",
+  "target_zipf": 5.44,
+  "controls": [
+   "pope",
+   "nope",
+   "scope"
+  ],
+  "control_zipf": [
+   4.38,
+   4.26,
+   4.26
+  ]
+ },
+ {
+  "name": "b3-po-rose-nose",
+  "last_word": "rose",
+  "target": "nose",
+  "target_zipf": 4.51,
+  "controls": [
+   "chose",
+   "suppose",
+   "clothes"
+  ],
+  "control_zipf": [
+   4.55,
+   4.56,
+   4.72
+  ]
+ },
+ {
+  "name": "b3-po-rug-snug",
+  "last_word": "rug",
+  "target": "snug",
+  "target_zipf": 3.1,
+  "controls": [
+   "tug",
+   "mug",
+   "dug"
+  ],
+  "control_zipf": [
+   3.5,
+   3.71,
+   3.86
+  ]
+ },
+ {
+  "name": "b3-po-sand-hand",
+  "last_word": "sand",
+  "target": "hand",
+  "target_zipf": 5.41,
+  "controls": [
+   "understand",
+   "land",
+   "stand"
+  ],
+  "control_zipf": [
+   5.37,
+   5.22,
+   5.14
+  ]
+ },
+ {
+  "name": "b3-po-seed-weed",
+  "last_word": "seed",
+  "target": "weed",
+  "target_zipf": 4.27,
+  "controls": [
+   "guaranteed",
+   "succeed",
+   "proceed"
+  ],
+  "control_zipf": [
+   4.29,
+   4.29,
+   4.18
+  ]
+ },
+ {
+  "name": "b3-po-sky-fly",
+  "last_word": "sky",
+  "target": "fly",
+  "target_zipf": 4.75,
+  "controls": [
+   "dry",
+   "apply",
+   "supply"
+  ],
+  "control_zipf": [
+   4.74,
+   4.81,
+   4.81
+  ]
+ },
+ {
+  "name": "b3-po-sleep-deep",
+  "last_word": "asleep",
+  "target": "deep",
+  "target_zipf": 5.05,
+  "controls": [
+   "sleep",
+   "cheap",
+   "keep"
+  ],
+  "control_zipf": [
+   5.05,
+   4.71,
+   5.66
+  ]
+ },
+ {
+  "name": "b3-po-snow-go",
+  "last_word": "snow",
+  "target": "go",
+  "target_zipf": 6.03,
+  "controls": [
+   "know",
+   "no",
+   "show"
+  ],
+  "control_zipf": [
+   6.1,
+   6.35,
+   5.68
+  ]
+ },
+ {
+  "name": "b3-po-song-long",
+  "last_word": "song",
+  "target": "long",
+  "target_zipf": 5.81,
+  "controls": [
+   "wrong",
+   "along",
+   "strong"
+  ],
+  "control_zipf": [
+   5.39,
+   5.38,
+   5.22
+  ]
+ },
+ {
+  "name": "b3-po-storm-warm",
+  "last_word": "storm",
+  "target": "warm",
+  "target_zipf": 4.71,
+  "controls": [
+   "perform",
+   "reform",
+   "inform"
+  ],
+  "control_zipf": [
+   4.66,
+   4.53,
+   4.15
+  ]
+ },
+ {
+  "name": "b3-po-thread-bed",
+  "last_word": "thread",
+  "target": "bed",
+  "target_zipf": 5.07,
+  "controls": [
+   "led",
+   "ahead",
+   "dead"
+  ],
+  "control_zipf": [
+   5.11,
+   5.01,
+   5.19
+  ]
+ },
+ {
+  "name": "b3-po-track-back",
+  "last_word": "track",
+  "target": "back",
+  "target_zipf": 6.04,
+  "controls": [
+   "black",
+   "attack",
+   "lack"
+  ],
+  "control_zipf": [
+   5.46,
+   5.09,
+   4.92
+  ]
+ },
+ {
+  "name": "b3-po-wall-fall",
+  "last_word": "wall",
+  "target": "fall",
+  "target_zipf": 5.13,
+  "controls": [
+   "lol",
+   "ball",
+   "paul"
+  ],
+  "control_zipf": [
+   5.05,
+   5.04,
+   5.03
+  ]
+ },
+ {
+  "name": "b3-po-well-fell",
+  "last_word": "well",
+  "target": "fell",
+  "target_zipf": 4.85,
+  "controls": [
+   "cell",
+   "hotel",
+   "sell"
+  ],
+  "control_zipf": [
+   4.87,
+   4.95,
+   4.98
+  ]
+ },
+ {
+  "name": "b3-po-wheat-heat",
+  "last_word": "wheat",
+  "target": "heat",
+  "target_zipf": 4.86,
+  "controls": [
+   "seat",
+   "sweet",
+   "treat"
+  ],
+  "control_zipf": [
+   4.82,
+   4.91,
+   4.75
+  ]
+ },
+ {
+  "name": "couplet-breath-death",
+  "last_word": "breath",
+  "target": "death",
+  "target_zipf": 5.4,
+  "controls": [
+   "seth",
+   "beth",
+   "meth"
+  ],
+  "control_zipf": [
+   3.92,
+   3.87,
+   3.62
+  ]
+ },
+ {
+  "name": "couplet-chase-face",
+  "last_word": "chase",
+  "target": "face",
+  "target_zipf": 5.45,
+  "controls": [
+   "case",
+   "space",
+   "place"
+  ],
+  "control_zipf": [
+   5.55,
+   5.23,
+   5.71
+  ]
+ },
+ {
+  "name": "couplet-dead-red",
+  "last_word": "dead",
+  "target": "red",
+  "target_zipf": 5.32,
+  "controls": [
+   "instead",
+   "lead",
+   "head"
+  ],
+  "control_zipf": [
+   5.24,
+   5.2,
+   5.51
+  ]
+ },
+ {
+  "name": "couplet-eyes-lies",
+  "last_word": "eyes",
+  "target": "lies",
+  "target_zipf": 4.73,
+  "controls": [
+   "surprise",
+   "rise",
+   "prize"
+  ],
+  "control_zipf": [
+   4.75,
+   4.81,
+   4.59
+  ]
+ },
+ {
+  "name": "couplet-fall-wall",
+  "last_word": "fall",
+  "target": "wall",
+  "target_zipf": 5.04,
+  "controls": [
+   "ball",
+   "lol",
+   "paul"
+  ],
+  "control_zipf": [
+   5.04,
+   5.05,
+   5.03
+  ]
+ },
+ {
+  "name": "couplet-fate-great",
+  "last_word": "fate",
+  "target": "great",
+  "target_zipf": 5.88,
+  "controls": [
+   "state",
+   "wait",
+   "late"
+  ],
+  "control_zipf": [
+   5.78,
+   5.35,
+   5.34
+  ]
+ },
+ {
+  "name": "couplet-fear-near",
+  "last_word": "fear",
+  "target": "near",
+  "target_zipf": 5.29,
+  "controls": [
+   "clear",
+   "career",
+   "appear"
+  ],
+  "control_zipf": [
+   5.25,
+   5.07,
+   4.85
+  ]
+ },
+ {
+  "name": "couplet-fight-light",
+  "last_word": "fight",
+  "target": "light",
+  "target_zipf": 5.33,
+  "controls": [
+   "quite",
+   "site",
+   "white"
+  ],
+  "control_zipf": [
+   5.29,
+   5.22,
+   5.51
+  ]
+ },
+ {
+  "name": "couplet-frame-same",
+  "last_word": "frame",
+  "target": "same",
+  "target_zipf": 5.8,
+  "controls": [
+   "game",
+   "name",
+   "came"
+  ],
+  "control_zipf": [
+   5.72,
+   5.61,
+   5.5
+  ]
+ },
+ {
+  "name": "couplet-gown-down",
+  "last_word": "gown",
+  "target": "down",
+  "target_zipf": 5.88,
+  "controls": [
+   "around",
+   "town",
+   "brown"
+  ],
+  "control_zipf": [
+   5.77,
+   5.24,
+   5.01
+  ]
+ },
+ {
+  "name": "couplet-hall-call",
+  "last_word": "hall",
+  "target": "call",
+  "target_zipf": 5.51,
+  "controls": [
+   "small",
+   "fall",
+   "lol"
+  ],
+  "control_zipf": [
+   5.51,
+   5.13,
+   5.05
+  ]
+ },
+ {
+  "name": "couplet-head-bed",
+  "last_word": "head",
+  "target": "bed",
+  "target_zipf": 5.07,
+  "controls": [
+   "led",
+   "ahead",
+   "dead"
+  ],
+  "control_zipf": [
+   5.11,
+   5.01,
+   5.19
+  ]
+ },
+ {
+  "name": "couplet-heart-apart",
+  "last_word": "heart",
+  "target": "apart",
+  "target_zipf": 4.78,
+  "controls": [
+   "smart",
+   "chart",
+   "art"
+  ],
+  "control_zipf": [
+   4.83,
+   4.47,
+   5.29
+  ]
+ },
+ {
+  "name": "couplet-heart-art",
+  "last_word": "heart",
+  "target": "art",
+  "target_zipf": 5.29,
+  "controls": [
+   "start",
+   "smart",
+   "part"
+  ],
+  "control_zipf": [
+   5.56,
+   4.83,
+   5.78
+  ]
+ },
+ {
+  "name": "couplet-hold-old",
+  "last_word": "hold",
+  "target": "old",
+  "target_zipf": 5.75,
+  "controls": [
+   "told",
+   "gold",
+   "cold"
+  ],
+  "control_zipf": [
+   5.54,
+   5.17,
+   5.02
+  ]
+ },
+ {
+  "name": "couplet-hook-book",
+  "last_word": "hook",
+  "target": "book",
+  "target_zipf": 5.43,
+  "controls": [
+   "took",
+   "look",
+   "cook"
+  ],
+  "control_zipf": [
+   5.51,
+   5.81,
+   4.65
+  ]
+ },
+ {
+  "name": "couplet-mind-find",
+  "last_word": "mind",
+  "target": "find",
+  "target_zipf": 5.76,
+  "controls": [
+   "kind",
+   "behind",
+   "designed"
+  ],
+  "control_zipf": [
+   5.45,
+   5.29,
+   4.96
+  ]
+ },
+ {
+  "name": "couplet-shook-took",
+  "last_word": "shook",
+  "target": "took",
+  "target_zipf": 5.51,
+  "controls": [
+   "book",
+   "look",
+   "cook"
+  ],
+  "control_zipf": [
+   5.43,
+   5.81,
+   4.65
+  ]
+ },
+ {
+  "name": "couplet-sleep-deep",
+  "last_word": "sleep",
+  "target": "deep",
+  "target_zipf": 5.05,
+  "controls": [
+   "cheap",
+   "keep",
+   "asleep"
+  ],
+  "control_zipf": [
+   4.71,
+   5.66,
+   4.36
+  ]
+ },
+ {
+  "name": "couplet-sun-done",
+  "last_word": "sun",
+  "target": "done",
+  "target_zipf": 5.58,
+  "controls": [
+   "run",
+   "fun",
+   "son"
+  ],
+  "control_zipf": [
+   5.49,
+   5.3,
+   5.28
+  ]
+ },
+ {
+  "name": "couplet-time-climb",
+  "last_word": "time",
+  "target": "climb",
+  "target_zipf": 4.22,
+  "controls": [
+   "lime",
+   "dime",
+   "prime"
+  ],
+  "control_zipf": [
+   3.86,
+   3.66,
+   4.81
+  ]
+ },
+ {
+  "name": "couplet-white-write",
+  "last_word": "white",
+  "target": "write",
+  "target_zipf": 5.03,
+  "controls": [
+   "tonight",
+   "despite",
+   "flight"
+  ],
+  "control_zipf": [
+   5.03,
+   5.0,
+   4.86
+  ]
+ },
+ {
+  "name": "bf-couplet-day-hay",
+  "last_word": "day",
+  "target": "hay",
+  "target_zipf": 3.91,
+  "controls": [
+   "yay",
+   "epa",
+   "fe"
+  ],
+  "control_zipf": [
+   3.92,
+   3.9,
+   3.9
+  ]
+ },
+ {
+  "name": "bf-couplet-gold-told",
+  "last_word": "gold",
+  "target": "told",
+  "target_zipf": 5.54,
+  "controls": [
+   "old",
+   "hold",
+   "cold"
+  ],
+  "control_zipf": [
+   5.75,
+   5.19,
+   5.02
+  ]
+ },
+ {
+  "name": "b3-po-bell-spell",
+  "last_word": "bell",
+  "target": "spell",
+  "target_zipf": 4.37,
+  "controls": [
+   "shell",
+   "del",
+   "smell"
+  ],
+  "control_zipf": [
+   4.39,
+   4.32,
+   4.49
+  ]
+ },
+ {
+  "name": "b3-po-boat-float",
+  "last_word": "boat",
+  "target": "float",
+  "target_zipf": 3.94,
+  "controls": [
+   "goat",
+   "throat",
+   "devote"
+  ],
+  "control_zipf": [
+   4.02,
+   4.3,
+   3.53
+  ]
+ },
+ {
+  "name": "b3-po-door-roar",
+  "last_word": "door",
+  "target": "roar",
+  "target_zipf": 3.7,
+  "controls": [
+   "adore",
+   "tore",
+   "thor"
+  ],
+  "control_zipf": [
+   3.7,
+   3.71,
+   3.69
+  ]
+ },
+ {
+  "name": "b3-po-heart-start",
+  "last_word": "heart",
+  "target": "start",
+  "target_zipf": 5.56,
+  "controls": [
+   "part",
+   "art",
+   "smart"
+  ],
+  "control_zipf": [
+   5.78,
+   5.29,
+   4.83
+  ]
+ },
+ {
+  "name": "b3-po-king-ring",
+  "last_word": "king",
+  "target": "ring",
+  "target_zipf": 4.81,
+  "controls": [
+   "spring",
+   "wing",
+   "sing"
+  ],
+  "control_zipf": [
+   4.92,
+   4.61,
+   4.54
+  ]
+ },
+ {
+  "name": "b3-po-milk-silk",
+  "last_word": "milk",
+  "target": "silk",
+  "target_zipf": 4.11,
+  "controls": [],
+  "control_zipf": []
+ },
+ {
+  "name": "b3-po-mine-shine",
+  "last_word": "mine",
+  "target": "shine",
+  "target_zipf": 4.17,
+  "controls": [
+   "combine",
+   "divine",
+   "pine"
+  ],
+  "control_zipf": [
+   4.13,
+   4.24,
+   4.1
+  ]
+ },
+ {
+  "name": "b3-po-night-light",
+  "last_word": "night",
+  "target": "light",
+  "target_zipf": 5.33,
+  "controls": [
+   "quite",
+   "fight",
+   "site"
+  ],
+  "control_zipf": [
+   5.29,
+   5.23,
+   5.22
+  ]
+ },
+ {
+  "name": "b3-po-road-load",
+  "last_word": "road",
+  "target": "load",
+  "target_zipf": 4.58,
+  "controls": [
+   "mode",
+   "showed",
+   "code"
+  ],
+  "control_zipf": [
+   4.63,
+   4.86,
+   5.08
+  ]
+ },
+ {
+  "name": "b3-po-sea-free",
+  "last_word": "sea",
+  "target": "free",
+  "target_zipf": 5.63,
+  "controls": [
+   "three",
+   "d",
+   "t"
+  ],
+  "control_zipf": [
+   5.78,
+   5.46,
+   5.43
+  ]
+ },
+ {
+  "name": "b3-po-street-feet",
+  "last_word": "street",
+  "target": "feet",
+  "target_zipf": 4.99,
+  "controls": [
+   "beat",
+   "sweet",
+   "complete"
+  ],
+  "control_zipf": [
+   5.01,
+   4.91,
+   5.1
+  ]
+ },
+ {
+  "name": "b3-po-town-down",
+  "last_word": "town",
+  "target": "down",
+  "target_zipf": 5.88,
+  "controls": [
+   "around",
+   "brown",
+   "crown"
+  ],
+  "control_zipf": [
+   5.77,
+   5.01,
+   4.56
+  ]
+ },
+ {
+  "name": "b3-po-train-chain",
+  "last_word": "train",
+  "target": "chain",
+  "target_zipf": 4.65,
+  "controls": [
+   "maintain",
+   "rain",
+   "spain"
+  ],
+  "control_zipf": [
+   4.65,
+   4.71,
+   4.59
+  ]
+ },
+ {
+  "name": "b3-po-tune-june",
+  "last_word": "tune",
+  "target": "noon",
+  "target_zipf": 4.11,
+  "controls": [
+   "immune",
+   "cartoon",
+   "balloon"
+  ],
+  "control_zipf": [
+   4.14,
+   4.08,
+   3.9
+  ]
+ },
+ {
+  "name": "couplet-away-way",
+  "last_word": "away",
+  "target": "way",
+  "target_zipf": 6.01,
+  "controls": [
+   "may",
+   "day",
+   "say"
+  ],
+  "control_zipf": [
+   5.98,
+   5.95,
+   5.89
+  ]
+ },
+ {
+  "name": "couplet-base-case",
+  "last_word": "base",
+  "target": "case",
+  "target_zipf": 5.55,
+  "controls": [
+   "face",
+   "place",
+   "space"
+  ],
+  "control_zipf": [
+   5.45,
+   5.71,
+   5.23
+  ]
+ },
+ {
+  "name": "couplet-bed-dead",
+  "last_word": "bed",
+  "target": "dead",
+  "target_zipf": 5.19,
+  "controls": [
+   "lead",
+   "instead",
+   "led"
+  ],
+  "control_zipf": [
+   5.2,
+   5.24,
+   5.11
+  ]
+ },
+ {
+  "name": "couplet-cat-mat",
+  "last_word": "cat",
+  "target": "mat",
+  "target_zipf": 3.84,
+  "controls": [
+   "nat",
+   "stat",
+   "kat"
+  ],
+  "control_zipf": [
+   3.75,
+   3.95,
+   3.64
+  ]
+ },
+ {
+  "name": "couplet-crown-town",
+  "last_word": "crown",
+  "target": "town",
+  "target_zipf": 5.24,
+  "controls": [
+   "brown",
+   "around",
+   "down"
+  ],
+  "control_zipf": [
+   5.01,
+   5.77,
+   5.88
+  ]
+ },
+ {
+  "name": "couplet-flame-name",
+  "last_word": "flame",
+  "target": "name",
+  "target_zipf": 5.61,
+  "controls": [
+   "game",
+   "came",
+   "same"
+  ],
+  "control_zipf": [
+   5.72,
+   5.5,
+   5.8
+  ]
+ },
+ {
+  "name": "couplet-forget-get",
+  "last_word": "forget",
+  "target": "get",
+  "target_zipf": 6.28,
+  "controls": [
+   "let",
+   "set",
+   "yet"
+  ],
+  "control_zipf": [
+   5.6,
+   5.59,
+   5.54
+  ]
+ },
+ {
+  "name": "couplet-grow-show",
+  "last_word": "grow",
+  "target": "show",
+  "target_zipf": 5.68,
+  "controls": [
+   "though",
+   "oh",
+   "ago"
+  ],
+  "control_zipf": [
+   5.5,
+   5.43,
+   5.42
+  ]
+ },
+ {
+  "name": "couplet-rain-pain",
+  "last_word": "rain",
+  "target": "pain",
+  "target_zipf": 5.03,
+  "controls": [
+   "campaign",
+   "train",
+   "brain"
+  ],
+  "control_zipf": [
+   5.0,
+   4.96,
+   4.94
+  ]
+ },
+ {
+  "name": "couplet-shoe-blue",
+  "last_word": "shoe",
+  "target": "blue",
+  "target_zipf": 5.13,
+  "controls": [
+   "review",
+   "u",
+   "view"
+  ],
+  "control_zipf": [
+   5.12,
+   5.11,
+   5.19
+  ]
+ },
+ {
+  "name": "couplet-shore-more",
+  "last_word": "shore",
+  "target": "more",
+  "target_zipf": 6.36,
+  "controls": [
+   "your",
+   "or",
+   "before"
+  ],
+  "control_zipf": [
+   6.53,
+   6.54,
+   5.93
+  ]
+ }
+]

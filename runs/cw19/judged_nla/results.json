@@ -1,0 +1,1852 @@
+{
+ "schema_version": 1,
+ "family": "poetry",
+ "complete": true,
+ "pinned_instrument": true,
+ "config": {
+  "judge_model": "google/gemini-3.8-flash",
+  "prompt_version": "bank-2026-09-16",
+  "reasoning": {
+   "effort": "minimal"
+  },
+  "layers": null,
+  "dry_run": false,
+  "concurrency": 64,
+  "rpm": 240.0,
+  "allow_missing": false,
+  "items": null,
+  "limit": 0,
+  "kind": "prose",
+  "layers_judged": [
+   42
+  ]
+ },
+ "n_items": 100,
+ "counts": {
+  "n_expected_cells": 100,
+  "n_missing_cells": 0,
+  "n_unjudged_cells": 0,
+  "n_empty_cells": 0,
+  "skipped_rows": 0,
+  "spend_usd": 0.05370674999999999
+ },
+ "numbers": {
+  "metric": "pass_rate",
+  "value": 0.3,
+  "ci95": [
+   0.21,
+   0.38
+  ],
+  "chance": null,
+  "chance_label": "no analytic floor (free text); the prompt-only baseline is the measured floor",
+  "higher_is_better": true,
+  "extras": {
+   "n_calls": 100,
+   "n_items_decided": 100,
+   "n_items_undecided": 0,
+   "n_items_without_readouts": 0
+  }
+ },
+ "rows": [
+  {
+   "id": "couplet-ahead-head",
+   "targets": [
+    "led"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-blame-game",
+   "targets": [
+    "game"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-crack-black",
+   "targets": [
+    "black"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-divine-wine",
+   "targets": [
+    "wine"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-divine-wine-to-sign",
+   "targets": [
+    "wine"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-dream-seem",
+   "targets": [
+    "seem"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "seem",
+     "quote": "seem",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-gray-day",
+   "targets": [
+    "day"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-known-grown",
+   "targets": [
+    "grown"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-mistake-make",
+   "targets": [
+    "make"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "make",
+     "quote": "make",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-moon-soon",
+   "targets": [
+    "soon"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-pace-race",
+   "targets": [
+    "race"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "race",
+     "quote": "race",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-scar-star",
+   "targets": [
+    "star"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "star",
+     "quote": "stars",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-sky-fly",
+   "targets": [
+    "fly"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-smoke-spoke",
+   "targets": [
+    "spoke"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-star-far",
+   "targets": [
+    "far"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-tall-small",
+   "targets": [
+    "small"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-throne-alone",
+   "targets": [
+    "alone"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-war-door",
+   "targets": [
+    "door"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "bf-couplet-beast-feast",
+   "targets": [
+    "feast"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "bf-couplet-brick-wick",
+   "targets": [
+    "wick"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "bf-couplet-one-done",
+   "targets": [
+    "done"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-bird-word",
+   "targets": [
+    "word"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-book-look",
+   "targets": [
+    "look"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "look",
+     "quote": "look",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-bread-fed",
+   "targets": [
+    "fed"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-chair-hair",
+   "targets": [
+    "hair"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "hair",
+     "quote": "hair",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-clock-knock",
+   "targets": [
+    "knock"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-coat-throat",
+   "targets": [
+    "throat"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-dish-wish",
+   "targets": [
+    "wish"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "wish",
+     "quote": "wish",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-door-floor",
+   "targets": [
+    "floor"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "floor",
+     "quote": "floor",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-grain-plain",
+   "targets": [
+    "plain"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-hill-still",
+   "targets": [
+    "still"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-lake-wake",
+   "targets": [
+    "wake"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "wake",
+     "quote": "woke",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-moon-soon",
+   "targets": [
+    "soon"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-mouse-house",
+   "targets": [
+    "house"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-nail-mail",
+   "targets": [
+    "mail"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-pen-den",
+   "targets": [
+    "den"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-rope-hope",
+   "targets": [
+    "hope"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "hope",
+     "quote": "hope",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-rose-nose",
+   "targets": [
+    "nose"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-rug-snug",
+   "targets": [
+    "snug"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "snug",
+     "quote": "snug",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-sand-hand",
+   "targets": [
+    "hand"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-seed-weed",
+   "targets": [
+    "weed"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-sky-fly",
+   "targets": [
+    "fly"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "fly",
+     "quote": "flies",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-sleep-deep",
+   "targets": [
+    "deep"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-snow-go",
+   "targets": [
+    "go"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-song-long",
+   "targets": [
+    "long"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "long",
+     "quote": "long",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-storm-warm",
+   "targets": [
+    "warm"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-thread-bed",
+   "targets": [
+    "bed"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-track-back",
+   "targets": [
+    "back"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-wall-fall",
+   "targets": [
+    "fall"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-well-fell",
+   "targets": [
+    "fell"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-wheat-heat",
+   "targets": [
+    "heat"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "heat",
+     "quote": "heat",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-breath-death",
+   "targets": [
+    "death"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "death",
+     "quote": "death",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-chase-face",
+   "targets": [
+    "face"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-dead-red",
+   "targets": [
+    "red"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-eyes-lies",
+   "targets": [
+    "lies"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-fall-wall",
+   "targets": [
+    "wall"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "wall",
+     "quote": "wall",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-fate-great",
+   "targets": [
+    "great"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-fear-near",
+   "targets": [
+    "near"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "near",
+     "quote": "near",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-fight-light",
+   "targets": [
+    "light"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-frame-same",
+   "targets": [
+    "same"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "same",
+     "quote": "same",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-gown-down",
+   "targets": [
+    "down"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "down",
+     "quote": "down",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-hall-call",
+   "targets": [
+    "call"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-head-bed",
+   "targets": [
+    "bed"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-heart-apart",
+   "targets": [
+    "apart"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-heart-art",
+   "targets": [
+    "art"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "art",
+     "quote": "art",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-hold-old",
+   "targets": [
+    "old"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "old",
+     "quote": "old",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-hook-book",
+   "targets": [
+    "book"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-mind-find",
+   "targets": [
+    "find"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-shook-took",
+   "targets": [
+    "took"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-sleep-deep",
+   "targets": [
+    "deep"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "deep",
+     "quote": "deep",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-sun-done",
+   "targets": [
+    "done"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "done",
+     "quote": "done",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-time-climb",
+   "targets": [
+    "climb"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-white-write",
+   "targets": [
+    "write"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "write",
+     "quote": "write",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "bf-couplet-day-hay",
+   "targets": [
+    "hay"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "bf-couplet-gold-told",
+   "targets": [
+    "told"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-bell-spell",
+   "targets": [
+    "spell"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-boat-float",
+   "targets": [
+    "float"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-door-roar",
+   "targets": [
+    "roar"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-heart-start",
+   "targets": [
+    "start"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "start",
+     "quote": "start",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-king-ring",
+   "targets": [
+    "ring"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-milk-silk",
+   "targets": [
+    "silk"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-mine-shine",
+   "targets": [
+    "shine"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-night-light",
+   "targets": [
+    "light"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-road-load",
+   "targets": [
+    "load"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "load",
+     "quote": "load",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-sea-free",
+   "targets": [
+    "free"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-street-feet",
+   "targets": [
+    "feet"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-town-down",
+   "targets": [
+    "down"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "down",
+     "quote": "down",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "b3-po-train-chain",
+   "targets": [
+    "chain"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "b3-po-tune-june",
+   "targets": [
+    "noon"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-away-way",
+   "targets": [
+    "way"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-base-case",
+   "targets": [
+    "case"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-bed-dead",
+   "targets": [
+    "dead"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-cat-mat",
+   "targets": [
+    "mat"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "mat",
+     "quote": "mat",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-crown-town",
+   "targets": [
+    "town"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "town",
+     "quote": "town",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-flame-name",
+   "targets": [
+    "name"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-forget-get",
+   "targets": [
+    "get"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-grow-show",
+   "targets": [
+    "show"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-rain-pain",
+   "targets": [
+    "pain"
+   ],
+   "pass": true,
+   "earliest_layer": 42,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": true,
+     "target": "pain",
+     "quote": "pain",
+     "quote_ok": true
+    }
+   }
+  },
+  {
+   "id": "couplet-shoe-blue",
+   "targets": [
+    "blue"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  },
+  {
+   "id": "couplet-shore-more",
+   "targets": [
+    "more"
+   ],
+   "pass": false,
+   "earliest_layer": null,
+   "n_unjudged": 0,
+   "n_missing": 0,
+   "layers": {
+    "42": {
+     "expressed": false,
+     "target": "",
+     "quote": "",
+     "quote_ok": false
+    }
+   }
+  }
+ ]
+}

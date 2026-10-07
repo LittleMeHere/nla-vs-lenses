@@ -35,8 +35,9 @@ What do activation readers tell us about Qwen3.6-27B, and what does a natural la
 | CW-13 | Where does the step rank in J-Lens's full list? Is it in the rest (template lens)? | `runs/jrank` |
 | CW-14 | CW-12 repeated on 70 new prompts with tests fixed in advance | `runs/cw14` |
 | CW-15 | What do the readers actually write from each part? | `runs/cw15` |
-| CW-17 | Poetry and directed modulation: stopped at a readability check; the poetry conclusion is marked unreliable and is being rerun the benchmark's way | `runs/cw17` |
+| CW-17 | Poetry and directed modulation: stopped at a readability check; the poetry conclusion is unreliable and is replaced by CW-19 | `runs/cw17` |
 | CW-18 | Which families' content is readable around layers 40–44 (no reader) | `runs/cw18` |
+| CW-19 | Poetry read with the benchmark's producer and judge, both readers, with a control against other rhyme words (exploratory) | `runs/cw19` |
 | CW-16 | What does the NLA's text rebuild through its reconstructor? (first attempt in `runs/cw16`, redone properly in `runs/cw16b`) | `runs/cw16`, `runs/cw16b` |
 
 ## Useful pieces of code
