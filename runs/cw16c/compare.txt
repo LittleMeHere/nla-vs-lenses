@@ -1,0 +1,6 @@
+texts 3376; official loader vs mine, same pod: cosine min 0.999999 median 1.000000; relative difference max 0.00000 median 0.00000
+official vs yesterday's saved vectors (3376 texts): cosine min 0.999999 median 1.000000
+  FVE orig: official +0.4125 | mine +0.4125 | yesterday +0.4125
+  FVE corrected: official +0.4669 | mine +0.4669 | yesterday +0.4669
+  FVE drop_restate: official -0.2527 | mine -0.2527 | yesterday -0.2527
+  FVE drop_content_wrong: official +0.3823 | mine +0.3823 | yesterday +0.3823

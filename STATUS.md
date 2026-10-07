@@ -302,6 +302,7 @@ Asked for by the project's TA (2026-10-06): a systematic look at the content of 
 Suggested by the project's TA. Design: [designs/CW-16_reconstructor.md](designs/CW-16_reconstructor.md) (committed before the run). Texts: [runs/cw16/texts.jsonl](runs/cw16/texts.jsonl). Output: [analysis.txt](runs/cw16/analysis.txt), [analysis_ctrl.txt](runs/cw16/analysis_ctrl.txt). Code: `scripts/cw16_*`.
 
 - **Setup.** The NLA's reconstructor (`ceselder/qwen3.6-27b-nla-rl`, `ar_reconstructor/`, end-of-run checkpoint) maps text to an L42 activation; forward pass re-implemented from EasyNLA's `critic_predict`. Texts are CW-14's NLA write-ups for the 70 multihop prompts (2 samples) and edited versions of them; targets are the saved activations. Vectors scaled to norm sqrt(5120) as in its loss. FVE is against the mean of the 70 targets (a target's cosine with that mean is 0.85), so it is a harder baseline than the 77% on web text in the NLA's README. LLM edits: one `claude -p --model sonnet` call per write-up, 140 of 140 parsed, not validated.
+- **Loader checked against the official one (2026-10-07).** The same 3,376 texts through EasyNLA's own `NLACriticModel.from_pretrained` and `critic_predict` (github.com/asherps/EasyNLA @ `4d72847`) and through `scripts/cw16_ar.py` on one pod: cosine between the two outputs at least 0.999999 for every text, and every FVE below is the same to four decimals ([runs/cw16c/compare.txt](runs/cw16c/compare.txt)).
 - **Gate passed.** Original write-up: cosine 0.93, FVE +0.41 [0.36, 0.46]. Another prompt's write-up: cosine 0.74, FVE −1.05.
 - **Measured** (mean over 70 prompts):
 
@@ -336,6 +337,36 @@ Suggested by the project's TA. Design: [designs/CW-16_reconstructor.md](designs/
 - **Other observations.** The write-up rebuilds more than the prompt text does (+0.41 against +0.19), though the reconstructor was trained on write-ups, not prompts. Swapping the hidden-step word changes little (−0.06) and does not move the J part toward the other prompt (centred cosine with the partner's target −0.04 → −0.02). Write-ups the NLA made from the J part alone rebuild the J part of the real activation almost as well as whole-activation write-ups (centred cosine 0.72 against 0.79); from the rest 0.40; from a random part 0.36.
 - **Prediction that failed.** Form-only text was expected to rebuild the rest; it rebuilds nothing beyond the mean. All 70 prompts share one form, so form may sit in the mean that FVE subtracts. CW-15's "the rest holds the form" is not confirmed from this direction.
 - **Most likely objection.** Every edited text is off the reconstructor's training distribution (shorter, different style), and the oracle lens write-up is another style again; lower FVE for those may be style, not content.
+
+### CW-17: poetry and directed modulation, stopped at the readability check (2026-10-06)
+
+Design: [designs/CW-17_poetry_split.md](designs/CW-17_poetry_split.md) (committed before the run). Asked for by the collaborator. Outputs: [runs/cw17/](runs/cw17/).
+
+- **Planned.** The J part / rest split on WorkspaceBench poetry (100 items; content = the planned rhyme word, read at the newline ending line one), NLA at L42 and oracle lens at L44 (its trained layer, with a J basis built for L44: top-1,024 share 0.91, overlap with the L42 basis 0.90; the L42 basis rebuilt on the pod matches the saved one, overlap 1.0000).
+- **Stopped early.** The first write-ups (6–7 prompts per reader, read by hand) do not name the rhyme word: oracle lens 0 of 7 prompts from the whole activation, NLA 1 sample of 12. J-Lens top-10 has the rhyme word for 0 of 100 prompts at L42 and at L44, in every part. With nothing readable there is nothing to split, so the reader run was stopped and the pre-set tests were not run. Partial reader outputs are kept (`olens_poetry_a.jsonl` 32 rows, `nla_poetry_*.jsonl`).
+- **Where the rhyme word is readable** (J-Lens, 100 prompts, [poetry_layers.txt](runs/cw17/poetry_layers.txt)): at the bank's read position it is in the top 10 for at most 2% of prompts at any layer from 20 to 62 (median rank 6,652 at L42, about 1,000 at L60). At the last prompt token it is in the top 10 for 3% at L42, 13% at L56, 62% at L60, 96% at L62, i.e. only where it is about to be output.
+- **Directed modulation layer check** (J-Lens rank of the held word at the writing positions, [dm_layers.txt](runs/cw17/dm_layers.txt)): only 19 of 100 items have a single-token concept, which is all this method scores (9 "think", 9 "do not think", 1 "suppress"). "Think": in the top 10 at some writing position for 22% of prompts at L40–44 and 56% at L60; median best rank 4,582 at L42, 14 at L56, 7 at L60. "Do not think": 0% up to L56. This agrees with the collaborator's earlier study (readable mainly at L51–59).
+- **Correction (2026-10-07): the poetry conclusion is not reliable.** This run did not follow the benchmark's way of reading poetry: it read the oracle lens at one layer (44) where the benchmark reads every trained layer and passes an item if any layer names the word; it scored by exact word match where the benchmark uses its judge; and "not readable" rests on J-Lens ranks from our own script. The benchmark's notes for this family say that at this position "the O-lens already writes line two with" the committed rhyme. So what is established is only that J-Lens ranks the rhyme word low there and that 6–7 prompts at L44 did not contain the exact word. Poetry is being rerun through the benchmark's own producer and judge (CW-19). The directed-modulation check scores 19 of 100 items and is a small agreement with the collaborator's earlier study, not a result of its own.
+- **Observation, 6 prompts, not a result:** the NLA names the last word of line one in 42% of samples from the whole activation, 10% from the J part and 0% from the rest.
+- **Limits.** "Readable" here means J-Lens top 10; a reader could still name a word J-Lens ranks low (as on multihop, where the readers beat J-Lens's top 10). The early stop rests on 6–7 prompts per reader plus the J-Lens count on all 100.
+
+### CW-18: which families' content is readable around layers 40–44 (2026-10-07, no reader)
+
+Done to choose where a two-reader split can run (NLA at L42, oracle lens at L40/44). One base-model pass over 100 items of each family at the bank's read position, layers 20–62; J-Lens (neuronpedia) rank of the bank's `intermediates` word, single-token words only. `jobs18/cw18_layers.py`, `scripts/cw18_ranks.py`, [runs/cw18/ranks.txt](runs/cw18/ranks.txt).
+
+Median rank / share in top 10 / share in top 200:
+
+| family (items scored) | L36 | L42 | L44 | L52 | L60 |
+|---|---|---|---|---|---|
+| multihop (91), reference | 82 / 0.27 / 0.60 | 19 / 0.44 / 0.86 | 21 / 0.43 / 0.84 | 14 / 0.43 / 0.88 | 8 / 0.56 / 0.96 |
+| association (79) | 349 / 0.14 / 0.41 | 50 / 0.35 / 0.67 | 63 / 0.34 / 0.66 | 336 / 0.10 / 0.42 | 150 / 0.19 / 0.56 |
+| typo (100) | 205 / 0.15 / 0.48 | 10 / 0.50 / 0.85 | 30 / 0.38 / 0.76 | 240 / 0.05 / 0.46 | 212 / 0.04 / 0.48 |
+| multilingual (100) | 228 / 0.23 / 0.49 | 15 / 0.45 / 0.85 | 18 / 0.45 / 0.82 | 5 / 0.58 / 0.95 | 1 / 0.92 / 0.99 |
+| basic readout (88) | 81 / 0.27 / 0.58 | 9 / 0.52 / 0.73 | 7 / 0.52 / 0.72 | 14 / 0.35 / 0.92 | 1 / 0.94 / 1.00 |
+
+- All four are readable at L42–44 about as well as multihop (poetry: median rank 6,652 at L42; directed modulation: 4,582). Typo and association peak at L40–44 and fall away by L52, so their content is not just the next output word; multilingual and basic readout keep rising toward the output.
+- 21 association and 12 basic-readout items are not scored (multi-token word, or 7 basic-readout ids not found in the bank file).
+- Not a reader result. It says where a split with both readers is worth running.
 
 ## Limits
 

@@ -35,12 +35,15 @@ What do activation readers tell us about Qwen3.6-27B, and what does a natural la
 | CW-13 | Where does the step rank in J-Lens's full list? Is it in the rest (template lens)? | `runs/jrank` |
 | CW-14 | CW-12 repeated on 70 new prompts with tests fixed in advance | `runs/cw14` |
 | CW-15 | What do the readers actually write from each part? | `runs/cw15` |
+| CW-17 | Poetry and directed modulation: stopped at a readability check; the poetry conclusion is marked unreliable and is being rerun the benchmark's way | `runs/cw17` |
+| CW-18 | Which families' content is readable around layers 40–44 (no reader) | `runs/cw18` |
 | CW-16 | What does the NLA's text rebuild through its reconstructor? (first attempt in `runs/cw16`, redone properly in `runs/cw16b`) | `runs/cw16`, `runs/cw16b` |
 
 ## Useful pieces of code
 
 - `scripts/worker.py`: keeps one model loaded on a GPU and runs job files as they arrive.
 - `scripts/cw16_ar.py`: runs the NLA's reconstructor (`ceselder/qwen3.6-27b-nla-rl`, `ar_reconstructor/`) on a list of texts and saves the rebuilt layer-42 activations.
-- `jbasis/make_jbasis.py`: builds the J-Lens basis.
+- `jbasis/`: the J-Lens basis at layer 42 and at layer 44 (`jbasis_L42_qwen36_27b.pt`, `jbasis_L44_qwen36_27b.pt`), and `make_jbasis.py`, which builds them (change the layer number for 44).
+- `scripts/cw16_ar_official.py`: the same texts through EasyNLA's own loader; `runs/cw16c/compare.txt` shows the two loaders agree on every text.
 
 Joint project with Vishesh Gupta (`senku14x`). His results, data and the shared reader checkpoints are listed under "Collaboration and resources" in STATUS.md.

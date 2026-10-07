@@ -1,0 +1,3 @@
+position | per layer: share of prompts with the rhyme word in J-Lens top 10 / median rank   (100 prompts; 0 skipped, word not a single token)
+newline ending line one (the bank's read position) | L20: 0.00 / 14440; L24: 0.00 / 9225; L28: 0.00 / 10516; L32: 0.00 / 11671; L36: 0.00 / 8734; L40: 0.00 / 8966; L42: 0.00 / 6652; L44: 0.00 / 6920; L48: 0.00 / 3265; L52: 0.02 / 1143; L56: 0.02 / 1314; L60: 0.00 / 997; L62: 0.00 / 1069
+last prompt token | L20: 0.00 / 8560; L24: 0.00 / 8200; L28: 0.00 / 6319; L32: 0.01 / 6757; L36: 0.00 / 9966; L40: 0.03 / 5912; L42: 0.03 / 5320; L44: 0.03 / 4550; L48: 0.00 / 4598; L52: 0.01 / 1350; L56: 0.13 / 139; L60: 0.62 / 1; L62: 0.96 / 1
