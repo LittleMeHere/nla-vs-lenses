@@ -86,6 +86,6 @@ p {{ margin:0; max-width:70ch; }} .sub {{ color:var(--fg2); }} .eyebrow {{ font:
 <ul><li>Spans were cut and labelled by a model (one call per write-up; the spans must reproduce the write-up exactly; 138 of 140 passed). A few were read by hand; the labels are not validated beyond that.</li>
 <li>Versions are built from the labels by code. Random-removal controls match the removed length within 1 to 2 points.</li>
 <li>Sections 1 to 3: one prompt family, one model, one reconstructor. Removing spans leaves broken sentences, which the controls share.</li>
-<li>Code and data: <code>scripts/cw15_*</code>, <code>scripts/cw16b_*</code>, <code>runs/cw15</code>, <code>runs/cw16b</code> in github.com/LittleMeHere/nla-vs-lenses. The poetry files (<code>scripts/cw19_*</code>, <code>runs/cw19</code>) are not in that repo yet.</li></ul>
+<li>Code and data: <code>scripts/cw15_*</code>, <code>scripts/cw16b_*</code>, <code>runs/cw15</code>, <code>runs/cw16b</code>; poetry in <code>scripts/cw19_*</code>, <code>runs/cw19</code>; all in github.com/LittleMeHere/nla-vs-lenses.</li></ul>
 </main>"""
 open(sys.argv[1], "w", encoding="utf-8").write(page); print("written", len(page))
