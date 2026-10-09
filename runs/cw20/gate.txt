@@ -1,0 +1,4 @@
+capture check cosine min 0.99966 mean 0.99993
+orig_whole       n 140  scaled FVE -0.432 (scale 0.11)  cosine 0.124  retrieval@1 of 70 0.37  | other prompt's write-up: FVE -0.448 cosine 0.065
+orig_bulletdash  n 140  scaled FVE -0.337 (scale 0.28)  cosine 0.287  retrieval@1 of 70 0.63  | other prompt's write-up: FVE -0.429 cosine 0.135
+orig_bullet      n 140  scaled FVE -0.140 (scale 0.43)  cosine 0.461  retrieval@1 of 70 0.84  | other prompt's write-up: FVE -0.420 cosine 0.158
